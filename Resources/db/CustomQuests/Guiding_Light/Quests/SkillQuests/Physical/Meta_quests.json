@@ -1,0 +1,1273 @@
+{
+    "675f8ce0c8d7be6b6bc62677": {
+        "QuestName": "Running on fumes",
+        "_id": "675f8ce0c8d7be6b6bc62677",
+        "acceptPlayerMessage": "675f8ce0c8d7be6b6bc62677 acceptMT",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "675f8ce0c8d7be6b6bc62677 changeQuestMT",
+        "completePlayerMessage": "675f8ce0c8d7be6b6bc62677 completeMT",
+        "conditions": {
+          "AvailableForFinish": [
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "bodyPartsWithEffects": [
+                      {
+                        "bodyParts": [
+                          "Head",
+                          "Chest",
+                          "Stomach",
+                          "LeftArm",
+                          "RightArm",
+                          "LeftLeg",
+                          "RightLeg"
+                        ],
+                        "effects": [
+                          "Dehydration",
+                          "Exhaustion"
+                        ],
+                        "value": "2"
+                      }
+                    ],
+                    "conditionType": "HealthEffect",
+                    "id": "675f8d048395acbdde164fcd"
+                  },
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "Kills",
+                    "id": "675f8d07860788f3db9521b2",
+                    "target": "Any",
+                    "value": "1"
+                  }
+                ],
+                "id": "675f8d09e7fe3ad3c4e85f36"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d0ccd765e50d36fd931",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "Elimination",
+              "value": "1",
+              "visibilityConditions": []
+            }
+          ],
+          "AvailableForStart": [
+            {
+              "availableAfter": 0,
+              "conditionType": "Quest",
+              "dispersion": 0,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d1e44133092587b903c",
+              "index": 0,
+              "parentId": "",
+              "status": [
+                4
+              ],
+              "target": "675e44ef86f0af6fce9195a4",
+              "visibilityConditions": []
+            }
+          ],
+          "Fail": []
+        },
+        "declinePlayerMessage": "675f8ce0c8d7be6b6bc62677 declinePlayerMessage",
+        "description": "675f8ce0c8d7be6b6bc62677 description",
+        "failMessageText": "675f8ce0c8d7be6b6bc62677 failMT",
+        "image": "/files/quest/icon/stars1.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "675f8ce0c8d7be6b6bc62677 name",
+        "note": "",
+        "restartable": false,
+        "rewards": {
+          "Fail": [],
+          "Started": [],
+          "Success": [
+            {
+              "id": "675f8d21c6db82a6718a5823",
+              "index": 0,
+              "type": "Experience",
+              "value": "1000"
+            },
+            {
+              "id": "675f8d237faf6229b356858d",
+              "index": 1,
+              "target": "Metabolism",
+              "type": "Skill",
+              "value": "300"
+            },
+            {
+              "id": "675f8d26fa1624479eb5a2d6",
+              "index": 2,
+              "target": "674964e1ff0cf3b00b461857",
+              "type": "TraderStanding",
+              "value": "0.01"
+            }
+          ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "675f8ce0c8d7be6b6bc62677 startedMT",
+        "successMessageText": "675f8ce0c8d7be6b6bc62677 successMT",
+        "traderId": "674964e1ff0cf3b00b461857",
+        "type": "Skill"
+      },
+      "675f8d2a30cca3c591eb2374": {
+        "QuestName": "Infinite Palate",
+        "_id": "675f8d2a30cca3c591eb2374",
+        "acceptPlayerMessage": "675f8d2a30cca3c591eb2374 acceptMT",
+        "canShowNotificationsInGame": true,
+        "changeQuestMessageText": "675f8d2a30cca3c591eb2374 changeQuestMT",
+        "completePlayerMessage": "675f8d2a30cca3c591eb2374 completeMT",
+        "conditions": {
+          "AvailableForFinish": [
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8d5309850ed7c6d82e22",
+                    "target": [
+                      "57505f6224597709a92585a9"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8d554c7454913c50346b"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d584eb09a29526adc93",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8d5d1ecad9aad825a1b7",
+                    "target": [
+                      "5c0fa877d174af02a012e1cf"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8d60854ff7c36ef70035"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d636cd6f180c91e2fce",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8d6ad165ddc1083653f6",
+                    "target": [
+                      "5448ff904bdc2d6f028b456e"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8d6c014faf3fe808bec7"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d6fef29109fa4ba809e",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8d778e41aceb82b33c4b",
+                    "target": [
+                      "5e8f3423fd7471236e6e3b64"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8d794373146e3804ef70"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d7cb2569574f812f1e1",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8d8435d5a938b72224d0",
+                    "target": [
+                      "5d403f9186f7743cac3f229b"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8d869e5cf42aa065f595"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d81d0d3a2faa63f8d30",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8d8c790d5d465d4ce18d",
+                    "target": [
+                      "5d1b376e86f774252519444e"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8d8fbd2f817db2d76b69"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d9277b21a9dce201c6d",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8d98e83ccdc8ec374fff",
+                    "target": [
+                      "62a09f32621468534a797acb"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8d9ac52d30aa0d27a2be"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8d9ce59ff763c62776ef",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8da5919e28c118ebd9e8",
+                    "target": [
+                      "5d40407c86f774318526545a"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8da7aa4bfc41a8f76c89"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8da9c7270e6b13d8d219",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8db01008f54bbbc2fa4f",
+                    "target": [
+                      "5448fee04bdc2dbc018b4567"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8db2227d5822b873724b"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8db58002b9ef5f478cb3",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8dbc65d71a7ec612d68b",
+                    "target": [
+                      "5448fee04bdc2dbc018b4567"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8dbe5e73f951521b3a9a"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8dc094f635750fb566d2",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8dc901a230830695feb4",
+                    "target": [
+                      "57347d7224597744596b4e72"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8dccdea827ae88e2f584"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8dc64a4b15a29c148e3a",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8de68d74c20e621564df",
+                    "target": [
+                      "5734773724597737fd047c14"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8de9e80f45d2ef5b1565"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8debc18d7c4b3322179c",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8df3ab5263729071e01f",
+                    "target": [
+                      "57347d692459774491567cf1"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8df6bd28848948ef0da1"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8df0f988314941aec4c9",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e04f84af957e4ec4344",
+                    "target": [
+                      "57347d9c245977448b40fa85"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e072707df6cf12be851"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e0a994c35fb45278900",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e12d76f78015497ea81",
+                    "target": [
+                      "5751496424597720a27126da"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e149f557d6c19b9e3bb"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e12d76f78015497ea81",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e22594994adaa4dc3f9",
+                    "target": [
+                      "57347d5f245977448b40fa81"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e244dd19227132eb168"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e1d5b09ed4950f56988",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e2c77d0b5b8f574cd4a",
+                    "target": [
+                      "575062b524597720a31c09a1"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e2d0a12f8107fb7ca41"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e30c7f98a23b75ade2c",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e3a5ba27989bc7d4392",
+                    "target": [
+                      "575062b524597720a31c09a1"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e3c92d1f022b7151a69"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e4157fea3a5e2ee4993",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e51ea59d96e71f936b5",
+                    "target": [
+                      "5673de654bdc2d180f8b456d"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e4ef6d5f7a10c1c90d2"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e470f331552551726fa",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e568578bbe938e72311",
+                    "target": [
+                      "60b0f93284c20f0feb453da7"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e58de294e1f61492a1b"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e5b5a87faf32575fd61",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e5f546e1a02d3a891e4",
+                    "target": [
+                      "5bc9c29cd4351e003562b8a3"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e6530300d7c818c571e"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e678eae79d73fa67aad",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e702bbc393a5c6e1f64",
+                    "target": [
+                      "57347d8724597744596b4e76"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e73a7d339a82c50c290"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e77c7a4d400a3ad927f",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e81e046df49e33aaf6c",
+                    "target": [
+                      "57514643245977207f2c2d09"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e826410f753886af6ca"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e86d127ff8be11b6125",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e8e0226781e15bd8731",
+                    "target": [
+                      "5d1b33a686f7742523398398"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e8f530ee07f817c0c21"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8e91aea4e323fe1d76cc",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8e991918de64fd803e95",
+                    "target": [
+                      "5751487e245977207e26a315"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8e9feaef8699eaeba888"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8ea109b9b65e6336eae0",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8ea9cede452505098ae7",
+                    "target": [
+                      "60098b1705871270cd5352a1"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8eaaf5d20cedf373cd7f"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8eac543aea3f1ba2df44",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8eb4669206e406c345b5",
+                    "target": [
+                      "590c5d4b86f774784e1b9c45"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8eb5b473200ecf5a2fe0"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8eb7165c80ce3c33404c",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8ebe71005c35ee46df2b",
+                    "target": [
+                      "590c5f0d86f77413997acfab"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8ebfd53dd8976f4aa6f3"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8ec22bbbe51ca2ddfb5f",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8ec9635c0c43c3efdbec",
+                    "target": [
+                      "57513f07245977207e26a311"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8ecaadaa2a98aba46db0"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8ecd5ba2813602ad55e8",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8ed5cc2f869244ab8e0c",
+                    "target": [
+                      "57513f9324597720a7128161"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8ed612a81d9daf23f050"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8ed8f6f30870592871e8",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8ee038dce33e0f13fa9a",
+                    "target": [
+                      "575146b724597720a27126d5"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8ee22965385898ebc8f9"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8ee42e2aaa1ffddfd85a",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8eeb956cfe2f87153425",
+                    "target": [
+                      "57347d90245977448f7b7f65"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8eefefdbc1412c8b3138"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8ef1c0fcc244bd2e2571",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8ef7d608dab9c23c1a7f",
+                    "target": [
+                      "544fb62a4bdc2dfb738b4568"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8ef9045b4c8e57c4717d"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8efcd69a8ba66b1d098b",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8f063053c1c1fce6b941",
+                    "target": [
+                      "59e3577886f774176a362503"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8f0862fe56d27f22fe47"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8f0b943bdbae721d3ee5",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8f1211e3ae54a6af37eb",
+                    "target": [
+                      "57513fcc24597720a31c09a6"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8f130b753b767154d15a"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8f15215e7f17b7fb5758",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8f37a474f414fa3ac6bd",
+                    "target": [
+                      "57347d3d245977448f7b7f61"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8f38cfb4c4361cfabc67"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8f3b9af707a14799f478",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8f411b7b2d8f09b1cb9c",
+                    "target": [
+                      "635a758bfefc88a93f021b8a"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8f4220f5f24ddee6310a"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8f457d9b23966a358e38",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+              "conditionType": "CounterCreator",
+              "counter": {
+                "conditions": [
+                  {
+                    "compareMethod": ">=",
+                    "conditionType": "UseItem",
+                    "id": "675f8f4d519df96ca8011da7",
+                    "target": [
+                      "544fb6cc4bdc2d34748b456e"
+                    ],
+                    "value": 1
+                  }
+                ],
+                "id": "675f8f4f4bc1ab3209ed2e09"
+              },
+              "doNotResetIfCounterCompleted": false,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8f52d16bea9772c371f5",
+              "index": 0,
+              "oneSessionOnly": false,
+              "parentId": "",
+              "type": "PickUp",
+              "value": "1",
+              "visibilityConditions": []
+            },
+            {
+                "conditionType": "CounterCreator",
+                "counter": {
+                  "conditions": [
+                    {
+                      "compareMethod": ">=",
+                      "conditionType": "UseItem",
+                      "id": "675f8f68855adf1af004c065",
+                      "target": [
+                        "656df4fec921ad01000481a2"
+                      ],
+                      "value": 1
+                    }
+                  ],
+                  "id": "675f8f690cbe50cc0eb0f24e"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "675f8cd434bc0d5a81f19723",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "PickUp",
+                "value": "1",
+                "visibilityConditions": []
+              },
+              {
+                "conditionType": "CounterCreator",
+                "counter": {
+                  "conditions": [
+                    {
+                      "compareMethod": ">=",
+                      "conditionType": "UseItem",
+                      "id": "675f8f6cfbe4f5e095fa21be",
+                      "target": [
+                        "65815f0e647e3d7246384e14"
+                      ],
+                      "value": 1
+                    }
+                  ],
+                  "id": "675f8f6ef12c4c72212ee2f6"
+                },
+                "doNotResetIfCounterCompleted": false,
+                "dynamicLocale": false,
+                "globalQuestCounterId": "",
+                "id": "675f8ccad9df021a32fbbf19",
+                "index": 0,
+                "oneSessionOnly": false,
+                "parentId": "",
+                "type": "PickUp",
+                "value": "1",
+                "visibilityConditions": []
+              }
+          ],
+          "AvailableForStart": [
+            {
+              "availableAfter": 0,
+              "conditionType": "Quest",
+              "dispersion": 0,
+              "dynamicLocale": false,
+              "globalQuestCounterId": "",
+              "id": "675f8f75c43932d03bedd086",
+              "index": 0,
+              "parentId": "",
+              "status": [
+                4
+              ],
+              "target": "675f8ce0c8d7be6b6bc62677",
+              "visibilityConditions": []
+            }
+          ],
+          "Fail": []
+        },
+        "declinePlayerMessage": "675f8d2a30cca3c591eb2374 declinePlayerMessage",
+        "description": "675f8d2a30cca3c591eb2374 description",
+        "failMessageText": "",
+        "image": "/files/quest/icon/stars1.jpg",
+        "instantComplete": false,
+        "isKey": false,
+        "location": "any",
+        "name": "675f8d2a30cca3c591eb2374 name",
+        "note": "",
+        "restartable": false,
+        "rewards": {
+          "Fail": [],
+          "Started": [],
+          "Success": [
+            {
+              "id": "675f8f786cee0e8e601eb418",
+              "index": 0,
+              "type": "Experience",
+              "value": "4000"
+            },
+            {
+              "id": "675f8f7a7e3fb8fb6268f921",
+              "index": 1,
+              "target": "Metabolism",
+              "type": "Skill",
+              "value": "800"
+            },
+            {
+              "id": "675f8f7de90bbb493cddd967",
+              "index": 2,
+              "target": "674964e1ff0cf3b00b461857",
+              "type": "TraderStanding",
+              "value": "0.03"
+            }
+          ]
+        },
+        "secretQuest": false,
+        "side": "Pmc",
+        "startedMessageText": "675f8d2a30cca3c591eb2374 startedMT",
+        "successMessageText": "675f8d2a30cca3c591eb2374 successMT",
+        "traderId": "674964e1ff0cf3b00b461857",
+        "type": "PickUp"
+      }
+}

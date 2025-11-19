@@ -1,0 +1,600 @@
+{
+    "675f91b9d584742a5a2e4d70": {
+    "QuestName": "No pain, no gain",
+    "_id": "675f91b9d584742a5a2e4d70",
+    "acceptPlayerMessage": "675f91b9d584742a5a2e4d70 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f91b9d584742a5a2e4d70 changeQuestMT",
+    "completePlayerMessage": "675f91b9d584742a5a2e4d70 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPartsWithEffects": [
+                  {
+                    "bodyParts": [
+                      "Head",
+                      "Chest",
+                      "Stomach",
+                      "LeftArm",
+                      "RightArm",
+                      "LeftLeg",
+                      "RightLeg"
+                    ],
+                    "effects": [
+                      "Pain"
+                    ]
+                  }
+                ],
+                "conditionType": "HealthEffect",
+                "id": "675f91ddb0812a15d1e85b7c"
+              },
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675f91e12a61b7c909fe99e0",
+                "target": "Any",
+                "value": "1"
+              }
+            ],
+            "id": "675f91e5d60fc90a74f64f20"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f91ea011e963c77ac4fa8",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "10",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f91f4f0a6a46512340ec6",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e44ef86f0af6fce9195a4",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f91b9d584742a5a2e4d70 declinePlayerMessage",
+    "description": "675f91b9d584742a5a2e4d70 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f91b9d584742a5a2e4d70 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f91fdef7dbb912b97c391",
+          "index": 0,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "675f920094bd94a4db135d54",
+          "index": 1,
+          "target": "StressResistance",
+          "type": "Skill",
+          "value": "300"
+        },
+        {
+          "id": "675f92039cdebb6942f0a0e6",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f91b9d584742a5a2e4d70 startedMT",
+    "successMessageText": "675f91b9d584742a5a2e4d70 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675f92428204b0ff6d723f0b": {
+    "QuestName": "Dazzled, not deterred",
+    "_id": "675f92428204b0ff6d723f0b",
+    "acceptPlayerMessage": "675f92428204b0ff6d723f0b acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f92428204b0ff6d723f0b changeQuestMT",
+    "completePlayerMessage": "675f92428204b0ff6d723f0b completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPartsWithEffects": [
+                  {
+                    "bodyParts": [
+                      "Head",
+                      "Chest",
+                      "Stomach",
+                      "LeftArm",
+                      "RightArm",
+                      "LeftLeg",
+                      "RightLeg"
+                    ],
+                    "effects": [
+                      "Stun",
+                      "Contusion"
+                    ]
+                  }
+                ],
+                "conditionType": "HealthEffect",
+                "id": "675f929c5e70da5304b5ab17"
+              },
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675f9298d09927d592d6758a",
+                "target": "Any",
+                "value": "1"
+              }
+            ],
+            "id": "675f929571252c56308321e2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f928eff18b8cf41987088",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "3",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f928bf780cd302dd3a38a",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f91b9d584742a5a2e4d70",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f92428204b0ff6d723f0b declinePlayerMessage",
+    "description": "675f92428204b0ff6d723f0b description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f92428204b0ff6d723f0b name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f92b0ca45d797ba876e84",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000"
+        },
+        {
+          "id": "675f92b3f67a811b0cd05944",
+          "index": 1,
+          "target": "StressResistance",
+          "type": "Skill",
+          "value": "500"
+        },
+        {
+          "id": "675f92b6cc3f0c746d2e02d7",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f92428204b0ff6d723f0b startedMT",
+    "successMessageText": "675f92428204b0ff6d723f0b successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675f92bbebff7cef92ec8584": {
+    "QuestName": "Wounds heal",
+    "_id": "675f92bbebff7cef92ec8584",
+    "acceptPlayerMessage": "675f92bbebff7cef92ec8584 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f92bbebff7cef92ec8584 changeQuestMT",
+    "completePlayerMessage": "675f92bbebff7cef92ec8584 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPartsWithEffects": [
+                  {
+                    "bodyParts": [
+                      "Head",
+                      "Chest",
+                      "Stomach",
+                      "LeftArm",
+                      "RightArm",
+                      "LeftLeg",
+                      "RightLeg"
+                    ],
+                    "effects": [
+                      "Wound"
+                    ]
+                  }
+                ],
+                "conditionType": "HealthEffect",
+                "id": "675f92d23dfb5a623519899e"
+              },
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675f92d5c1fedcf3203e3b61",
+                "target": "Any",
+                "value": "1"
+              }
+            ],
+            "id": "675f92d7d35a98710e74cbe0"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f92da5fb3c0e8b1f8cd5c",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "30",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f92e29f3ba97e1726fdc8",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f92428204b0ff6d723f0b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f92bbebff7cef92ec8584 declinePlayerMessage",
+    "description": "675f92bbebff7cef92ec8584 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f92bbebff7cef92ec8584 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f92e6005b1c7bd7e1d24c",
+          "index": 0,
+          "type": "Experience",
+          "value": "3500"
+        },
+        {
+          "id": "675f92e848014e494bab9be6",
+          "index": 1,
+          "target": "StressResistance",
+          "type": "Skill",
+          "value": "700"
+        },
+        {
+          "id": "675f92ec4f48eed5f9d4eb60",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f92bbebff7cef92ec8584 startedMT",
+    "successMessageText": "675f92bbebff7cef92ec8584 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675f92fd0f975501f7ab1de4": {
+    "QuestName": "Current objective: KILL",
+    "_id": "675f92fd0f975501f7ab1de4",
+    "acceptPlayerMessage": "675f92fd0f975501f7ab1de4 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f92fd0f975501f7ab1de4 changeQuestMT",
+    "completePlayerMessage": "675f92fd0f975501f7ab1de4 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6830c1382c928c2bae65edbf",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6830c13be750871383e487b1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f9325c25d93710c7e7cd4",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6830c171cf11ded036e868d7",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6830c1729a6a352de72619fc"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6830c1623f2c1e4a18e191f2",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 25,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6830c15dbf3ef4b7a0fe6b63",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6830c15c55acc596345a1b46"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682d7644f5e1d514de782e7c",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 5000,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f932ebe897f555f94eebe",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f92bbebff7cef92ec8584",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "id": "675f9332ec49c75e3bd0360b",
+                "status": [
+                  "Killed",
+                  "Left",
+                  "MissingInAction"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "id": "675f9338d1d6ee28c552dbfa",
+                "target": [
+                  "factory4_day",
+                  "laboratory",
+                  "factory4_night",
+                  "Interchange",
+                  "Shoreline",
+                  "Lighthouse",
+                  "bigmap",
+                  "Woods",
+                  "RezervBase",
+                  "TarkovStreets"
+                ]
+              }
+            ],
+            "id": "675f933c643998ef43f9af7e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "id": "675f93406ce52a21657f75d7",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "675f92fd0f975501f7ab1de4 declinePlayerMessage",
+    "description": "675f92fd0f975501f7ab1de4 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f92fd0f975501f7ab1de4 name",
+    "note": "",
+    "restartable": true,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f9347827cd34117aca7b7",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000"
+        },
+        {
+          "id": "675f93498b4114d152a7026e",
+          "index": 1,
+          "target": "StressResistance",
+          "type": "Skill",
+          "value": "900"
+        },
+        {
+          "id": "675f934c20dfc73f4916dcb2",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.03"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f92fd0f975501f7ab1de4 startedMT",
+    "successMessageText": "675f92fd0f975501f7ab1de4 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  }
+}

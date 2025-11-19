@@ -1,0 +1,274 @@
+---Physical:
+
+START X
+
+E1 X
+E2 X
+E3.1 (it's the only one that exists, we never changed lmao)
+
+H1 X
+H2 X
+H3
+
+I1 X
+I2 X
+I3 (Just find a picture of Therapist)
+I4 
+I5 X
+
+M1
+M2
+
+ST1
+ST2 X
+ST3
+
+SR1
+SR2
+SR3
+SR4
+
+V1
+V2
+V3
+V4
+
+---Mental:
+
+START
+
+A1
+A2
+A3
+A4
+
+CH1
+CH2
+CH3
+CH4
+
+I1
+I2
+I3
+I4
+I5
+
+M1
+M2
+M3
+M4
+
+P1
+P2
+P3
+P4
+
+---Practical:
+
+START
+
+CM1
+CM2
+CM3
+CM4
+CM5
+
+CR1
+CR2
+CR3
+CR4
+CR5
+
+HV1
+HV2
+HV3
+HV4
+HV5
+
+HM1
+HM2
+HM3
+
+LV1
+LV2
+LV3
+LV4
+LV5
+
+MD1
+MD2
+MD3
+MD4
+MD5
+
+SE1
+SE2
+SE3
+SE4
+
+SU1
+SU2
+SU3
+SU4
+SU5
+
+WM1
+WM2
+WM3
+WM4
+WM5
+
+---Combat:
+
+START
+
+AD1 X
+AD2 X
+AD3 X
+AD4 X
+AD5 X
+
+AR1 X
+AR2 X
+AR3 X
+AR4 X
+AR5
+
+DMR1 X
+DMR2 X
+DMR3 X
+DMR4 X
+DMR5 X
+
+LMG1 X
+LMG2 X
+LMG3 X
+LMG4 X
+LMG5 X
+
+M1
+M2
+M3
+M4
+M5
+
+P1 X
+P2 X
+P3 X
+P4 X
+P5 X
+
+RV1 X
+RV2 X
+RV3 X
+RV4 X
+RV5 X
+
+SG1 X
+SG2 X
+SG3 X
+SG4 X
+SG5 X
+
+SMG1 X
+SMG2 X
+SMG3 X
+SMG4 X
+SMG5 X
+
+SP1 X
+SP2
+SP3 X
+SP4 X
+SP5 X
+
+T1
+T2
+T3
+T4
+T5
+
+TS1
+TS2
+TS3
+TS4
+TS5
+
+UBGL1
+UBGL2
+UBGL3
+UBGL4
+UBGL5
+
+---Main:
+
+GL0 (can just be stars tbh)
+GL1
+GL2
+GL2ALT (same as above)
+GL3
+GL4
+GL4.1
+GL5
+GL6
+GL7
+GL8
+GL9
+GL10
+GL11
+GL12
+GL13
+GL14
+GL15
+GL16
+
+---DDA:
+
+DDA1
+DDA2 X
+DDA3
+DDA3.1
+DDA3.2 (ENDING2)
+DDA4
+DDA5
+DDA6 (ENDING3)
+DDA7 (ENDING3)
+
+---WOP:
+
+WOP1
+WOP2 
+WOP3
+WOP4
+WOP5
+WOP6
+
+---VTQ:
+PR1
+PR2
+
+TH1
+TH2
+TH3
+TH4
+TH5
+TH6
+
+F1
+
+SK1
+SK2
+SK3
+
+PE1
+PE2
+PE3
+
+MECH1 (Use mechanic pfp)
+MECH2 X
+MECH3 X
+MECH4 X
+MECH5 X
+
+JAE1 (Use jaeger pfp)) X
+

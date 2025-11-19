@@ -1,0 +1,913 @@
+{
+    "682fde19d7e16e8d09d55e30": {
+    "QuestName": "Intelligence test!",
+    "_id": "682fde19d7e16e8d09d55e30",
+    "acceptPlayerMessage": "682fde19d7e16e8d09d55e30 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "682fde19d7e16e8d09d55e30 changeQuestMessageText",
+    "completePlayerMessage": "682fde19d7e16e8d09d55e30 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68309d7b8c6433e01562409a",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682d0b145e0fa91b6477ff95",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdbb4680f61b0ed38d3a5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe51a9f02636d825a1ff0",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "682fdf039621cd4df73fbc85",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "682fde19d7e16e8d09d55e30 declinePlayerMessage",
+    "description": "682fde19d7e16e8d09d55e30 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/intellect.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "682fde19d7e16e8d09d55e30 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "682fe7d27a2153fb97e4a805",
+          "index": 0,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7d1ed0bf1f18c0e3aaa",
+          "index": 1,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7ce9fb1f1799140dc99",
+          "index": 2,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7cdbb011afdea919f50",
+          "index": 3,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "682fde19d7e16e8d09d55e30 acceptMT",
+    "successMessageText": "682fde19d7e16e8d09d55e30 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+    "682fdedbc30928570ee8969b": {
+    "QuestName": "Intelligence test!",
+    "_id": "682fdedbc30928570ee8969b",
+    "acceptPlayerMessage": "682fdedbc30928570ee8969b acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "682fdedbc30928570ee8969b changeQuestMessageText",
+    "completePlayerMessage": "682fdedbc30928570ee8969b completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fdee386958722073b8e01",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe88e64b294b2483104c6",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdbb4680f61b0ed38d3a5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe88b4b02966a04c4eccb",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "682fdf039621cd4df73fbc85",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "682fdedbc30928570ee8969b declinePlayerMessage",
+    "description": "682fdedbc30928570ee8969b description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/intellect.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "682fdedbc30928570ee8969b name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "682fe7c51ade5055fbe817a4",
+          "index": 0,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7c729b86d6384599a3d",
+          "index": 1,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7c8507840593b6c39e9",
+          "index": 2,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7ca3da5e06705778cd4",
+          "index": 3,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "682fdedbc30928570ee8969b acceptMT",
+    "successMessageText": "682fdedbc30928570ee8969b successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+    "682fdee547313023967ba07f": {
+    "QuestName": "Intelligent test!",
+    "_id": "682fdee547313023967ba07f",
+    "acceptPlayerMessage": "682fdee547313023967ba07f acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "682fdee547313023967ba07f changeQuestMessageText",
+    "completePlayerMessage": "682fdee547313023967ba07f completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fdf00f54548b3d8c1c93a",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe8be473a783fa08703dc",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdbb4680f61b0ed38d3a5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe8c2df8f96b88de1f28c",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "682fdf039621cd4df73fbc85",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "682fdee547313023967ba07f declinePlayerMessage",
+    "description": "682fdee547313023967ba07f description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/intellect.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "682fdee547313023967ba07f name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "682fe7f6b9a68bf661251dca",
+          "index": 0,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7f5e22112dcc98d8de4",
+          "index": 1,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7f44e24480b807d06ca",
+          "index": 2,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7f3a66b3a34ac793ac7",
+          "index": 3,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "682fdee547313023967ba07f acceptMT",
+    "successMessageText": "682fdee547313023967ba07f successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+    "682fdeea00b56a445898d688": {
+    "QuestName": "Intelligence test!",
+    "_id": "682fdeea00b56a445898d688",
+    "acceptPlayerMessage": "682fdeea00b56a445898d688 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "682fdeea00b56a445898d688 changeQuestMessageText",
+    "completePlayerMessage": "682fdeea00b56a445898d688 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe8dcebf52125dccd9a59",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe8df1a5eade9cad0f1d7",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdbb4680f61b0ed38d3a5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe8e3965c114b3ba6b49f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "682fdf039621cd4df73fbc85",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "682fdeea00b56a445898d688 declinePlayerMessage",
+    "description": "682fdeea00b56a445898d688 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/intellect.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "682fdeea00b56a445898d688 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "682fe803f1d41739350ad028",
+          "index": 0,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe801bcb83b3454bab095",
+          "index": 1,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe80074ca9f2457d5b9c0",
+          "index": 2,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe7ffe409b06d296d7f0e",
+          "index": 3,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "682fdeea00b56a445898d688 acceptMT",
+    "successMessageText": "682fdeea00b56a445898d688 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+    "682fdf039621cd4df73fbc85": {
+    "QuestName": "Intelligence test!",
+    "_id": "682fdf039621cd4df73fbc85",
+    "acceptPlayerMessage": "682fdf039621cd4df73fbc85 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "682fdf039621cd4df73fbc85 changeQuestMessageText",
+    "completePlayerMessage": "682fdf039621cd4df73fbc85 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fdf0acf7b6aa893e11014",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe8f6e64ec24aa5b8db26",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdbb4680f61b0ed38d3a5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682ff04853d247461a440338",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fde19d7e16e8d09d55e30",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682ff051a97c72d7963b04fe",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdedbc30928570ee8969b",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682ff056468aac9d36478c94",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdee547313023967ba07f",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682ff05fe77dc55c76545726",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdeea00b56a445898d688",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682ff065da25f76fbb73a98a",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdf0b45a337c2afab970d",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682ff070bd070a8d748b78bf",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdf12ffaa869ca7e269c0",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "682fdf039621cd4df73fbc85 declinePlayerMessage",
+    "description": "682fdf039621cd4df73fbc85 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/intellect.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "682fdf039621cd4df73fbc85 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "682fe4871d86052f5f9b41d8",
+          "index": 0,
+          "target": "Attention",
+          "type": "Skill",
+          "unknown": true,
+          "value": "150"
+        },
+        {
+          "id": "682fe4890cef0cbf60c905ca",
+          "index": 1,
+          "target": "Charisma",
+          "type": "Skill",
+          "unknown": true,
+          "value": "150"
+        },
+        {
+          "id": "682fe48b535cfad6988f69cf",
+          "index": 2,
+          "target": "Intellect",
+          "type": "Skill",
+          "unknown": true,
+          "value": "150"
+        },
+        {
+          "id": "682fe48d07585f5a8480c96b",
+          "index": 3,
+          "target": "Perception",
+          "type": "Skill",
+          "unknown": true,
+          "value": "150"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "682fdf039621cd4df73fbc85 acceptMT",
+    "successMessageText": "682fdf039621cd4df73fbc85 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+    "682fdf0b45a337c2afab970d": {
+    "QuestName": "Intelligence test!",
+    "_id": "682fdf0b45a337c2afab970d",
+    "acceptPlayerMessage": "682fdf0b45a337c2afab970d acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "682fdf0b45a337c2afab970d changeQuestMessageText",
+    "completePlayerMessage": "682fdf0b45a337c2afab970d completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fdf109642a67b0c32a0a1",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe9285d24e592fb21e58b",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdbb4680f61b0ed38d3a5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682ff0ace1894aff060e9a59",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "682fdf039621cd4df73fbc85",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "682fdf0b45a337c2afab970d declinePlayerMessage",
+    "description": "682fdf0b45a337c2afab970d description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/intellectfake.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "682fdf0b45a337c2afab970d name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "682fe862de9fa671ee8e0083",
+          "index": 0,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe861f1fa226a626f7c30",
+          "index": 1,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe8603cc4c4855ea320ef",
+          "index": 2,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        },
+        {
+          "id": "682fe85eb3457f7520914aed",
+          "index": 3,
+          "type": "Experience",
+          "unknown": true,
+          "value": "50"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "682fdf0b45a337c2afab970d acceptMT",
+    "successMessageText": "682fdf0b45a337c2afab970d successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+    "682fdf12ffaa869ca7e269c0": {
+    "QuestName": "Intelligence test!",
+    "_id": "682fdf12ffaa869ca7e269c0",
+    "acceptPlayerMessage": "682fdf12ffaa869ca7e269c0 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "682fdf12ffaa869ca7e269c0 changeQuestMessageText",
+    "completePlayerMessage": "682fdf12ffaa869ca7e269c0 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fdf148bcedef399edd12a",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe9498c9369c319d82604",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "682fdbb4680f61b0ed38d3a5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "682fe94bd522c3ce791c884a",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4,
+            5
+          ],
+          "target": "682fdf039621cd4df73fbc85",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "682fdf12ffaa869ca7e269c0 declinePlayerMessage",
+    "description": "682fdf12ffaa869ca7e269c0 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/intellect.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "682fdf12ffaa869ca7e269c0 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "682fe868dba54cb1a650d4df",
+          "index": 0,
+          "type": "Experience",
+          "unknown": true,
+          "value": "10"
+        },
+        {
+          "id": "682fe86965c1a88c07b5aec8",
+          "index": 1,
+          "type": "Experience",
+          "unknown": true,
+          "value": "10"
+        },
+        {
+          "id": "682fe86cb60ca0d7fe19a6dc",
+          "index": 2,
+          "type": "Experience",
+          "unknown": true,
+          "value": "10"
+        },
+        {
+          "id": "682fe86fba4c858e0e811c91",
+          "index": 3,
+          "type": "Experience",
+          "unknown": true,
+          "value": "10"
+        },
+        {
+          "id": "682fe9a18b6423fc2d1e0ed1",
+          "index": 4,
+          "type": "Experience",
+          "unknown": true,
+          "value": "10"
+        },
+        {
+          "id": "682fe9a4193c9862637f9b59",
+          "index": 5,
+          "type": "Experience",
+          "unknown": true,
+          "value": "10"
+        },
+        {
+          "id": "682fe9a78bc2a4cbfefcc6b0",
+          "index": 6,
+          "type": "Experience",
+          "unknown": true,
+          "value": "10"
+        },
+        {
+          "id": "682fe9aa0faeb294955ebd12",
+          "index": 7,
+          "type": "Experience",
+          "unknown": true,
+          "value": "10"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "682fdf12ffaa869ca7e269c0 acceptMT",
+    "successMessageText": "682fdf12ffaa869ca7e269c0 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  }
+}

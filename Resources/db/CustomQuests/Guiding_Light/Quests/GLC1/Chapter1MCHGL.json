@@ -1,0 +1,1272 @@
+{
+"68452e786e6819eac4509eb9": {
+    "QuestName": "Seek (Choice, 'The Voice(s?))",
+    "_id": "68452e786e6819eac4509eb9",
+    "acceptPlayerMessage": "68452e786e6819eac4509eb9 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "68452e786e6819eac4509eb9 changeQuestMessageText",
+    "completePlayerMessage": "68452e786e6819eac4509eb9 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68452e880a05860bf892c199",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684530c46ee99d8934356ccb",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "681d237c78c5bc12626aedcc",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684530c79553e71e56577389",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e7c1de1e249e2b87d70",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684530c827e30884c4b99c22",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e7ea20d11c7628ff254",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684530ca4ba3f530c81715a9",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e81ed96a8107bd8763a",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "68452e786e6819eac4509eb9 declinePlayerMessage",
+    "description": "68452e786e6819eac4509eb9 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "68452e786e6819eac4509eb9 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "68452e786e6819eac4509eb9 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "68452e7c1de1e249e2b87d70": {
+    "QuestName": "Find (Choice, 'The Voice(s?))",
+    "_id": "68452e7c1de1e249e2b87d70",
+    "acceptPlayerMessage": "68452e7c1de1e249e2b87d70 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "68452e7c1de1e249e2b87d70 changeQuestMessageText",
+    "completePlayerMessage": "68452e7c1de1e249e2b87d70 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68452e8707299e1fdece82f3",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684530f132026829ccf6fe99",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "681d237c78c5bc12626aedcc",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684530f5619d5739ac11102a",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e786e6819eac4509eb9",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684530f7731d3c24066b4c24",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e7ea20d11c7628ff254",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684530f883e334a3d5e8f956",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e81ed96a8107bd8763a",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "68452e7c1de1e249e2b87d70 declinePlayerMessage",
+    "description": "68452e7c1de1e249e2b87d70 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "68452e7c1de1e249e2b87d70 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "68452e7c1de1e249e2b87d70 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "68452e7ea20d11c7628ff254": {
+    "QuestName": "Know (Choice, 'The Voice(s?))",
+    "_id": "68452e7ea20d11c7628ff254",
+    "acceptPlayerMessage": "68452e7ea20d11c7628ff254 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "68452e7ea20d11c7628ff254 changeQuestMessageText",
+    "completePlayerMessage": "68452e7ea20d11c7628ff254 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68452e86354e5bfda6ed9bb4",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684531209c05738590e7f5a5",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "681d237c78c5bc12626aedcc",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690f08841b04540602370ac0",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e786e6819eac4509eb9",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684531246aa25ed8b52495d8",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e7c1de1e249e2b87d70",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68453126a0ed5f38331ed9fb",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e81ed96a8107bd8763a",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "68452e7ea20d11c7628ff254 declinePlayerMessage",
+    "description": "68452e7ea20d11c7628ff254 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "68452e7ea20d11c7628ff254 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "68452e7ea20d11c7628ff254 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "68452e81ed96a8107bd8763a": {
+    "QuestName": "Rest (Choice, 'The Voice(s?))",
+    "_id": "68452e81ed96a8107bd8763a",
+    "acceptPlayerMessage": "68452e81ed96a8107bd8763a acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "68452e81ed96a8107bd8763a changeQuestMessageText",
+    "completePlayerMessage": "68452e81ed96a8107bd8763a completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68452e85fbd85c6644940101",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6845314484b3d5d27a3f8b7c",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "681d237c78c5bc12626aedcc",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68453146a781d1e9b8ad97af",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e786e6819eac4509eb9",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6845314816dd83c1e0cafa04",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e7c1de1e249e2b87d70",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68453149a4ecc41440e0c5cd",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68452e81ed96a8107bd8763a",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "68452e81ed96a8107bd8763a declinePlayerMessage",
+    "description": "68452e81ed96a8107bd8763a description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "68452e81ed96a8107bd8763a name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "68452e81ed96a8107bd8763a successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "691dc2175250980c49baf47c": {
+    "QuestName": "Call out to the higher-pitched voice (Choice, 'The Voices... again')",
+    "_id": "691dc2175250980c49baf47c",
+    "acceptPlayerMessage": "691dc2175250980c49baf47c acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "691dc2175250980c49baf47c changeQuestMessageText",
+    "completePlayerMessage": "691dc2175250980c49baf47c completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc2320d9f05cb78186372",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc22ef0fb94eda1dd7ec5",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "6826b7202c16346abc2ad74b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690f078a05eb3051f05d2f9b",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc24799c7261af5eea8e5",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690f078be875dadd41c2dd49",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc2558d60c32f887f2815",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "691dc2175250980c49baf47c declinePlayerMessage",
+    "description": "691dc2175250980c49baf47c description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "691dc2175250980c49baf47c name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "691dc2175250980c49baf47c successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "691dc24799c7261af5eea8e5": {
+    "QuestName": "Call out to the lower-pitched voice (Choice, 'The Voices... again')",
+    "_id": "691dc24799c7261af5eea8e5",
+    "acceptPlayerMessage": "691dc24799c7261af5eea8e5 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "691dc24799c7261af5eea8e5 changeQuestMessageText",
+    "completePlayerMessage": "691dc24799c7261af5eea8e5 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc2663ec9563988b56f71",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690f072a7e1107b560bedae6",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "6826b7202c16346abc2ad74b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68453172bd8aec72b11bc0df",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc2175250980c49baf47c",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690f075085ee13ebe4266dd8",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc2558d60c32f887f2815",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "691dc24799c7261af5eea8e5 declinePlayerMessage",
+    "description": "691dc24799c7261af5eea8e5 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "691dc24799c7261af5eea8e5 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "691dc24799c7261af5eea8e5 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "691dc2558d60c32f887f2815": {
+    "QuestName": "Call out to both voices (Choice, 'The Voices... again')",
+    "_id": "691dc2558d60c32f887f2815",
+    "acceptPlayerMessage": "691dc2558d60c32f887f2815 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "691dc2558d60c32f887f2815 changeQuestMessageText",
+    "completePlayerMessage": "691dc2558d60c32f887f2815 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc262ba2b7d6f7a9afdf7",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "690f085d9658cf3177be46c1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "6826b7202c16346abc2ad74b",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68453172bd8aec72b11bc0df",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc2175250980c49baf47c",
+          "visibilityConditions": []
+        },
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68453172bd8aec72b11bc0df",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc24799c7261af5eea8e5",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "691dc2558d60c32f887f2815 declinePlayerMessage",
+    "description": "691dc2558d60c32f887f2815 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "691dc2558d60c32f887f2815 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "691dc2558d60c32f887f2815 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "6845f9cadb004e7c0c9b9d15": {
+    "QuestName": "Continue your search (Choice, 'Confusion')",
+    "_id": "6845f9cadb004e7c0c9b9d15",
+    "acceptPlayerMessage": "6845f9cadb004e7c0c9b9d15 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "6845f9cadb004e7c0c9b9d15 changeQuestMessageText",
+    "completePlayerMessage": "6845f9cadb004e7c0c9b9d15 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6845f9c4d4270123d406817f",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68461766ccf9abf05dd68b42",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "675d2d484096959e2ad73cb8",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "684617684e1d2686c6565c3f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6845f9cde9577fede724653b",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "6845f9cadb004e7c0c9b9d15 declinePlayerMessage",
+    "description": "6845f9cadb004e7c0c9b9d15 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6845f9cadb004e7c0c9b9d15 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "6845f9cadb004e7c0c9b9d15 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "6845f9cde9577fede724653b": {
+    "QuestName": "Call out to the voice (Choice, 'Confusion')",
+    "_id": "6845f9cde9577fede724653b",
+    "acceptPlayerMessage": "6845f9cde9577fede724653b acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "6845f9cde9577fede724653b changeQuestMessageText",
+    "completePlayerMessage": "6845f9cde9577fede724653b completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6845f9c5f76810f1dd55ce9a",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68461780066fa5f7c61d41b3",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "675d2d484096959e2ad73cb8",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6846178442796294df51f20f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6845f9cadb004e7c0c9b9d15",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "6845f9cde9577fede724653b declinePlayerMessage",
+    "description": "6845f9cde9577fede724653b description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6845f9cde9577fede724653b name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "6845f9cde9577fede724653b successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "68461a011a7a498ea9729207": {
+    "QuestName": "Yes (Choice, 'Partial Explanation')",
+    "_id": "68461a011a7a498ea9729207",
+    "acceptPlayerMessage": "68461a011a7a498ea9729207 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "68461a011a7a498ea9729207 changeQuestMessageText",
+    "completePlayerMessage": "68461a011a7a498ea9729207 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68461a03066639b5a1c8d8b6",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "686993250799f2d54d33b592",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "682f76342ed6b872ad66ee15",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68461b024f9927a49521af99",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68461a060261cc062c8b589e",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "68461a011a7a498ea9729207 declinePlayerMessage",
+    "description": "68461a011a7a498ea9729207 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "68461a011a7a498ea9729207 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "68461a011a7a498ea9729207 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "68461a060261cc062c8b589e": {
+    "QuestName": "No (Choice, 'Partial Explanation')",
+    "_id": "68461a060261cc062c8b589e",
+    "acceptPlayerMessage": "68461a060261cc062c8b589e acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "68461a060261cc062c8b589e changeQuestMessageText",
+    "completePlayerMessage": "68461a060261cc062c8b589e completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68461a057c93ec87a340d258",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6869931d3a6801444e220d63",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "682f76342ed6b872ad66ee15",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68461afa225c6dc52e228a06",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68461a011a7a498ea9729207",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "68461a060261cc062c8b589e declinePlayerMessage",
+    "description": "68461a060261cc062c8b589e description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "68461a060261cc062c8b589e name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "68461a060261cc062c8b589e successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "691dc3f17e55c832a4731730": {
+    "QuestName": "Change your mind, and let the voice help you. (Choice, 'Decline')",
+    "_id": "691dc3f17e55c832a4731730",
+    "acceptPlayerMessage": "691dc3f17e55c832a4731730 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "691dc3f17e55c832a4731730 changeQuestMessageText",
+    "completePlayerMessage": "691dc3f17e55c832a4731730 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc3f5bc1b5e017ccb3f07",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc4aa7ba87a0eff0db914",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "682f770c947e84cffc4aa89a",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc4a7538c59449c2d3324",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc3f6730ec79118017b4a",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "691dc3f17e55c832a4731730 declinePlayerMessage",
+    "description": "691dc3f17e55c832a4731730 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "691dc3f17e55c832a4731730 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "691dc3f17e55c832a4731730 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "691dc3f6730ec79118017b4a": {
+    "QuestName": "Go it alone (Choice, 'Decline')",
+    "_id": "691dc3f6730ec79118017b4a",
+    "acceptPlayerMessage": "691dc3f6730ec79118017b4a acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "691dc3f6730ec79118017b4a changeQuestMessageText",
+    "completePlayerMessage": "691dc3f6730ec79118017b4a completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc3f9a046f699c2c2c36b",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc4b653affc8f0c556dd9",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "682f770c947e84cffc4aa89a",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc4b7bf03fb4fe0d62da9",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc3f17e55c832a4731730",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "691dc3f6730ec79118017b4a declinePlayerMessage",
+    "description": "691dc3f6730ec79118017b4a description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "691dc3f6730ec79118017b4a name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "691dc3f6730ec79118017b4a successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  }
+}

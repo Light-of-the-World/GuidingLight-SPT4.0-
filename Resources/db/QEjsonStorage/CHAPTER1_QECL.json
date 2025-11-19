@@ -1,0 +1,112 @@
+{
+  "6822ee4e7aa83d1c4f1fa658":{
+    "QuestId": "6822ee4e7aa83d1c4f1fa658",
+    "QuestName": "Found",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6826db07ba1d8306c83e1ebd",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6904c85911fc5239a64470bb"]
+      }
+    ]
+  },
+  "6826b7202c16346abc2ad74b":{
+    "QuestId": "6826b7202c16346abc2ad74b",
+    "QuestName": "Awoken",
+    "Conditions": [
+      {
+        "ConditionId": "6826b7237c0e0b12626f6a46",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6904c85911fc5239a64470bb"]
+      }
+    ]
+  },
+  "6910a175001d831c44bccdc0":{
+    "QuestId": "6910a175001d831c44bccdc0",
+    "QuestName": "The lower-pitched voide",
+    "Conditions": [
+      {
+        "ConditionId": "6910a188d2785ef150b8a692",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["691513f45ebf06cb9e158393"]
+      }
+    ]
+  },
+  "691449e608b5ececdc4cf214":{
+    "QuestId": "691449e608b5ececdc4cf214",
+    "QuestName": "Association",
+    "Conditions": [
+      {
+        "ConditionId": "691449eaa17ca46f53ea0d94",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["691513f45ebf06cb9e158393"]
+      }
+    ]
+  },
+  "691513f45ebf06cb9e158393":{
+    "QuestId": "691513f45ebf06cb9e158393",
+    "QuestName": "Conversation with an otherwordly being(4)",
+    "Conditions": [
+      {
+        "ConditionId": "691513f3fea480dfaa632c5b",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6904c85911fc5239a64470bb"]
+      }
+    ]
+  },
+  "691db0390b09de61b3335764":{
+    "QuestId": "691db0390b09de61b3335764",
+    "QuestName": "Conversation with an otherwordly being(4)",
+    "Conditions": [
+      {
+        "ConditionId": "691db03d887227181386679d",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6904c85911fc5239a64470bb"]
+      }
+    ]
+  },
+  "682f7d5c4ae9cfa71f1cc79c":{
+    "QuestId": "682f7d5c4ae9cfa71f1cc79c",
+    "QuestName": "Another voice",
+    "Conditions": [
+      {
+        "ConditionId": "6826b7237c0e0b12626f6a46",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["691513f45ebf06cb9e158393"]
+      }
+    ]
+  },
+  "691dae90e22f7a5b8c337064":{
+    "QuestId": "691dae90e22f7a5b8c337064",
+    "QuestName": "***Never truly alone***",
+    "Conditions": [
+      {
+        "ConditionId": "691dae943001dcf4788ec833",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "691db2b24b8be77912d8c359",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6826b98311499e9f26e067ff"]
+      },
+      {
+        "ConditionId": "691db2b39e5aa97f45984d2a",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["691db0390b09de61b3335764"]
+      }
+    ]
+  },
+  "6904c85911fc5239a64470bb":{
+    "QuestId": "6904c85911fc5239a64470bb",
+    "QuestName": "A story by the fire",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6904c85e75c9ec35cc48f924",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["682b4fdb605d15baf32d24cb"]
+      }
+    ]
+  }
+}

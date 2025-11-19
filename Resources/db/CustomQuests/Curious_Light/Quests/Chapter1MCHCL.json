@@ -1,0 +1,172 @@
+{
+  "691dc5a74041979231902c36": {
+    "QuestName": "Return to the first voice (Choice, 'Never truly alone')",
+    "_id": "691dc5a74041979231902c36",
+    "acceptPlayerMessage": "691dc5a74041979231902c36 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "691dc5a74041979231902c36 changeQuestMessageText",
+    "completePlayerMessage": "691dc5a74041979231902c36 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc5ad733fa036f6fa9ffd",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc61be72042a288ba2d7f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "691dae90e22f7a5b8c337064",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc61d2145890aa3b6c61e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc5aa86500cc697f616b0",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "691dc5a74041979231902c36 declinePlayerMessage",
+    "description": "691dc5a74041979231902c36 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "691dc5a74041979231902c36 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "691dc5a74041979231902c36 successMT",
+    "traderId": "674964e72eae32de73a09d41",
+    "type": "Skill"
+  },
+  "691dc5aa86500cc697f616b0": {
+    "QuestName": "Stay with this voice (Choice, 'Never truly alone')",
+    "_id": "691dc5aa86500cc697f616b0",
+    "acceptPlayerMessage": "691dc5aa86500cc697f616b0 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "691dc5aa86500cc697f616b0 changeQuestMessageText",
+    "completePlayerMessage": "691dc5aa86500cc697f616b0 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc5ac0fc0467291b0720b",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc636f1dfb118eb09e607",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "691dae90e22f7a5b8c337064",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc638b583b3a0599cefe1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "691dc5a74041979231902c36",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "691dc5aa86500cc697f616b0 declinePlayerMessage",
+    "description": "691dc5aa86500cc697f616b0 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "691dc5aa86500cc697f616b0 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "691dc5aa86500cc697f616b0 successMT",
+    "traderId": "674964e72eae32de73a09d41",
+    "type": "Skill"
+  }
+}

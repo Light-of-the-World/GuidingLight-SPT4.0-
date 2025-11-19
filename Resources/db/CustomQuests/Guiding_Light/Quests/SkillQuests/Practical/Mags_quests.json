@@ -1,0 +1,902 @@
+{
+    "675fc396809096d17f73d523": {
+    "QuestName": "Starting small",
+    "_id": "675fc396809096d17f73d523",
+    "acceptPlayerMessage": "675fc396809096d17f73d523 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675fc396809096d17f73d523 changeQuestMT",
+    "completePlayerMessage": "675fc396809096d17f73d523 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675fc3a78ccb4b7dab323514",
+                "target": "Any",
+                "value": "1",
+                "weaponModsInclusive": [
+                  [
+                    "6422e1ea3c0f06190302161a"
+                  ],
+                  [
+                    "64b9e2037fdfb81df81e3c25"
+                  ],
+                  [
+                    "630e1adbbd357927e4007c09"
+                  ],
+                  [
+                    "628120fd5631d45211793c9f"
+                  ],
+                  [
+                    "617130016c780c1e710c9a24"
+                  ],
+                  [
+                    "5c503ad32e2216398b5aada2"
+                  ],
+                  [
+                    "587df3a12459772c28142567"
+                  ],
+                  [
+                    "5c471c442e221602b542a6f8"
+                  ],
+                  [
+                    "5bfeaa0f0db834001b734927"
+                  ],
+                  [
+                    "5bae13ded4351e44f824bf38"
+                  ],
+                  [
+                    "5aaa5e60e5b5b000140293d6"
+                  ],
+                  [
+                    "5a966f51a2750c00156aacf6"
+                  ],
+                  [
+                    "59e5d83b86f7745aed03d262"
+                  ],
+                  [
+                    "5888988e24597752fe43a6fa"
+                  ],
+                  [
+                    "57838f0b2459774a256959b2"
+                  ],
+                  [
+                    "55d4837c4bdc2d1d4e8b456c"
+                  ],
+                  [
+                    "559ba5b34bdc2d1f1a8b4582"
+                  ],
+                  [
+                    "5998529a86f774647f44f421"
+                  ],
+                  [
+                    "NotIncludingShotgunTubes"
+                  ],
+                  [
+                    "5b7bef1e5acfc43d82528402"
+                  ],
+                  [
+                    "5b1fd4e35acfc40018633c39"
+                  ],
+                  [
+                    "5caf1041ae92157c28402e3f"
+                  ],
+                  [
+                    "5d25af8f8abbc3055079fec5"
+                  ],
+                  [
+                    "5d25a6538abbc306c62e630d"
+                  ],
+                  [
+                    "5d25a7b88abbc3054f3e60bc"
+                  ],
+                  [
+                    "5df8f535bb49d91fb446d6b0"
+                  ],
+                  [
+                    "5fc23426900b1d5091531e15"
+                  ]
+                ]
+              }
+            ],
+            "id": "675fc3abd125715711f6f0c2"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc3ad6bb21a35d5ff5e79",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "10",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc3b52015bd6604464679",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e458cdb219e98dda39bc9",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675fc396809096d17f73d523 declinePlayerMessage",
+    "description": "675fc396809096d17f73d523 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675fc396809096d17f73d523 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675fc3bab03cf13daba4150f",
+          "index": 0,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "675fc3bebdea7c522b66edbd",
+          "index": 1,
+          "target": "MagDrills",
+          "type": "Skill",
+          "value": "200"
+        },
+        {
+          "id": "675fc3c45dc390ca71513b67",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675fc396809096d17f73d523 startedMT",
+    "successMessageText": "675fc396809096d17f73d523 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675fc3d75a1902a5198972d2": {
+    "QuestName": "Upgrades, people",
+    "_id": "675fc3d75a1902a5198972d2",
+    "acceptPlayerMessage": "675fc3d75a1902a5198972d2 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675fc3d75a1902a5198972d2 changeQuestMT",
+    "completePlayerMessage": "675fc3d75a1902a5198972d2 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675fc3ea1572a7f39464a449",
+                "target": "Any",
+                "value": "1",
+                "weaponModsInclusive": [
+                  [
+                    "64b9e265c94d0d15c5027e35"
+                  ],
+                  [
+                    "64b9cf0ac12b9c38db26923a"
+                  ],
+                  [
+                    "633a98eab8b0506e48497c1a"
+                  ],
+                  [
+                    "617131a4568c120fdd29482d"
+                  ],
+                  [
+                    "618168dc8004cc50514c34fc"
+                  ],
+                  [
+                    "6183d53f1cb55961fa0fdcda"
+                  ],
+                  [
+                    "5c88f24b2e22160bc12c69a6"
+                  ],
+                  [
+                    "5c920e902e221644f31c3c99"
+                  ],
+                  [
+                    "5c5db6552e2216001026119d"
+                  ],
+                  [
+                    "5c0673fb0db8340023300271"
+                  ],
+                  [
+                    "5aaf8a0be5b5b00015693243"
+                  ],
+                  [
+                    "57838f9f2459774a150289a0"
+                  ],
+                  [
+                    "587df583245977373c4f1129"
+                  ],
+                  [
+                    "5a17fb03fcdbcbcae668728f"
+                  ],
+                  [
+                    "57d14e1724597714010c3f4b"
+                  ],
+                  [
+                    "5448c1d04bdc2dff2f8b4569"
+                  ],
+                  [
+                    "5a3501acc4a282000d72293a"
+                  ],
+                  [
+                    "5b099ac65acfc400186331e1"
+                  ],
+                  [
+                    "5b7c2d1d5acfc43d1028532a"
+                  ],
+                  [
+                    "5ba264f6d4351e0034777d52"
+                  ],
+                  [
+                    "5caf1109ae9215753c44119f"
+                  ],
+                  [
+                    "5cf12a15d7f00c05464b293f"
+                  ],
+                  [
+                    "5cf8f3b0d7f00c00217872ef"
+                  ],
+                  [
+                    "5d2f213448f0355009199284"
+                  ],
+                  [
+                    "5d3eb5eca4b9363b1f22f8e4"
+                  ],
+                  [
+                    "5de8ea8ffd6b4e6e2276dc35"
+                  ],
+                  [
+                    "5df8f541c41b2312ea3335e3"
+                  ],
+                  [
+                    "65293c38fc460e50a509cb25"
+                  ],
+                  [
+                    "BlackCoreMagsBelow"
+                  ],
+                  [
+                    "672e37d19811257c1de39e6d"
+                  ]
+                ]
+              }
+            ],
+            "id": "675fc3f0d04b21cae5790b79"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc3e85deec3e207705dbc",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "20",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc3f26697bc30309e9b70",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675fc396809096d17f73d523",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675fc3d75a1902a5198972d2 declinePlayerMessage",
+    "description": "675fc3d75a1902a5198972d2 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675fc3d75a1902a5198972d2 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675fc3f90d5bb9a6b8ae87b7",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000"
+        },
+        {
+          "id": "675fc3fccf74670cf091e893",
+          "index": 1,
+          "target": "MagDrills",
+          "type": "Skill",
+          "value": "400"
+        },
+        {
+          "id": "675fc3fef1f3d82c28c81939",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675fc3d75a1902a5198972d2 startedMT",
+    "successMessageText": "675fc3d75a1902a5198972d2 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675fc4671d4d9f752600b233": {
+    "QuestName": "Standard Issue",
+    "_id": "675fc4671d4d9f752600b233",
+    "acceptPlayerMessage": "675fc4671d4d9f752600b233 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675fc4671d4d9f752600b233 changeQuestMT",
+    "completePlayerMessage": "675fc4671d4d9f752600b233 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675fc47dfd53ad1e83a678ea",
+                "target": "Any",
+                "value": "1",
+                "weaponModsInclusive": [
+                  [
+                    "649ec30cb013f04a700e60fb"
+                  ],
+                  [
+                    "62e153bcdb1a5c41971c1b5b"
+                  ],
+                  [
+                    "62e7c98b550c8218d602cbb4"
+                  ],
+                  [
+                    "6272874a6c47bd74f92e2087"
+                  ],
+                  [
+                    "62307b7b10d2321fa8741921"
+                  ],
+                  [
+                    "61840bedd92c473c77021635"
+                  ],
+                  [
+                    "61840d85568c120fdd2962a5"
+                  ],
+                  [
+                    "5c6d46132e221601da357d56"
+                  ],
+                  [
+                    "5c6d450c2e221600114c997d"
+                  ],
+                  [
+                    "5c6d42cb2e2216000e69d7d1"
+                  ],
+                  [
+                    "5c0672ed0db834001b7353f3"
+                  ],
+                  [
+                    "5c0548ae0db834001966a3c2"
+                  ],
+                  [
+                    "5c05413a0db834001c390617"
+                  ],
+                  [
+                    "5bed61680db834001d2c45ab"
+                  ],
+                  [
+                    "5b7d37845acfc400170e2f87"
+                  ],
+                  [
+                    "5addcce35acfc4001a5fc635"
+                  ],
+                  [
+                    "5aaa5dfee5b5b000140293d3"
+                  ],
+                  [
+                    "5d1340b3d7ad1a0b52682ed7"
+                  ],
+                  [
+                    "5ac66c5d5acfc4001718d314"
+                  ],
+                  [
+                    "5ac66bea5acfc43b321d4aec"
+                  ],
+                  [
+                    "5aaa4194e5b5b055d06310a5"
+                  ],
+                  [
+                    "5a9e81fba2750c00164f6b11"
+                  ],
+                  [
+                    "5a01c29586f77474660c694c"
+                  ],
+                  [
+                    "55d480c04bdc2d1d4e8b456a"
+                  ],
+                  [
+                    "5cbdaf89ae9215000e5b9c94"
+                  ],
+                  [
+                    "5926c3b286f774640d189b6b"
+                  ],
+                  [
+                    "5894a05586f774094708ef75"
+                  ],
+                  [
+                    "59fafc5086f7740dbe19f6c3"
+                  ],
+                  [
+                    "59fafc9386f774067d462453"
+                  ],
+                  [
+                    "564ca99c4bdc2d16268b4589"
+                  ],
+                  [
+                    "59d625f086f774661516605d"
+                  ],
+                  [
+                    "5a0060fc86f7745793204432"
+                  ],
+                  [
+                    "59d6272486f77466146386ff"
+                  ],
+                  [
+                    "5e21a3c67e40bd02257a008a"
+                  ],
+                  [
+                    "57d1519e24597714373db79d"
+                  ],
+                  [
+                    "55d4887d4bdc2d962f8b4570"
+                  ],
+                  [
+                    "55802d5f4bdc2dac148b458e"
+                  ],
+                  [
+                    "5d1340cad7ad1a0b0b249869"
+                  ],
+                  [
+                    "5b7bef5d5acfc43bca7067a3"
+                  ],
+                  [
+                    "5ba2657ed4351e0035628ff2"
+                  ],
+                  [
+                    "5de8eac42a78646d96665d91"
+                  ],
+                  [
+                    "5fb651dc85f90547f674b6f4"
+                  ],
+                  [
+                    "PainterMagsBelow"
+                  ],
+                  [
+                    "6691ed44913081ff28935fd2"
+                  ],
+                  [
+                    "6691edb87c8beb7c11c2536e"
+                  ],
+                  [
+                    "6691edbb208057046ad24677"
+                  ],
+                  [
+                    "6691edbfd29194092a289b8f"
+                  ],
+                  [
+                    "6691edc4aae8a6c96948f34d"
+                  ],
+                  [
+                    "6691edc90bed2b1da07112bf"
+                  ],
+                  [
+                    "6691edd7d7dfa2ba5f59a9c5"
+                  ],
+                  [
+                    "6691edebbf4404edcf6031cd"
+                  ],
+                  [
+                    "6691edeffec97c21ff4504ad"
+                  ],
+                  [
+                    "6691edf890b4e16f3bee032f"
+                  ],
+                  [
+                    "6691ee133970c61dbea20bde"
+                  ],
+                  [
+                    "6691ee28a879ea3e3d023cef"
+                  ],
+                  [
+                    "6691ee2debe1943e3d1462b6"
+                  ],
+                  [
+                    "6691ee358ea32fbe243097d6"
+                  ],
+                  [
+                    "6691ee3cd52a93614667ab10"
+                  ],
+                  [
+                    "BlackCoreMagsBelow"
+                  ],
+                  [
+                    "672e37d1027fc0fe0d13b56c"
+                  ],
+                  [
+                    "672e37d16dd16ffec1f6019e"
+                  ],
+                  [
+                    "672e37d1b6df87f2230c0b61"
+                  ]
+                ]
+              }
+            ],
+            "id": "675fc4843fb8c0903e8ffddb"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc478f7756d3e8d55cba5",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "60",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc4872d2ab709e8f2436d",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675fc3d75a1902a5198972d2",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675fc4671d4d9f752600b233 declinePlayerMessage",
+    "description": "675fc4671d4d9f752600b233 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675fc4671d4d9f752600b233 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675fc48ab2e526e163b5bd2e",
+          "index": 0,
+          "type": "Experience",
+          "value": "3000"
+        },
+        {
+          "id": "675fc48c3df2fe0aa02dd5ad",
+          "index": 1,
+          "target": "MagDrills",
+          "type": "Skill",
+          "value": "600"
+        },
+        {
+          "id": "675fc48ecc827063f8b3e9e1",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675fc4671d4d9f752600b233 startedMT",
+    "successMessageText": "675fc4671d4d9f752600b233 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675fc4911d57f88ea5ad6b57": {
+    "QuestName": "50 dead men",
+    "_id": "675fc4911d57f88ea5ad6b57",
+    "acceptPlayerMessage": "675fc4911d57f88ea5ad6b57 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675fc4911d57f88ea5ad6b57 changeQuestMT",
+    "completePlayerMessage": "675fc4911d57f88ea5ad6b57 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675fc4a398a1b85ba2436f2d",
+                "target": "Any",
+                "value": "1",
+                "weaponModsInclusive": [
+                  [
+                    "5c5db6742e2216000f1b2852"
+                  ],
+                  [
+                    "5addccf45acfc400185c2989"
+                  ],
+                  [
+                    "5a351711c4a282000b1521a4"
+                  ],
+                  [
+                    "5a718f958dc32e00094b97e7"
+                  ],
+                  [
+                    "5b7bef9c5acfc43d102852ec"
+                  ],
+                  [
+                    "5cfe8010d7ad1a59283b14c6"
+                  ],
+                  [
+                    "5cc70093e4a949033c734312"
+                  ]
+                ]
+              }
+            ],
+            "id": "675fc4ac4f92cc548847aede"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc4aff65bea3c9622108a",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "50",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc4bcb08fe37daf268db8",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675fc4671d4d9f752600b233",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675fc4911d57f88ea5ad6b57 declinePlayerMessage",
+    "description": "675fc4911d57f88ea5ad6b57 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675fc4911d57f88ea5ad6b57 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675fc4bfa07663b674c8aa50",
+          "index": 0,
+          "type": "Experience",
+          "value": "4000"
+        },
+        {
+          "id": "675fc4c50ecb67945ee532b1",
+          "index": 1,
+          "target": "MagDrills",
+          "type": "Skill",
+          "value": "800"
+        },
+        {
+          "id": "675fc4c97384463ed03608d8",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675fc4911d57f88ea5ad6b57 startedMT",
+    "successMessageText": "675fc4911d57f88ea5ad6b57 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675fc4cbc0b5b5986ad901a6": {
+    "QuestName": "Overkill",
+    "_id": "675fc4cbc0b5b5986ad901a6",
+    "acceptPlayerMessage": "675fc4cbc0b5b5986ad901a6 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675fc4cbc0b5b5986ad901a6 changeQuestMT",
+    "completePlayerMessage": "675fc4cbc0b5b5986ad901a6 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675fc4de42fe0b006e5116c9",
+                "target": "Any",
+                "value": "1",
+                "weaponModsInclusive": [
+                  [
+                    "55d482194bdc2d1d4e8b456b"
+                  ],
+                  [
+                    "59c1383d86f774290a37e0ca"
+                  ],
+                  [
+                    "544a37c44bdc2d25388b4567"
+                  ],
+                  [
+                    "PainterMagsBelow"
+                  ],
+                  [
+                    "6691ee45c74887b557a203b3"
+                  ],
+                  [
+                    "6691ee535a1f37eeea19f80f"
+                  ],
+                  [
+                    "6691ee5f23d28ef7e95bed41"
+                  ],
+                  [
+                    "6691ee62a3d283f8b2c075d4"
+                  ],
+                  [
+                    "6691ee6725fbee27e156917d"
+                  ]
+                ]
+              }
+            ],
+            "id": "675fc4e1041bd1ed7b40df82"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc4e36682376cbfb02211",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "60",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fc4e98150ab806906d75d",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675fc4911d57f88ea5ad6b57",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675fc4cbc0b5b5986ad901a6 declinePlayerMessage",
+    "description": "675fc4cbc0b5b5986ad901a6 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675fc4cbc0b5b5986ad901a6 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675fc4ec168c4879dccae423",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000"
+        },
+        {
+          "id": "675fc4eedfffd65582f1be7b",
+          "index": 1,
+          "target": "MagDrills",
+          "type": "Skill",
+          "value": "1000"
+        },
+        {
+          "id": "675fc4f1544942b8aed93ad4",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.03"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675fc4cbc0b5b5986ad901a6 startedMT",
+    "successMessageText": "675fc4cbc0b5b5986ad901a6 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  }
+}

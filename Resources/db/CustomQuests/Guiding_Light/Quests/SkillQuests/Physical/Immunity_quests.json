@@ -1,0 +1,853 @@
+{
+  "675f89bdd76e3d5909062966": {
+    "QuestName": "Researching",
+    "_id": "675f89bdd76e3d5909062966",
+    "acceptPlayerMessage": "675f89bdd76e3d5909062966 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f89bdd76e3d5909062966 changeQuestMT",
+    "completePlayerMessage": "675f89bdd76e3d5909062966 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f89d795d38eebb1d83844",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5fc64ea372b0dd78d51159dc"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f89dd8088abecc187c2bd",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5fca138c2a7b221b2852a5c6"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f89f0b11e8d38280ff951",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e44ef86f0af6fce9195a4",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f89bdd76e3d5909062966 declinePlayerMessage",
+    "description": "675f89bdd76e3d5909062966 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/Immune1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f89bdd76e3d5909062966 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "findInRaid": true,
+          "id": "675f8a1e0f369b83906fb600",
+          "index": 0,
+          "items": [
+            {
+              "_id": "675f8a218a365a0b8e2353fd",
+              "_tpl": "5fc64ea372b0dd78d51159dc",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "675f8a218a365a0b8e2353fd",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "findInRaid": true,
+          "id": "675f8a2fc285f1c3086a00c9",
+          "index": 1,
+          "items": [
+            {
+              "_id": "675f8a32a9c21765ad5ee336",
+              "_tpl": "5fca138c2a7b221b2852a5c6",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "675f8a32a9c21765ad5ee336",
+          "type": "Item",
+          "value": "1"
+        },
+        {
+          "id": "675f8a374c61cb45cc094a18",
+          "index": 2,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "675f8a3a6b9508c15c0e9efe",
+          "index": 3,
+          "target": "Immunity",
+          "type": "Skill",
+          "value": "200"
+        },
+        {
+          "id": "675f8a3cb045427504d302ff",
+          "index": 4,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f89bdd76e3d5909062966 startedMT",
+    "successMessageText": "675f89bdd76e3d5909062966 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "PickUp"
+  },
+  "675f8a4928af96343171dd98": {
+    "QuestName": "Unethical Testing",
+    "_id": "675f8a4928af96343171dd98",
+    "acceptPlayerMessage": "675f8a4928af96343171dd98 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f8a4928af96343171dd98 changeQuestMT",
+    "completePlayerMessage": "675f8a4928af96343171dd98 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8a9580cbf5aa3e10e8ca",
+                "target": [
+                  "5ed5160a87bb8443d10680b5"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8a9773e76a060ee6b8f8"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8aa002f7f1473e8923ea",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8aa8262081a6238c6397",
+                "target": [
+                  "5ed515c8d380ab312177c0fa"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8aaa497ed20e25a80516"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8aade3f5a07308289662",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8ab42ea280c1fdfdb681",
+                "target": [
+                  "5fca13ca637ee0341a484f46"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8ab52482bd7efca00a94"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8ab99982c5128d9fca1a",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8ac38471770cfb466b18",
+                "target": [
+                  "637b612fb7afa97bfc3d7005"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8ac5888253fb868fe252"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8ac80a4bd5d67f6c2c15",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8ad1b0df231d34307b60",
+                "target": [
+                  "5ed515e03a40a50460332579"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8ad2c702308912171aa0"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8ad5517311ce6fe4d977",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8ade88e8aea3ad713da0",
+                "target": [
+                  "5ed515ece452db0eb56fc028"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8ae098b8311409de650d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8ae3dd72a7de2247f376",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8aeaee3eae396fd68417",
+                "target": [
+                  "5ed5166ad380ab312177c100"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8aecb82f7dd5f94b0605"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8aee8de9afc1aad81091",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8af5460de00cee6dc1ef",
+                "target": [
+                  "637b60c3b7afa97bfc3d7001"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8af6885c8918ff669bfa"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8af2b47701adf88e41cf",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8afee59cbb9aff2d2ebf",
+                "target": [
+                  "637b6179104668754b72f8f5"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8b00ce38dc399ec422d0"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8b02a72064c099d786e2",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8b0b9866420cc8c7eac5",
+                "target": [
+                  "637b6251104668754b72f8f9"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8b0d73af8087bb61e10a"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8b078802842ec5799d2c",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8b1581768b7dee1f4955",
+                "target": [
+                  "637b620db7afa97bfc3d7009"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8b16a5e805502ffa4157"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8b1959f3b862d7f7748c",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "UseItem",
+                "id": "675f8b23368b75085f570920",
+                "target": [
+                  "5fca138c2a7b221b2852a5c6"
+                ],
+                "value": 1
+              }
+            ],
+            "id": "675f8b25e937d6cd9f2ad48d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8b20b44148c285164c16",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "PickUp",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8b2be85b20baec373c0d",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f89bdd76e3d5909062966",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f8a4928af96343171dd98 declinePlayerMessage",
+    "description": "675f8a4928af96343171dd98 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/Immune2.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f8a4928af96343171dd98 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f8b2ee86f59e04c352996",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000"
+        },
+        {
+          "id": "675f8b319d5598c88837b802",
+          "index": 1,
+          "target": "Immunity",
+          "type": "Skill",
+          "value": "400"
+        },
+        {
+          "id": "675f8b33821a574ab9e0353c",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f8a4928af96343171dd98 startedMT",
+    "successMessageText": "675f8a4928af96343171dd98 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "PickUp"
+  },
+  "675f8b391637a6131f7e3d73": {
+    "QuestName": "Knowing the professionals",
+    "_id": "675f8b391637a6131f7e3d73",
+    "acceptPlayerMessage": "675f8b391637a6131f7e3d73 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f8b391637a6131f7e3d73 changeQuestMT",
+    "completePlayerMessage": "675f8b391637a6131f7e3d73 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "TraderLoyalty",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8b92a4ef04670ff268eb",
+          "index": 0,
+          "parentId": "",
+          "target": "54cb57776803fa99248b456e",
+          "value": 3,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8b9865f1b778caf73557",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f8a4928af96343171dd98",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f8b391637a6131f7e3d73 declinePlayerMessage",
+    "description": "675f8b391637a6131f7e3d73 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f8b391637a6131f7e3d73 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f8b9b0b892f7b1ee3a914",
+          "index": 0,
+          "type": "Experience",
+          "value": "3000"
+        },
+        {
+          "id": "675f8b9ef185f09ffcbaa3c1",
+          "index": 1,
+          "target": "Immunity",
+          "type": "Skill",
+          "value": "600"
+        },
+        {
+          "id": "675f8ba0986a6d2b5f06e81d",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f8b391637a6131f7e3d73 startedMT",
+    "successMessageText": "675f8b391637a6131f7e3d73 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Merchant"
+  },
+  "675f8bfe9a64a2163df07856": {
+    "QuestName": "Immunity through extermination",
+    "_id": "675f8bfe9a64a2163df07856",
+    "acceptPlayerMessage": "675f8bfe9a64a2163df07856 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f8bfe9a64a2163df07856 changeQuestMT",
+    "completePlayerMessage": "675f8bfe9a64a2163df07856 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "Kills",
+                "dynamicLocale": false,
+                "id": "675f8c1629305008b1fd7f3c",
+                "savageRole": [
+                  "sectantPriest",
+                  "sectantWarrior"
+                ],
+                "target": "Savage"
+              }
+            ],
+            "id": "675f8c1887b3e9cac1e42d5e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8c106c0d0a122f9d7e97",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "25",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8c1d1b4636d53983601d",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f8b391637a6131f7e3d73",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f8bfe9a64a2163df07856 declinePlayerMessage",
+    "description": "675f8bfe9a64a2163df07856 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f8bfe9a64a2163df07856 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f8c37ee583ee98195163c",
+          "index": 0,
+          "type": "Experience",
+          "value": "4000"
+        },
+        {
+          "id": "675f8c3ba35c39d33db154da",
+          "index": 1,
+          "target": "Immunity",
+          "type": "Skill",
+          "value": "800"
+        },
+        {
+          "id": "675f8c3e603fb0d528f67ab8",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f8bfe9a64a2163df07856 startedMT",
+    "successMessageText": "675f8bfe9a64a2163df07856 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675f8c40c1386be2ce870b07": {
+    "QuestName": "Ultimate Innoculation",
+    "_id": "675f8c40c1386be2ce870b07",
+    "acceptPlayerMessage": "675f8c40c1386be2ce870b07 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f8c40c1386be2ce870b07 changeQuestMT",
+    "completePlayerMessage": "675f8c40c1386be2ce870b07 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPartsWithEffects": [
+                  {
+                    "bodyParts": [
+                      "Head",
+                      "Chest",
+                      "Stomach",
+                      "LeftArm",
+                      "RightArm",
+                      "LeftLeg",
+                      "RightLeg"
+                    ],
+                    "effects": [
+                      "DamageType_Poision"
+                    ]
+                  }
+                ],
+                "conditionType": "HealthEffect",
+                "id": "675f8c52fdad3c28dbb8dec0",
+                "time": {
+                  "compareMethod": ">=",
+                  "value": 300
+                }
+              },
+              {
+                "conditionType": "Location",
+                "id": "675f8c54927bbe86ff9b3d0e",
+                "target": [
+                  "Interchange",
+                  "Shoreline",
+                  "TarkovStreets",
+                  "Lighthouse",
+                  "Woods",
+                  "bigmap",
+                  "RezervBase",
+                  "laboratory",
+                  "factory4_night"
+                ]
+              }
+            ],
+            "id": "675f8c5695209a39ef120e89"
+          },
+          "doNotResetIfCounterCompleted": true,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8c58b2280ff073b65129",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Experience",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8c5fff25804db2a66910",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f8bfe9a64a2163df07856",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f8c40c1386be2ce870b07 declinePlayerMessage",
+    "description": "675f8c40c1386be2ce870b07 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/Immune5.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f8c40c1386be2ce870b07 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f8c63d85a2fd60db8e789",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000"
+        },
+        {
+          "id": "675f8c676f43bc3a3d657c9c",
+          "index": 1,
+          "target": "Immunity",
+          "type": "Skill",
+          "value": "2000"
+        },
+        {
+          "id": "675f8c6995c5dd313d80f501",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.03"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f8c40c1386be2ce870b07 startedMT",
+    "successMessageText": "675f8c40c1386be2ce870b07 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  }
+}

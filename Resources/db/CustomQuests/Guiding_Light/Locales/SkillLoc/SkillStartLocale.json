@@ -1,0 +1,31 @@
+{
+    "675e4307c26e93866ad36d9c name": "One with Tarkov",
+    "675e4307c26e93866ad36d9c description": "So, you wish to work on the mental skills? What good is knowledge if it cannot be applied? Show me that you're going to be sticking around a while.",
+    "68e632376a46c92cf29c46cb": "Reach level 15",
+    "675e4307c26e93866ad36d9c successMT": "I don't really know why you're staying. You're supposed to be escaping, right? Must be harder than it sounds...",
+    "675e4307c26e93866ad36d9c acceptMT": "Who's calculating this 'level' crap? I'm just trying not to die",
+
+    "6755fdc0ce4c4af07e97bbf6 name": "Let the slaughter commence",
+    "6755fdc0ce4c4af07e97bbf6 description": "I see you've begun your training of the physical, practical, and the mental skills... Good! I'm glad to see you taking care of yourself so well. I bet you were starting to wonder if we were ever going to focus on combat, weren't you? Besides, I'm an angel, I'm supposed to be pure and holy, right? Oh believe me, we are. That's why we need this. Let's be honest, this region has gone the way of Sodom and Gomorrah. Everyone's either killing each other, or profiting off everyone else killing each other. It's become a wasteland. Worst off all, the cult's presence has grow way out of hand. I don't know how many times we have to remind people who the only God is, but we're going to do it again. You're going to rain fire and brimstone down on this place, mercenary. You will become the must destructive force in Tarkov, and will remain here until He is finished with this place. Expect no easy tasks here, friend. War is hell, and you're riding on the red horse. Let the slaughter commence.",
+    "6755fe37fab8f5372018eb16": "In one raid, complete all tasks: Kill 10 enemies",
+    "6755fe466e0a8ca992087e63": "Kill 1 enemy further than 40 meters",
+    "6755fe55245dec0c2c4fb676": "Kill 1 enemy within 15 meters",
+    "6755fe6a8c78f4a44386445e": "Kill 1 enemy with an AR/DMR",
+    "6755fe78c5f419e0b10d3a1d": "Kill 1 enemy with an SMG/SG",
+    "6755fe870b50229190d9669e": "Kill 1 enemy with a pistol",
+    "6755fe9b23b7ff6a7feb72fb": "Kill 3 enemies with headshots.",
+    "6755fdc0ce4c4af07e97bbf6 successMT": "The great tribulation of Tarkov has begun. I want you to know that we aren't exactly 'happy' when it comes to these sorts of things. We don't get some religious high when we destroy evil cities like this. It's just what it is. You, however... you may enjoy it as much as you like.",
+    "6755fdc0ce4c4af07e97bbf6 acceptMT": "And thus, death descended upon Tarkov",
+
+    "675e458cdb219e98dda39bc9 name": "Settling in",
+    "675e458cdb219e98dda39bc9 description": "Since it looks like you're going to be staying here for a while, you'll need a place to live, as well as a place to keep all that stuff you have. You found someplace already, no? You should put some effort into it. A home you love will love you back.",
+    "675e45bd9ac28fae6f38acce": "Reach hideout management 4",
+    "675e458cdb219e98dda39bc9 successMT": "Yeah, that little bunker is starting to look inhabitable! Keep working on it, you'll need it later.",
+    "675e458cdb219e98dda39bc9 acceptMT": "Can I call room service?",
+
+    "675e44ef86f0af6fce9195a4 name": "Workout",
+    "675e44ef86f0af6fce9195a4 description": "So, you wish to train your body? This only makes sense: Your mind may plan all it wants, it's not the thing physically being shot at. You need to be able to withstand merciless punishment if you want to survive in Tarkov. Well, you 'survive' regardless, but you know what I mean. If you want a healthy body, you need a place away from gunfire to train it. Construct yourself a nice gym, and use it.",
+    "675e453c182ed2edd8c196e7": "Enjoy your workout! (Use the Gym once)",
+    "675e44ef86f0af6fce9195a4 successMT": "How was it? Feel the burn in your muscles? Good. Let us begin our physical training, then. Be warned, your body will be pushed to the absolute limits. Not that it will matter, if gunshot wounds don't stop you, I doubt anything will. Oh, also, I do NOT approve of the posters you put up...",
+    "675e44ef86f0af6fce9195a4 acceptMT" : "Time to hit the gym!"
+}

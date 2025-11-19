@@ -1,0 +1,410 @@
+{
+    "675f8f9ac46b5dcd9037c0b6": {
+    "QuestName": "Deadlift",
+    "_id": "675f8f9ac46b5dcd9037c0b6",
+    "acceptPlayerMessage": "675f8f9ac46b5dcd9037c0b6 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f8f9ac46b5dcd9037c0b6 changeQuestMT",
+    "completePlayerMessage": "675f8f9ac46b5dcd9037c0b6 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "id": "675f8fb0b56dc5e85396eb5d",
+                "target": "Any",
+                "value": "1",
+                "weapon": [
+                ]
+              }
+            ],
+            "id": "675f8fb294430e1bf063cc93"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8fb4479687ba7e7b187e",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8fbbc323972551f383e1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e44ef86f0af6fce9195a4",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f8f9ac46b5dcd9037c0b6 declinePlayerMessage",
+    "description": "675f8f9ac46b5dcd9037c0b6 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f8f9ac46b5dcd9037c0b6 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f8fc3026f490019fa8d45",
+          "index": 0,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "675f8fc50d4760135f1ea6c8",
+          "index": 1,
+          "target": "Strength",
+          "type": "Skill",
+          "value": "300"
+        },
+        {
+          "id": "675f8fc798b7469dd236db89",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f8f9ac46b5dcd9037c0b6 startedMT",
+    "successMessageText": "675f8f9ac46b5dcd9037c0b6 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Exploration"
+  },
+  "675f8fd8f0705b9c4f6ff3ab": {
+    "QuestName": "Parkour",
+    "_id": "675f8fd8f0705b9c4f6ff3ab",
+    "acceptPlayerMessage": "675f8fd8f0705b9c4f6ff3ab acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f8fd8f0705b9c4f6ff3ab changeQuestMT",
+    "completePlayerMessage": "675f8fd8f0705b9c4f6ff3ab completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "675f8ff1f7aba814916e91e5",
+                "target": "woods_bus_town",
+                "value": 1
+              }
+            ],
+            "id": "675f8ff3b495a23232b7a208"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8ff578cbfa58e6860206",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "675f8ffe32d3170c48c2caee",
+                "target": "woods_red_tower",
+                "value": 1
+              }
+            ],
+            "id": "675f9001125470f4d7ea3b34"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f9003592e6db90b93b5da",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "675f900adfd8b8bfef01dc2c",
+                "target": "bigmap_cont44_top",
+                "value": 1
+              }
+            ],
+            "id": "675f900ccdb98074c3e11c26"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f900eda20cc8b127c810d",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "dynamicLocale": false,
+                "id": "675f9014f4a90142a756d2b1",
+                "target": "bigmap_fuel_top",
+                "value": 1
+              }
+            ],
+            "id": "675f90174757673085717453"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f901a80aa96065737bcb2",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Discover",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f90212368ad7c0768d4d2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f8f9ac46b5dcd9037c0b6",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f8fd8f0705b9c4f6ff3ab declinePlayerMessage",
+    "description": "675f8fd8f0705b9c4f6ff3ab description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/ST2.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f8fd8f0705b9c4f6ff3ab name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f9025fdbdbc45677c84f3",
+          "index": 0,
+          "type": "Experience",
+          "value": "2500"
+        },
+        {
+          "id": "675f9028615f069db5a64adb",
+          "index": 1,
+          "target": "Strength",
+          "type": "Skill",
+          "value": "600"
+        },
+        {
+          "id": "675f902a48d37ce1d7c25526",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f8fd8f0705b9c4f6ff3ab startedMT",
+    "successMessageText": "675f8fd8f0705b9c4f6ff3ab successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675f90b6411b4db706023982": {
+    "QuestName": "Gladiator",
+    "_id": "675f90b6411b4db706023982",
+    "acceptPlayerMessage": "675f90b6411b4db706023982 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f90b6411b4db706023982 changeQuestMT",
+    "completePlayerMessage": "675f90b6411b4db706023982 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "Kills",
+                "dynamicLocale": false,
+                "id": "675f90c7495ee684c135541f",
+                "savageRole": [
+                  "followerBigPipe",
+                  "bossKnight",
+                  "bossKojaniy",
+                  "bossKilla",
+                  "bossTagilla",
+                  "bossBully",
+                  "bossGluhar",
+                  "bossSanitar",
+                  "followerBirdEye",
+                  "bossKolontay",
+                  "bossBoar"
+                ],
+                "target": "Savage",
+                "weapon": [
+                  "54491bb74bdc2d09088b4567",
+                  "57e26fc7245977162a14b800",
+                  "57e26ea924597715ca604a09",
+                  "5bffe7930db834001b734a39",
+                  "5fc64ea372b0dd78d51159dc",
+                  "5c07df7f0db834001b73588a",
+                  "6087e570b998180e9f76dc24",
+                  "5bffdc370db834001d23eca8",
+                  "5bffdd7e0db834001b734a1a",
+                  "5c0126f40db834002a125382",
+                  "63495c500c297e20065a08b1",
+                  "63920105a83e15700a00f168",
+                  "5c010e350db83400232feec7",
+                  "57cd379a24597778e7682ecf",
+                  "601948682627df266209af05",
+                  "5c012ffc0db834001d23f03f",
+                  "5bc9c1e2d4351e00367fbcf0",
+                  "5bead2e00db834001c062938"
+                ]
+              }
+            ],
+            "id": "675f90cc3b8a19ead8110c9e"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f90cf97932a5d4c5f3472",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f90e586f4de8a2a15b442",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f8fd8f0705b9c4f6ff3ab",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f90b6411b4db706023982 declinePlayerMessage",
+    "description": "675f90b6411b4db706023982 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f90b6411b4db706023982 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f90f280881eb615617c7c EXP",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000"
+        },
+        {
+          "id": "675f90f64ff3b4b7d5725087 SP",
+          "index": 1,
+          "target": "Strength",
+          "type": "Skill",
+          "value": "900"
+        },
+        {
+          "id": "675f90f96f5c86383d5823e5 TS",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.03"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f90b6411b4db706023982 startedMT",
+    "successMessageText": "675f90b6411b4db706023982 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  }
+}

@@ -1,0 +1,516 @@
+{
+    "675fb07fcdea44ae4beb0310": {
+    "QuestName": "Finding materials",
+    "_id": "675fb07fcdea44ae4beb0310",
+    "acceptPlayerMessage": "675fb07fcdea44ae4beb0310 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675fb07fcdea44ae4beb0310 changeQuestMT",
+    "completePlayerMessage": "675fb07fcdea44ae4beb0310 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb0e9c104b7e7773b4fd0",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "57347c5b245977448d35f6e1"
+          ],
+          "value": "5",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb1089c79a949b0210a65",
+          "index": 1,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "57347c77245977448d35f6e2"
+          ],
+          "value": "5",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb10f5b14a1aeea564fb1",
+          "index": 2,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "61bf7b6302b3924be92fa8c3"
+          ],
+          "value": "5",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb11d1a9e100a65ccd610",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "59e35cbb86f7741778269d83"
+          ],
+          "value": "2",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb133853861565cd7864c",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e458cdb219e98dda39bc9",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675fb07fcdea44ae4beb0310 declinePlayerMessage",
+    "description": "675fb07fcdea44ae4beb0310 description",
+    "failMessageText": "675fb07fcdea44ae4beb0310 failMessageText",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675fb07fcdea44ae4beb0310 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "findInRaid": true,
+          "id": "675fb13d91907ae40157ff3b",
+          "index": 0,
+          "items": [
+            {
+              "_id": "675fb13f46d6699f780d61f2",
+              "_tpl": "57347c5b245977448d35f6e1",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ],
+          "target": "675fb13f46d6699f780d61f2",
+          "type": "Item",
+          "value": "5"
+        },
+        {
+          "findInRaid": true,
+          "id": "675fb14403356647aad0b2c9",
+          "index": 1,
+          "items": [
+            {
+              "_id": "675fb149bcb1c3eb47b73148",
+              "_tpl": "57347c77245977448d35f6e2",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ],
+          "target": "675fb149bcb1c3eb47b73148",
+          "type": "Item",
+          "value": "5"
+        },
+        {
+          "findInRaid": true,
+          "id": "675fb14e51f8530e3aa77864",
+          "index": 2,
+          "items": [
+            {
+              "_id": "675fb152c2b2f643f0f56d32",
+              "_tpl": "61bf7b6302b3924be92fa8c3",
+              "upd": {
+                "StackObjectsCount": 5
+              }
+            }
+          ],
+          "target": "675fb152c2b2f643f0f56d32",
+          "type": "Item",
+          "value": "5"
+        },
+        {
+          "findInRaid": true,
+          "id": "675fb159fe2ff8329a1d831a",
+          "index": 3,
+          "items": [
+            {
+              "_id": "675fb15bdd02c11fa474daf8",
+              "_tpl": "59e35cbb86f7741778269d83",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "675fb15bdd02c11fa474daf8",
+          "type": "Item",
+          "value": "2"
+        },
+        {
+          "id": "675fb16151d2e40ee50a6625",
+          "index": 4,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "675fb1632f67acd0747e41cf",
+          "index": 5,
+          "target": "HideoutManagement",
+          "type": "Skill",
+          "value": "300"
+        },
+        {
+          "id": "675fb1666feeb539b2b14fda",
+          "index": 6,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675fb07fcdea44ae4beb0310 startedMT",
+    "successMessageText": "675fb07fcdea44ae4beb0310 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
+  "675fb1692d56a22cb5050420": {
+    "QuestName": "Keeping the lights on",
+    "_id": "675fb1692d56a22cb5050420",
+    "acceptPlayerMessage": "675fb1692d56a22cb5050420 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675fb1692d56a22cb5050420 changeQuestMT",
+    "completePlayerMessage": "675fb1692d56a22cb5050420 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb182a957b882e68f9c77",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d1b2f3f86f774252167a52c"
+          ],
+          "value": "2",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb18618c10723081a4ed8",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d1b385e86f774252167b98a"
+          ],
+          "value": "10",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb18d6959d6a7c07b222e",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "5d1b36a186f7742523398433",
+            "5d1b371186f774253763a656"
+          ],
+          "value": "5",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb197226b0ba24b220a98",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675fb07fcdea44ae4beb0310",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675fb1692d56a22cb5050420 declinePlayerMessage",
+    "description": "675fb1692d56a22cb5050420 description",
+    "failMessageText": "675fb1692d56a22cb5050420 failMessageText",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675fb1692d56a22cb5050420 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "findInRaid": true,
+          "id": "675fb19a423fef9e941f33f8",
+          "index": 0,
+          "items": [
+            {
+              "_id": "675fb19d45133f4faf820969",
+              "_tpl": "5d1b2f3f86f774252167a52c",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "675fb19d45133f4faf820969",
+          "type": "Item",
+          "value": "2"
+        },
+        {
+          "findInRaid": true,
+          "id": "675fb1a3ecd115f32bd15b60",
+          "index": 1,
+          "items": [
+            {
+              "_id": "675fb1a6a41f66d262aa2b8b",
+              "_tpl": "5d1b385e86f774252167b98a",
+              "upd": {
+                "StackObjectsCount": 10
+              }
+            }
+          ],
+          "target": "675fb1a6a41f66d262aa2b8b",
+          "type": "Item",
+          "value": "10"
+        },
+        {
+          "findInRaid": true,
+          "id": "675fb1ad40ec1a160255febe",
+          "index": 2,
+          "items": [
+            {
+              "_id": "675fb1af91207509082a030c",
+              "_tpl": "5d1b36a186f7742523398433",
+              "upd": {
+                "StackObjectsCount": 2
+              }
+            }
+          ],
+          "target": "675fb1af91207509082a030c",
+          "type": "Item",
+          "value": "2"
+        },
+        {
+          "findInRaid": true,
+          "id": "675fb1c11913bafdcfa658ce",
+          "index": 2,
+          "items": [
+            {
+              "_id": "675fb1b5f1ced816083ae80d",
+              "_tpl": "5d1b371186f774253763a656",
+              "upd": {
+                "StackObjectsCount": 3
+              }
+            }
+          ],
+          "target": "675fb1b5f1ced816083ae80d",
+          "type": "Item",
+          "value": "3"
+        },
+        {
+          "id": "675fb1c42d40a159a6806a89",
+          "index": 4,
+          "type": "Experience",
+          "value": "2500"
+        },
+        {
+          "id": "675fb1c6ebba925039db29e5",
+          "index": 5,
+          "target": "HideoutManagement",
+          "type": "Skill",
+          "value": "600"
+        },
+        {
+          "id": "675fb1c8efd72cca14d2350e",
+          "index": 6,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675fb1692d56a22cb5050420 startedMT",
+    "successMessageText": "675fb1692d56a22cb5050420 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "PickUp"
+  },
+  "675fb1f7b13493767439b1e9": {
+    "QuestName": "Raking it in",
+    "_id": "675fb1f7b13493767439b1e9",
+    "acceptPlayerMessage": "675fb1f7b13493767439b1e9 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675fb1f7b13493767439b1e9 changeQuestMT",
+    "completePlayerMessage": "675fb1f7b13493767439b1e9 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb20275e4da479deaea95",
+          "index": 3,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": true,
+          "parentId": "",
+          "target": [
+            "59faff1d86f7746c51718c9c"
+          ],
+          "value": "10",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675fb2087b141ccd286ffcdc",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675fb1692d56a22cb5050420",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675fb1f7b13493767439b1e9 declinePlayerMessage",
+    "description": "675fb1f7b13493767439b1e9 description",
+    "failMessageText": "675fb1f7b13493767439b1e9 failMessageText",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675fb1f7b13493767439b1e9 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "findInRaid": true,
+          "id": "675fb21c4ba0cd3f0488de0c",
+          "index": 0,
+          "items": [
+            {
+              "_id": "675fb2171de4df6c7b842ad5",
+              "_tpl": "59faff1d86f7746c51718c9c",
+              "upd": {
+                "StackObjectsCount": 10
+              }
+            }
+          ],
+          "target": "675fb2171de4df6c7b842ad5",
+          "type": "Item",
+          "value": "10"
+        },
+        {
+          "id": "675fb2156d79a965fa8a4587",
+          "index": 1,
+          "type": "Experience",
+          "value": "5000"
+        },
+        {
+          "id": "675fb212bb06d0c0d3cd3bb2",
+          "index": 2,
+          "target": "HideoutManagement",
+          "type": "Skill",
+          "value": "900"
+        },
+        {
+          "id": "675fb2107bbb947aad01d661",
+          "index": 3,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.03"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675fb1f7b13493767439b1e9 startedMT",
+    "successMessageText": "675fb1f7b13493767439b1e9 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "PickUp"
+  }
+}

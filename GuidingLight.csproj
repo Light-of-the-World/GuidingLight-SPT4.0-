@@ -1,0 +1,37 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net9.0</TargetFramework>
+    <RootNamespace>GuidingLight</RootNamespace>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <OutputType>Library</OutputType>
+    <Version>0.0.1</Version>
+    <!-- The two lines below will set the output path for the binaries -->
+    <OutputPath>bin\$(Configuration)\$(ProjectName)\$(AssemblyName)\</OutputPath>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="SPTarkov.Common" Version="4.0.4" />
+    <PackageReference Include="SPTarkov.DI" Version="4.0.4" />
+    <PackageReference Include="SPTarkov.Server.Core" Version="4.0.4" />
+    <PackageReference Include="WTT-ServerCommonLib" Version="2.0.3" />
+  </ItemGroup>
+  <ItemGroup>
+      <None Include="Resources\data\**">
+          <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+      </None>    
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="WTT-ClientCommonLib">
+      <HintPath>..\..\..\..\..\..\..\..\Battlestate Games\SPT 4.0\BepInEx\plugins\WTT-ClientCommonLib\WTT-ClientCommonLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\db\CustomQuests\Curious_Light\" />
+    <Folder Include="Resources\db\CustomQuests\Guiding_Light\Images\" />
+  </ItemGroup>
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="@echo off&#xD;&#xA;setlocal enabledelayedexpansion&#xD;&#xA;&#xD;&#xA;REM Set variables&#xD;&#xA;set MODNAME=$(TargetName)&#xD;&#xA;set DLLPATH=$(TargetDir)$(TargetName).dll&#xD;&#xA;set OUTDIR=..\..\..\SPT\user\mods\%25MODNAME%25&#xD;&#xA;set RESOURCESDIR=$(ProjectDir)Resources&#xD;&#xA;set BUILDOUTDIR=..\Build\SPT\user\mods\%25MODNAME%25&#xD;&#xA;&#xD;&#xA;REM Create output directories if they don't exist&#xD;&#xA;if not exist &quot;%25OUTDIR%25&quot; mkdir &quot;%25OUTDIR%25&quot;&#xD;&#xA;if not exist &quot;%25BUILDOUTDIR%25&quot; mkdir &quot;%25BUILDOUTDIR%25&quot;&#xD;&#xA;&#xD;&#xA;REM Clear the output directory (except the dll we're about to copy)&#xD;&#xA;if exist &quot;%25OUTDIR%25&quot; (&#xD;&#xA;    for /d %25%25D in (&quot;%25OUTDIR%25\*&quot;) do rmdir /s /q &quot;%25%25D&quot;&#xD;&#xA;    for %25%25F in (&quot;%25OUTDIR%25\*&quot;) do (&#xD;&#xA;        if /i not &quot;%25%25~nxF&quot;==&quot;$(TargetName).dll&quot; del /q &quot;%25%25F&quot;&#xD;&#xA;    )&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;REM Clear the build output directory completely&#xD;&#xA;if exist &quot;%25BUILDOUTDIR%25&quot; (&#xD;&#xA;    for /d %25%25D in (&quot;%25BUILDOUTDIR%25\*&quot;) do rmdir /s /q &quot;%25%25D&quot;&#xD;&#xA;    for %25%25F in (&quot;%25BUILDOUTDIR%25\*&quot;) do del /q &quot;%25%25F&quot;&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;REM Copy the DLL file to SPT&#xD;&#xA;copy /Y &quot;%25DLLPATH%25&quot; &quot;%25OUTDIR%25\&quot; &gt;nul 2&gt;&amp;1&#xD;&#xA;echo [PostBuild] Copied %25MODNAME%25.dll to %25OUTDIR%25&#xD;&#xA;&#xD;&#xA;REM Copy all contents from Resources folder recursively to SPT&#xD;&#xA;if exist &quot;%25RESOURCESDIR%25&quot; (&#xD;&#xA;    xcopy &quot;%25RESOURCESDIR%25&quot; &quot;%25OUTDIR%25&quot; /E /I /Y &gt;nul 2&gt;&amp;1&#xD;&#xA;    echo [PostBuild] Copied Resources to %25OUTDIR%25&#xD;&#xA;) else (&#xD;&#xA;    echo [PostBuild] Warning: Resources folder not found at %25RESOURCESDIR%25&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;REM Copy the DLL file to Build folder&#xD;&#xA;copy /Y &quot;%25DLLPATH%25&quot; &quot;%25BUILDOUTDIR%25\&quot; &gt;nul 2&gt;&amp;1&#xD;&#xA;echo [PostBuild] Copied %25MODNAME%25.dll to %25BUILDOUTDIR%25&#xD;&#xA;&#xD;&#xA;REM Copy all contents from Resources folder recursively to Build folder&#xD;&#xA;if exist &quot;%25RESOURCESDIR%25&quot; (&#xD;&#xA;    xcopy &quot;%25RESOURCESDIR%25&quot; &quot;%25BUILDOUTDIR%25&quot; /E /I /Y &gt;nul 2&gt;&amp;1&#xD;&#xA;    echo [PostBuild] Copied Resources to %25BUILDOUTDIR%25&#xD;&#xA;) else (&#xD;&#xA;    echo [PostBuild] Warning: Resources folder not found at %25RESOURCESDIR%25&#xD;&#xA;)&#xD;&#xA;&#xD;&#xA;echo [PostBuild] Build output: %25OUTDIR%25 and %25BUILDOUTDIR%25&#xD;&#xA;endlocal" />
+  </Target>
+</Project>

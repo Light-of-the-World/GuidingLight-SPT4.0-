@@ -1,0 +1,482 @@
+{
+    "675f7f7a5aa154ae19f5a82a": {
+    "QuestName": "The test begins",
+    "_id": "675f7f7a5aa154ae19f5a82a",
+    "acceptPlayerMessage": "675f7f7a5aa154ae19f5a82a acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f7f7a5aa154ae19f5a82a changeQuestMT",
+    "completePlayerMessage": "675f7f7a5aa154ae19f5a82a completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "675f7f90d0f50e7d0771b212",
+                "target": "bomj_place",
+                "value": 1
+              }
+            ],
+            "id": "675f7f92a8daf202d76accff"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f7f96ece57c78a18641c5",
+          "index": 4,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f7f9d7f2e8435c9fc522a",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e4307c26e93866ad36d9c",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f7f7a5aa154ae19f5a82a declinePlayerMessage",
+    "description": "675f7f7a5aa154ae19f5a82a description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f7f7a5aa154ae19f5a82a name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f7fa2bba1a91ab6b99b58",
+          "index": 0,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "675f7fa42b8d9bca58dba5f9",
+          "index": 1,
+          "target": "Intellect",
+          "type": "Skill",
+          "value": "200"
+        },
+        {
+          "id": "675f7fa669a892670884faea",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f7f7a5aa154ae19f5a82a startedMT",
+    "successMessageText": "675f7f7a5aa154ae19f5a82a successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  },
+  "675f7fc218ad814cbf690c1f": {
+    "QuestName": "Thirsting for more",
+    "_id": "675f7fc218ad814cbf690c1f",
+    "acceptPlayerMessage": "675f7fc218ad814cbf690c1f acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f7fc218ad814cbf690c1f changeQuestMT",
+    "completePlayerMessage": "675f7fc218ad814cbf690c1f completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "675f7fd69b95beab96a9bfdd",
+                "target": "room206_water",
+                "value": 1
+              }
+            ],
+            "id": "675f7fd8cb8f3ec00f664a70"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f7fdb6151781b3403040f",
+          "index": 4,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f7fefff6a371e4156497d",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f7f7a5aa154ae19f5a82a",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f7fc218ad814cbf690c1f declinePlayerMessage",
+    "description": "675f7fc218ad814cbf690c1f description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f7fc218ad814cbf690c1f name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f7ff2c5a4b39f6bee8c12",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000"
+        },
+        {
+          "id": "675f7ff5627e5e17c9187390",
+          "index": 1,
+          "target": "Intellect",
+          "type": "Skill",
+          "value": "400"
+        },
+        {
+          "id": "675f7ff7dd3c3224b90e4b61",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f7fc218ad814cbf690c1f startedMT",
+    "successMessageText": "675f7fc218ad814cbf690c1f successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  },
+  "675f8008b7831ecb4e5db0e7": {
+    "QuestName": "Raising the stakes",
+    "_id": "675f8008b7831ecb4e5db0e7",
+    "acceptPlayerMessage": "675f8008b7831ecb4e5db0e7 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f8008b7831ecb4e5db0e7 changeQuestMT",
+    "completePlayerMessage": "675f8008b7831ecb4e5db0e7 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "675f80209c79e17ab2dbd894",
+                "target": "gazel",
+                "value": 1
+              }
+            ],
+            "id": "675f802212776c2793c7b756"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8024e38f2dd530cea750",
+          "index": 4,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f8099cedded6a1c385b0b",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f7fc218ad814cbf690c1f",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f8008b7831ecb4e5db0e7 declinePlayerMessage",
+    "description": "675f8008b7831ecb4e5db0e7 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f8008b7831ecb4e5db0e7 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f809d7744567a6f616316",
+          "index": 0,
+          "type": "Experience",
+          "value": "3000"
+        },
+        {
+          "id": "675f809f02eb415fffd6e0b5",
+          "index": 1,
+          "target": "Intellect",
+          "type": "Skill",
+          "value": "600"
+        },
+        {
+          "id": "675f80a2d84f804b456a5d93",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f8008b7831ecb4e5db0e7 startedMT",
+    "successMessageText": "675f8008b7831ecb4e5db0e7 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  },
+  "675f80b4625238051edb9d0e": {
+    "QuestName": "Nearing the end",
+    "_id": "675f80b4625238051edb9d0e",
+    "acceptPlayerMessage": "675f80b4625238051edb9d0e acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f80b4625238051edb9d0e changeQuestMT",
+    "completePlayerMessage": "675f80b4625238051edb9d0e completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "675f80c8dd60bc65efc0dfaa",
+                "target": "ter_017_area_1",
+                "value": 1
+              }
+            ],
+            "id": "675f80c9f5ea69f302151f6c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f80cd33dd203e0f69b360",
+          "index": 4,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f80da2e66c0cb09bcdae2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f8008b7831ecb4e5db0e7",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f80b4625238051edb9d0e declinePlayerMessage",
+    "description": "675f80b4625238051edb9d0e description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f80b4625238051edb9d0e name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f80de17e9a2a2781b99a2",
+          "index": 0,
+          "type": "Experience",
+          "value": "4000"
+        },
+        {
+          "id": "675f80e1a2724778062c393c",
+          "index": 1,
+          "target": "Intellect",
+          "type": "Skill",
+          "value": "800"
+        },
+        {
+          "id": "675f80e5bfeb86d219d061b4",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f80b4625238051edb9d0e startedMT",
+    "successMessageText": "675f80b4625238051edb9d0e successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  },
+  "675f811444410a14d5c5f85f": {
+    "QuestName": "The final question",
+    "_id": "675f811444410a14d5c5f85f",
+    "acceptPlayerMessage": "675f811444410a14d5c5f85f acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675f811444410a14d5c5f85f changeQuestMT",
+    "completePlayerMessage": "675f811444410a14d5c5f85f completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "675f813a386a50b84296d3d4",
+                "target": "qlight_find_crushed_heli",
+                "value": 1
+              }
+            ],
+            "id": "675f813c712402ff8a53080d"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f81330700ccbf45fa101e",
+          "index": 4,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f81300a44a8f050137253",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f80b4625238051edb9d0e",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675f811444410a14d5c5f85f declinePlayerMessage",
+    "description": "675f811444410a14d5c5f85f description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675f811444410a14d5c5f85f name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675f812cb0a620f57074e3d0",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000"
+        },
+        {
+          "id": "675f81299a77f83202469a1d",
+          "index": 1,
+          "target": "Intellect",
+          "type": "Skill",
+          "value": "1000"
+        },
+        {
+          "id": "675f81270dad9979ffd84d88",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.03"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675f811444410a14d5c5f85f startedMT",
+    "successMessageText": "675f811444410a14d5c5f85f successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  }
+}

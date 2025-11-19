@@ -1,0 +1,677 @@
+{
+    "675e70d09b7c88c3fec59dfd": {
+    "QuestName": "Stab stab stab",
+    "_id": "675e70d09b7c88c3fec59dfd",
+    "acceptPlayerMessage": "675e70d09b7c88c3fec59dfd acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e70d09b7c88c3fec59dfd changeQuestMT",
+    "completePlayerMessage": "675e70d09b7c88c3fec59dfd completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675e70f038b7bb6232bd2e06",
+                "target": "Any",
+                "value": "1",
+                "weapon": [
+                  "5bffdc370db834001d23eca8",
+                  "5bc9c1e2d4351e00367fbcf0",
+                  "57e26fc7245977162a14b800",
+                  "57e26ea924597715ca604a09",
+                  "5c012ffc0db834001d23f03f",
+                  "5bffe7930db834001b734a39",
+                  "5fc64ea372b0dd78d51159dc",
+                  "54491bb74bdc2d09088b4567",
+                  "5c07df7f0db834001b73588a",
+                  "57cd379a24597778e7682ecf",
+                  "5bffdd7e0db834001b734a1a",
+                  "5bead2e00db834001c062938",
+                  "5c0126f40db834002a125382",
+                  "63920105a83e15700a00f168",
+                  "5c010e350db83400232feec7",
+                  "601948682627df266209af05",
+                  "664a5428d5e33a713b622379",
+                  "65ca457b4aafb5d7fc0dcb5d",
+                  "674d90b55704568fe60bc8f5"
+                ]
+              }
+            ],
+            "id": "675e70eecf01bf8685f5fc61"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e70e9c3b45adfb4598d4c",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "3",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e72c0c24561437c4fc448",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6755fdc0ce4c4af07e97bbf6",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e70d09b7c88c3fec59dfd declinePlayerMessage",
+    "description": "675e70d09b7c88c3fec59dfd description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e70d09b7c88c3fec59dfd name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e72c5d4fe00f0aee8e454",
+          "index": 0,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "675e72c971706eb02bd246d4",
+          "index": 1,
+          "target": "Melee",
+          "type": "Skill",
+          "value": "200"
+        },
+        {
+          "id": "675e72cca0f078dc05bf96b2",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e70d09b7c88c3fec59dfd startedMT",
+    "successMessageText": "675e70d09b7c88c3fec59dfd successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675e72d20b9ddd863c120f72": {
+    "QuestName": "Taking advantage",
+    "_id": "675e72d20b9ddd863c120f72",
+    "acceptPlayerMessage": "675e72d20b9ddd863c120f72 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e72d20b9ddd863c120f72 changeQuestMT",
+    "completePlayerMessage": "675e72d20b9ddd863c120f72 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "enemyHealthEffects": [
+                  {
+                    "bodyParts": [
+                      "Head",
+                      "Chest",
+                      "Stomach",
+                      "LeftArm",
+                      "RightArm",
+                      "LeftLeg",
+                      "RightLeg"
+                    ],
+                    "effects": [
+                      "Stun"
+                    ]
+                  }
+                ],
+                "id": "675e72dbd2971650c3c9cb47",
+                "target": "Any",
+                "value": "1",
+                "weapon": [
+                  "5bffdc370db834001d23eca8",
+                  "5bc9c1e2d4351e00367fbcf0",
+                  "57e26fc7245977162a14b800",
+                  "57e26ea924597715ca604a09",
+                  "5c012ffc0db834001d23f03f",
+                  "5bffe7930db834001b734a39",
+                  "5fc64ea372b0dd78d51159dc",
+                  "54491bb74bdc2d09088b4567",
+                  "5c07df7f0db834001b73588a",
+                  "57cd379a24597778e7682ecf",
+                  "5bffdd7e0db834001b734a1a",
+                  "5bead2e00db834001c062938",
+                  "5c0126f40db834002a125382",
+                  "63920105a83e15700a00f168",
+                  "5c010e350db83400232feec7",
+                  "601948682627df266209af05",
+                  "664a5428d5e33a713b622379",
+                  "65ca457b4aafb5d7fc0dcb5d",
+                  "674d90b55704568fe60bc8f5"
+                ]
+              }
+            ],
+            "id": "675e72ed40e0f7fa2ac8703f"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e72f3149d28e602c76823",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "4",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e72ff227390bf15669e9f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e70d09b7c88c3fec59dfd",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e72d20b9ddd863c120f72 declinePlayerMessage",
+    "description": "675e72d20b9ddd863c120f72 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e72d20b9ddd863c120f72 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e730a9a1fa623d2a82d0b",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000"
+        },
+        {
+          "id": "675e730d6f89bc99e29d6aff",
+          "index": 1,
+          "target": "Melee",
+          "type": "Skill",
+          "value": "400"
+        },
+        {
+          "id": "675e7311bc5aada3c0403aba",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e72d20b9ddd863c120f72 startedMT",
+    "successMessageText": "675e72d20b9ddd863c120f72 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675e733e60312dc58b9f59d8": {
+    "QuestName": "Right in the noggin",
+    "_id": "675e733e60312dc58b9f59d8",
+    "acceptPlayerMessage": "675e733e60312dc58b9f59d8 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e733e60312dc58b9f59d8 changeQuestMT",
+    "completePlayerMessage": "675e733e60312dc58b9f59d8 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [
+                  "Head"
+                ],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675e7370f70d9632584c1bb8",
+                "target": "Any",
+                "value": "1",
+                "weapon": [
+                  "5bffdc370db834001d23eca8",
+                  "5bc9c1e2d4351e00367fbcf0",
+                  "57e26fc7245977162a14b800",
+                  "57e26ea924597715ca604a09",
+                  "5c012ffc0db834001d23f03f",
+                  "5bffe7930db834001b734a39",
+                  "5fc64ea372b0dd78d51159dc",
+                  "54491bb74bdc2d09088b4567",
+                  "5c07df7f0db834001b73588a",
+                  "57cd379a24597778e7682ecf",
+                  "5bffdd7e0db834001b734a1a",
+                  "5bead2e00db834001c062938",
+                  "5c0126f40db834002a125382",
+                  "63920105a83e15700a00f168",
+                  "5c010e350db83400232feec7",
+                  "601948682627df266209af05",
+                  "664a5428d5e33a713b622379",
+                  "65ca457b4aafb5d7fc0dcb5d",
+                  "674d90b55704568fe60bc8f5"
+                ]
+              }
+            ],
+            "id": "675e7373346341755eaf4eb7"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e7376c6e180e4865927a1",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "10",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e7362b7114969ec724437",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e72d20b9ddd863c120f72",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e733e60312dc58b9f59d8 declinePlayerMessage",
+    "description": "675e733e60312dc58b9f59d8 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e733e60312dc58b9f59d8 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e735ee8833b0e56fd2030",
+          "index": 0,
+          "type": "Experience",
+          "value": "3000"
+        },
+        {
+          "id": "675e735b205701c31608cc58",
+          "index": 1,
+          "target": "Melee",
+          "type": "Skill",
+          "value": "600"
+        },
+        {
+          "id": "675e7358bae3a09fe4e06a5f",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e733e60312dc58b9f59d8 startedMT",
+    "successMessageText": "675e733e60312dc58b9f59d8 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675e73871db93c937c1b50b5": {
+    "QuestName": "Slice and dice",
+    "_id": "675e73871db93c937c1b50b5",
+    "acceptPlayerMessage": "675e73871db93c937c1b50b5 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e73871db93c937c1b50b5 changeQuestMT",
+    "completePlayerMessage": "675e73871db93c937c1b50b5 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675e73a38d7f6b69ca05a492",
+                "target": "Any",
+                "value": "1",
+                "weapon": [
+                  "5bffdc370db834001d23eca8",
+                  "5bc9c1e2d4351e00367fbcf0",
+                  "57e26fc7245977162a14b800",
+                  "57e26ea924597715ca604a09",
+                  "5c012ffc0db834001d23f03f",
+                  "5bffe7930db834001b734a39",
+                  "5fc64ea372b0dd78d51159dc",
+                  "54491bb74bdc2d09088b4567",
+                  "5c07df7f0db834001b73588a",
+                  "57cd379a24597778e7682ecf",
+                  "5bffdd7e0db834001b734a1a",
+                  "5bead2e00db834001c062938",
+                  "5c0126f40db834002a125382",
+                  "63920105a83e15700a00f168",
+                  "5c010e350db83400232feec7",
+                  "601948682627df266209af05",
+                  "664a5428d5e33a713b622379",
+                  "65ca457b4aafb5d7fc0dcb5d",
+                  "674d90b55704568fe60bc8f5"
+                ]
+              }
+            ],
+            "id": "675e73a4ec37138e200ce0ed"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e73a70b1a9f36964f508e",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "10",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675e73b0f7abe8a395ef5384",
+                "target": "AnyPmc",
+                "value": "1",
+                "weapon": [
+                  "5bffdc370db834001d23eca8",
+                  "5bc9c1e2d4351e00367fbcf0",
+                  "57e26fc7245977162a14b800",
+                  "57e26ea924597715ca604a09",
+                  "5c012ffc0db834001d23f03f",
+                  "5bffe7930db834001b734a39",
+                  "5fc64ea372b0dd78d51159dc",
+                  "54491bb74bdc2d09088b4567",
+                  "5c07df7f0db834001b73588a",
+                  "57cd379a24597778e7682ecf",
+                  "5bffdd7e0db834001b734a1a",
+                  "5bead2e00db834001c062938",
+                  "5c0126f40db834002a125382",
+                  "63920105a83e15700a00f168",
+                  "5c010e350db83400232feec7",
+                  "601948682627df266209af05",
+                  "664a5428d5e33a713b622379",
+                  "65ca457b4aafb5d7fc0dcb5d",
+                  "674d90b55704568fe60bc8f5"
+                ]
+              }
+            ],
+            "id": "675e73b2665ecf7c67ce5556"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e73acc6742e0f804e85f3",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "3",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e73b82dbd8b4b9c953dd1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e733e60312dc58b9f59d8",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e73871db93c937c1b50b5 declinePlayerMessage",
+    "description": "675e73871db93c937c1b50b5 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e73871db93c937c1b50b5 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e73bc760acfbe79bfcfaa",
+          "index": 0,
+          "type": "Experience",
+          "value": "4000"
+        },
+        {
+          "id": "675e73bf07361470b9bfc06e",
+          "index": 1,
+          "target": "Melee",
+          "type": "Skill",
+          "value": "800"
+        },
+        {
+          "id": "675e73c10ed314f022b6b6aa",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e73871db93c937c1b50b5 startedMT",
+    "successMessageText": "675e73871db93c937c1b50b5 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675e73d3713cf5e93492c992": {
+    "QuestName": "Dance with the devil",
+    "_id": "675e73d3713cf5e93492c992",
+    "acceptPlayerMessage": "675e73d3713cf5e93492c992 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e73d3713cf5e93492c992 changeQuestMT",
+    "completePlayerMessage": "675e73d3713cf5e93492c992 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675e73ef23a498515847b408",
+                "savageRole": [
+                  "bossTagilla"
+                ],
+                "target": "Savage",
+                "value": "1",
+                "weapon": [
+                  "5bffdc370db834001d23eca8",
+                  "5bc9c1e2d4351e00367fbcf0",
+                  "57e26fc7245977162a14b800",
+                  "57e26ea924597715ca604a09",
+                  "5c012ffc0db834001d23f03f",
+                  "5bffe7930db834001b734a39",
+                  "5fc64ea372b0dd78d51159dc",
+                  "54491bb74bdc2d09088b4567",
+                  "5c07df7f0db834001b73588a",
+                  "57cd379a24597778e7682ecf",
+                  "5bffdd7e0db834001b734a1a",
+                  "5bead2e00db834001c062938",
+                  "5c0126f40db834002a125382",
+                  "63920105a83e15700a00f168",
+                  "5c010e350db83400232feec7",
+                  "601948682627df266209af05",
+                  "664a5428d5e33a713b622379",
+                  "65ca457b4aafb5d7fc0dcb5d",
+                  "674d90b55704568fe60bc8f5"
+                ]
+              }
+            ],
+            "id": "675e73f1622f0c2706f637d1"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e73f48908ad7df9117f49",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e73fb9a9dff5ccb01751b",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e73871db93c937c1b50b5",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e73d3713cf5e93492c992 declinePlayerMessage",
+    "description": "675e73d3713cf5e93492c992 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/Melee5.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e73d3713cf5e93492c992 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e73ff964543217abf2b70",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000"
+        },
+        {
+          "id": "675e7402555a63df30ee092a",
+          "index": 1,
+          "target": "Melee",
+          "type": "Skill",
+          "value": "1000"
+        },
+        {
+          "id": "675e74053c9044ddc5834430",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.03"
+        },
+        {
+          "findInRaid": true,
+          "id": "675e7413c11932fcc16f0676",
+          "index": 3,
+          "items": [
+            {
+              "_id": "675e7416e765bd4b1824ea84",
+              "_tpl": "6087e570b998180e9f76dc24",
+              "upd": {
+                "StackObjectsCount": 1
+              }
+            }
+          ],
+          "target": "675e7416e765bd4b1824ea84",
+          "type": "Item",
+          "value": "1"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e73d3713cf5e93492c992 startedMT",
+    "successMessageText": "675e73d3713cf5e93492c992 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  }
+}

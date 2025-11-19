@@ -1,0 +1,203 @@
+{
+    "6832b19e78045ca545407ba2": {
+    "QuestName": "BONUS QUEST: Mounting a defense",
+    "_id": "6832b19e78045ca545407ba2",
+    "acceptPlayerMessage": "6832b19e78045ca545407ba2 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6832b19e78045ca545407ba2 changeQuestMT",
+    "completePlayerMessage": "6832b19e78045ca545407ba2 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6832b3d6eaa3ff8b0da81cfe",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6832b3d482da1dcaec6b175f"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6832b1a3aa4e874971cf43d1",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 100,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6832b3aeb31861f295f001e5",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e51df3230ec7bd5c88a52",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6832b19e78045ca545407ba2 declinePlayerMessage",
+    "description": "6832b19e78045ca545407ba2 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6832b19e78045ca545407ba2 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "6832b45ed903e1335d046d74",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000"
+        },
+        {
+          "id": "6832b45c1b7571a91423aff0",
+          "index": 1,
+          "target": "AimDrills",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b45acf37952d616f9209",
+          "index": 2,
+          "target": "Assault",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b4582311ecd51acfb733",
+          "index": 3,
+          "target": "DMR",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b457ef827746ae1aa459",
+          "index": 4,
+          "target": "LMG",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b455ed9091fb95c041aa",
+          "index": 5,
+          "target": "Melee",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b45498af911ebd57f04f",
+          "index": 6,
+          "target": "Pistol",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b453ee3568a67e89ed96",
+          "index": 8,
+          "target": "Revolver",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b4515f044e5aff2ca881",
+          "index": 9,
+          "target": "Shotgun",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b4508a2a4ff0c62c2c3d",
+          "index": 10,
+          "target": "Sniper",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b44e8c8d182f6bb28243",
+          "index": 11,
+          "target": "SMG",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b44c71c2c701714d0744",
+          "index": 12,
+          "target": "Throwing",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b44ad2731e2659fff14a",
+          "index": 13,
+          "target": "TroubleShooting",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b445beb99c7a7089ea57",
+          "index": 14,
+          "target": "AttachedLauncher",
+          "type": "Skill",
+          "value": "100"
+        },
+        {
+          "id": "6832b443fe958a3318f33da6",
+          "index": 15,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6832b19e78045ca545407ba2 startedMT",
+    "successMessageText": "6832b19e78045ca545407ba2 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  }
+}

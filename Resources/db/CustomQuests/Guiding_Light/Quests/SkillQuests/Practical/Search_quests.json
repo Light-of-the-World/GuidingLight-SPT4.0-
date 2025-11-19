@@ -1,0 +1,713 @@
+{
+    "68015ed9ab0091eae8610a5c": {
+    "QuestName": "Mystery Box",
+    "_id": "68015ed9ab0091eae8610a5c",
+    "acceptPlayerMessage": "68015ed9ab0091eae8610a5c acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "68015ed9ab0091eae8610a5c changeQuestMessageText",
+    "completePlayerMessage": "68015ed9ab0091eae8610a5c completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68015f0746d5001cb85e2086",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "68015f0619c0a01bb84f3928"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "68015f02a39f8fe1b474339f",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": 20,
+          "visibilityConditions": []
+        },
+        {
+            "completeInSeconds": 0,
+            "conditionType": "CounterCreator",
+            "counter": {
+              "conditions": [
+                {
+                  "bodyPart": [],
+                  "compareMethod": ">=",
+                  "conditionType": "Kills",
+                  "daytime": {
+                    "from": 0,
+                    "to": 0
+                  },
+                  "distance": {
+                    "compareMethod": ">=",
+                    "value": 5555
+                  },
+                  "dynamicLocale": false,
+                  "enemyEquipmentExclusive": [],
+                  "enemyEquipmentInclusive": [],
+                  "enemyHealthEffects": [],
+                  "id": "68015eff18eb542c29f972c0",
+                  "resetOnSessionEnd": false,
+                  "savageRole": [],
+                  "target": "AnyPmc",
+                  "value": 1,
+                  "weapon": [],
+                  "weaponCaliber": [],
+                  "weaponModsExclusive": [],
+                  "weaponModsInclusive": []
+                }
+              ],
+              "id": "68015efc6bbff1e13b48cf95"
+            },
+            "doNotResetIfCounterCompleted": false,
+            "dynamicLocale": false,
+            "globalQuestCounterId": "",
+            "id": "68015ef89165025cc710477f",
+            "index": 0,
+            "oneSessionOnly": false,
+            "parentId": "",
+            "type": "Completion",
+            "value": 40,
+            "visibilityConditions": []
+          }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6801615c50d2704c18251825",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e458cdb219e98dda39bc9",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "68015ed9ab0091eae8610a5c declinePlayerMessage",
+    "description": "68015ed9ab0091eae8610a5c description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "68015ed9ab0091eae8610a5c name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "68016173513699f48b23b474",
+          "index": 0,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "68016175708cd7d73523f039",
+          "index": 1,
+          "target": "Search",
+          "type": "Skill",
+          "value": "300"
+        },
+        {
+          "id": "68016176499028be01e7a643",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "68015ed9ab0091eae8610a5c acceptMT",
+    "successMessageText": "68015ed9ab0091eae8610a5c successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  },
+  "6801632874f58ba54e659d68": {
+    "QuestName": "Thorough Investigation",
+    "_id": "6801632874f58ba54e659d68",
+    "acceptPlayerMessage": "6801632874f58ba54e659d68 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6801632874f58ba54e659d68 changeQuestMessageText",
+    "completePlayerMessage": "6801632874f58ba54e659d68 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "680163c27b73beeb7457917b",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "680163c4e3475e1c9959a202"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "680163c6cd109f2aec2aadee",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 60,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6801635b82a5128853ca8ea7",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "68015ed9ab0091eae8610a5c",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6801632874f58ba54e659d68 declinePlayerMessage",
+    "description": "6801632874f58ba54e659d68 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": true,
+    "isKey": false,
+    "location": "any",
+    "name": "6801632874f58ba54e659d68 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "6801637c7e00dd0df82cfbb7",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000"
+        },
+        {
+          "id": "6801637b6342a891b3e38838",
+          "index": 1,
+          "target": "Search",
+          "type": "Skill",
+          "value": "500"
+        },
+        {
+          "id": "68016379819e8ce015be4562",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6801632874f58ba54e659d68 acceptMT",
+    "successMessageText": "6801632874f58ba54e659d68 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  },
+  "680175d47d02823b26130bb4": {
+    "QuestName": "Casting a wide net",
+    "_id": "680175d47d02823b26130bb4",
+    "acceptPlayerMessage": "680175d47d02823b26130bb4 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "680175d47d02823b26130bb4 changeQuestMessageText",
+    "completePlayerMessage": "680175d47d02823b26130bb4 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6801763db6523703eaf46a1e",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6801763a2eac8fd2e07f3fbf"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6801760d12c9b46e895ff05d",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 300,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "680178db19145315b8d195ae",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "680178dde6d1b5de2e1e6dad"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "680178d4d889b0191ef9892a",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 1000,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "680178cd90b8ddd22b46590f",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "680178cba54a34afe36e5084"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "680178c761c3be112eadcd99",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 25,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "680178c03f3aff5c445a0b19",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "680178be6a8a71da4d43830b"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "680178b8011e6765f3666d43",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 24,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "680178b416c8621b81c2bc06",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "680178b36d0e7ad822ceb693"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "680178ae0eeb23174f940bf6",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 15,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "680178a3eabfc5da0fa3a9ac",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "680178a2eab7f48530e4c73a"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6801789e3a92bec468c2e424",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 40,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "680178605e0ec8ff621cdf92",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6801785ffd5aa258166bbeae"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6801785c65dcf5ce598b031b",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 40,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "680177eb81ef37be23f72044",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "680177e9fab6f455c97fcf08"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "680177df14ddfedb5fe2b68c",
+          "index": 0,
+          "oneSessionOnly": true,
+          "parentId": "",
+          "type": "Completion",
+          "value": 30,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6801773e6fa44e966d1f3d1f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6801632874f58ba54e659d68",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "680175d47d02823b26130bb4 declinePlayerMessage",
+    "description": "680175d47d02823b26130bb4 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": true,
+    "isKey": false,
+    "location": "any",
+    "name": "680175d47d02823b26130bb4 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "680176fc61bf3e572f2db063",
+          "index": 0,
+          "type": "Experience",
+          "value": "3000"
+        },
+        {
+          "id": "680176faaab46507086d5806",
+          "index": 1,
+          "target": "Search",
+          "type": "Skill",
+          "value": "700"
+        },
+        {
+          "id": "680176f8298341e076b50dca",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "680175d47d02823b26130bb4 acceptMT",
+    "successMessageText": "680175d47d02823b26130bb4 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  }
+}

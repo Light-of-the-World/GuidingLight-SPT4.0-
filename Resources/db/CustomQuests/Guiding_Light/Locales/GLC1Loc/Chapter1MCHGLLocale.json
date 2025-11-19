@@ -1,0 +1,75 @@
+{
+    "Examples": "",
+    
+    "GL_NM name": "NAME (Choice, 'QUESTNAME')",
+    "GL_NM description": "Completing this quest will make the following choice: (CHOICE) for the following quest: (QUEST)",
+    "GL_NMtaskN": "Click 'Turn In' to make your choice...",
+    "GL_NM successMT": "You have turned in a choice for the following quest: (QUEST). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "68452e786e6819eac4509eb9 name": "Seek (Choice, 'The Voice(s?))",
+    "68452e786e6819eac4509eb9 description": "Completing this quest will make the following choice: (Seek) for the following quest: (The Voice)",
+    "68452e880a05860bf892c199": "Click 'Turn In' to make your choice...",
+    "68452e786e6819eac4509eb9 successMT": "You have turned in a choice for the following quest: (The Voice). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "68452e7c1de1e249e2b87d70 name": "Find (Choice, 'The Voice(s?))",
+    "68452e7c1de1e249e2b87d70 description": "Completing this quest will make the following choice: (Find) for the following quest: (The Voice)",
+    "68452e8707299e1fdece82f3": "Click 'Turn In' to make your choice...",
+    "68452e7c1de1e249e2b87d70 successMT": "You have turned in a choice for the following quest: (The Voice). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "68452e7ea20d11c7628ff254 name": "Know (Choice, 'The Voice(s?))",
+    "68452e7ea20d11c7628ff254 description": "Completing this quest will make the following choice: (Know) for the following quest: (The Voice)",
+    "68452e86354e5bfda6ed9bb4": "Click 'Turn In' to make your choice...",
+    "68452e7ea20d11c7628ff254 successMT": "You have turned in a choice for the following quest: (The Voice). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "68452e81ed96a8107bd8763a name": "Rest (Choice, 'The Voice(s?))",
+    "68452e81ed96a8107bd8763a description": "Completing this quest will make the following choice: (Rest) for the following quest: (The Voice)",
+    "68452e85fbd85c6644940101": "Click 'Turn In' to make your choice...",
+    "68452e81ed96a8107bd8763a successMT": "You have turned in a choice for the following quest: (The Voice). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "691dc2175250980c49baf47c name": "Call out to the higher-pitched voice (Choice, 'The Voices... again')",
+    "691dc2175250980c49baf47c description": "Completing this quest will make the following choice: (Call out to the higher-pitched voice) for the following quest: (The Voices... again)",
+    "691dc2320d9f05cb78186372": "Click 'Turn In' to make your choice...",
+    "691dc2175250980c49baf47c successMT": "You have turned in a choice for the following quest: ('The Voices... again'). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "691dc24799c7261af5eea8e5 name": "Call out to the lower-pitched voice (Choice, 'The Voices... again')",
+    "691dc24799c7261af5eea8e5 description": "Completing this quest will make the following choice: (Call out to the lower-pitched voice) for the following quest: (The Voices... again)",
+    "691dc2663ec9563988b56f71": "Click 'Turn In' to make your choice...",
+    "691dc24799c7261af5eea8e5 successMT": "You have turned in a choice for the following quest: ('The Voices... again'). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "691dc2558d60c32f887f2815 name": "Call out to both voices (Choice, 'The Voices... again')",
+    "691dc2558d60c32f887f2815 description": "Completing this quest will make the following choice: (Call out to both voices) for the following quest: (The Voices... again)",
+    "691dc262ba2b7d6f7a9afdf7": "Click 'Turn In' to make your choice...",
+    "691dc2558d60c32f887f2815 successMT": "You have turned in a choice for the following quest: ('The Voices... again'). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "6845f9cadb004e7c0c9b9d15 name": "Continue your search (Choice, 'Confusion')",
+    "6845f9cadb004e7c0c9b9d15 description": "Completing this quest will make the following choice: (Continue your search) for the following quest: (Confusion)",
+    "6845f9c4d4270123d406817f": "Click 'Turn In' to make your choice...",
+    "6845f9cadb004e7c0c9b9d15 successMT": "You have turned in a choice for the following quest: (Confusion). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "6845f9cde9577fede724653b name": "Call out to the voice (Choice, 'Confusion')",
+    "6845f9cde9577fede724653b description": "Completing this quest will make the following choice: (Call out to the voice) for the following quest: (Confusion)",
+    "6845f9c5f76810f1dd55ce9a": "Click 'Turn In' to make your choice...",
+    "6845f9cde9577fede724653b successMT": "You have turned in a choice for the following quest: (Confusion). That quest should now be ready for completion. Please return to that quest and turn it it.",
+    
+    "68461a011a7a498ea9729207 name": "Yes (Choice, 'Partial Explanation')",
+    "68461a011a7a498ea9729207 description": "Completing this quest will make the following choice: (Yes) for the following quest: (Partial Explanation)",
+    "68461a03066639b5a1c8d8b6": "Click 'Turn In' to make your choice...",
+    "68461a011a7a498ea9729207 successMT": "You have turned in a choice for the following quest: (Partial Explanation). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "68461a060261cc062c8b589e name": "No (Choice, 'Partial Explanation')",
+    "68461a060261cc062c8b589e description": "Completing this quest will make the following choice: (No) for the following quest: (Partial Explanation)",
+    "68461a057c93ec87a340d258": "Click 'Turn In' to make your choice...",
+    "68461a060261cc062c8b589e successMT": "You have turned in a choice for the following quest: (Partial Explanation). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "691dc3f17e55c832a4731730 name": "Change your mind, and let the voice help you. (Choice, 'Decline')",
+    "691dc3f17e55c832a4731730 description": "Completing this quest will make the following choice: (Change your mind, and let the voice help you) for the following quest: (Decline)",
+    "691dc3f5bc1b5e017ccb3f07": "Click 'Turn In' to make your choice...",
+    "691dc3f17e55c832a4731730 successMT": "You have turned in a choice for the following quest: (Decline). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "691dc3f6730ec79118017b4a name": "Go it alone (Choice, 'Decline')",
+    "691dc3f6730ec79118017b4a description": "Completing this quest will make the following choice: (Go it alone) for the following quest: (Decline)",
+    "691dc3f9a046f699c2c2c36b": "Click 'Turn In' to make your choice...",
+    "691dc3f6730ec79118017b4a successMT": "You have turned in a choice for the following quest: (Decline). That quest should now be ready for completion. Please return to that quest and turn it it."
+
+
+}

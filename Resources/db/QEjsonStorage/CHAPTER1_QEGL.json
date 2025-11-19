@@ -1,0 +1,328 @@
+{
+    "675d2c160d5849cd956915c0":{
+    "QuestId": "675d2c160d5849cd956915c0",
+    "QuestName": "Abandonded",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "68199ce7f9da2183c0dabbbf",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6819a3982b3b32a699fd20e2"]
+      }
+    ]
+  },
+  "681bad7e03f0bfbb9e56bb49":{
+    "QuestId": "681bad7e03f0bfbb9e56bb49",
+    "QuestName": "Insanity",
+    "Conditions": [
+      {
+        "ConditionId": "681ced14f2aacc712e034a21",
+        "ConditionType": "CompleteOptionals"
+      }
+    ]
+  },
+  "681d237c78c5bc12626aedcc":{
+    "QuestId": "681d237c78c5bc12626aedcc",
+    "QuestName": "***The Voice(s)***",
+    "Conditions": [
+      {
+        "ConditionId": "681e87fe0f042469de808511",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "681e8800a06e079c280ebead",
+        "ConditionType": "Empty"
+      },
+      {
+        "ConditionId": "681e889094ccb7ea7f0b3624",
+        "ConditionType": "Empty"
+      },
+      {
+        "ConditionId": "681e888e016a012b68a4bc60",
+        "ConditionType": "Empty"
+      },
+      {
+        "ConditionId": "681e888de11807d2b5daba9b",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "681f81a6c349afd616454121":{
+    "QuestId": "681f81a6c349afd616454121",
+    "QuestName": "Seek",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "681f81beba4f78ddb65c8b51",
+        "ConditionType": "SearchContainer"
+      },
+      {
+        "ConditionId": "6829830c5667f96696245f61",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["683c00cf353c5977538954c6"],
+        "IsFail": true
+      }
+    ]
+  },
+  "6822ee34efb124db439350c3":{
+    "QuestId": "6822ee34efb124db439350c3",
+    "QuestName": "Sought after",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6826db10052aa61386daf7c5",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6826d9bf558d77037b55cbf1"]
+      }
+    ]
+  },
+  "681f81ac01ea66f51995ccea":{
+    "QuestId": "681f81ac01ea66f51995ccea",
+    "QuestName": "Find",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "681f81bc39199ebb4d398305",
+        "ConditionType": "LootItem"
+      },
+      {
+        "ConditionId": "68298228edf52f6541657ca2",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["683c00cf353c5977538954c6"],
+        "IsFail": true
+      }
+    ]
+  },
+  "6822ee4e7aa83d1c4f1fa658":{
+    "QuestId": "6822ee4e7aa83d1c4f1fa658",
+    "QuestName": "Found",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6826db07ba1d8306c83e1ebd",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6826d9bf558d77037b55cbf1"]
+      }
+    ]
+  },
+  "681f81af3141be14c4398c02": {
+    "QuestId": "681f81af3141be14c4398c02",
+    "QuestName": "Know",
+    "IsMultipleChoiceStarter": true,
+    "Conditions":[
+      {
+        "ConditionId": "68298430b6d93742f0f28c37",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["683c00cf353c5977538954c6"],
+        "IsFail": true
+      }
+    ]
+  },
+  "6822ee9737fceb4faea431fd":{
+    "QuestId": "6822ee9737fceb4faea431fd",
+    "QuestName": "Known",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6826db0a20cda99983d08958",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6826d9bf558d77037b55cbf1"]
+      }
+    ]
+  },
+  "683c03613064d9810dfbe0fe":{
+    "QuestId": "683c03613064d9810dfbe0fe",
+    "QuestName": "The Voices... again",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "691db8fb9c1c759dbb059e36",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "690ee35d11da8cd8a150bf29",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6910a1718b8a1c75e7e4eb37"]
+      },
+      {
+        "ConditionId": "690ee35ccc1f18dcca1a3324",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6910a175001d831c44bccdc0"]
+      },
+      {
+        "ConditionId": "690ee38023d45381064bee16",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6910a181c3dec794ef56085d"]
+      }
+    ]
+  },
+  "682f77051977b152c6c8896f":{
+    "QuestId": "682f77051977b152c6c8896f",
+    "QuestName": "A little assistance",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "682f79b9c6bf0b5df7b80767",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6826d9bf558d77037b55cbf1"]
+      }
+    ]
+  },
+  "683c0413e41e237be028fd3c":{
+    "QuestId": "683c0413e41e237be028fd3c",
+    "QuestName": "Death is no escape",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "683d4f11b03dc0b2cc81a4f3",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["683d4f0e015fce68a604bc6d"]
+      }
+    ]
+  },
+  "683c041cdb8d1316b5eb7a6c":{
+    "QuestId": "683c041cdb8d1316b5eb7a6c",
+    "QuestName": "Conversation with an otherwordly being(1)",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "683d4e9e823e322e0f7518c2",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["683d5085e52f55667aedfc8e"]
+      }
+    ]
+  },
+  "683d4f0e015fce68a604bc6d":{
+    "QuestId": "683d4f0e015fce68a604bc6d",
+    "QuestName": "Conversation with an otherwordly being(2)",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "683d4f11b03dc0b2cc81a4f3",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["683d5085e52f55667aedfc8e"]
+      }
+    ]
+  },
+  "691513eeb2899f59ed53d770":{
+    "QuestId": "691513eeb2899f59ed53d770",
+    "QuestName": "Conversation with an otherwordly being(3)",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "691513f13f1bdfce4b433796",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["683d5085e52f55667aedfc8e"]
+      }
+    ]
+  },
+  "675d2d484096959e2ad73cb8":{
+    "QuestId": "675d2d484096959e2ad73cb8",
+    "QuestName": "***Confusion***",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6761ce5149b62d7a64b41eb2",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "6807fd24c044e41940fdcbc6",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["682f7bdfbf69853dd3a48c5c"]
+      },
+      {
+        "ConditionId": "680800c56d223bdf4323b37e",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["682f76342ed6b872ad66ee15"]
+      }
+    ]
+  },
+  "682f76342ed6b872ad66ee15":{
+    "QuestId": "682f76342ed6b872ad66ee15",
+    "QuestName": "***Partial explanation***",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "682f7638594b5c9404528d89",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "682f76826588066f5400fb87",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["682f77051977b152c6c8896f"]
+      },
+      {
+        "ConditionId": "682f768390e509221661d118",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["682f770c947e84cffc4aa89a"]
+      }
+    ]
+  },
+  "682f770c947e84cffc4aa89a":{
+    "QuestId": "682f770c947e84cffc4aa89a",
+    "QuestName": "Decline",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "691dadf44de5780979599d93",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "682f7711b7269f9c531aef5c",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["6826b98311499e9f26e067ff"]
+      },
+      {
+        "ConditionId": "690eeb2ae9bc0272f6a629f0",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["691dae90e22f7a5b8c337064"]
+      }
+    ]
+  },
+  "6826b98311499e9f26e067ff":{
+    "QuestId": "6826b98311499e9f26e067ff",
+    "QuestName": "Return",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6826d7f9a43c2923a11a148c",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["691513eeb2899f59ed53d770"]
+      }
+    ]
+  },
+  "6826d9bf558d77037b55cbf1":{
+    "QuestId": "6826d9bf558d77037b55cbf1",
+    "QuestName": "A story by the fire",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6826d9c8d86742aead8c78d3",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["682b4fdb605d15baf32d24cb"]
+      }
+    ]
+  },
+  "683d5085e52f55667aedfc8e":{
+    "QuestId": "683d5085e52f55667aedfc8e",
+    "QuestName": "A story by the fire",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "683d50892ff1373bf27830c0",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": ["682b4fdb605d15baf32d24cb"]
+      }
+    ]
+  },
+  "675d2f6b653dc8ff1b42218a":{
+    "QuestId": "675d2f6b653dc8ff1b42218a",
+    "QuestName": "The original purpose of this mod",
+    "Conditions": [
+      {
+        "ConditionId": "675d3616fbc26f8fd81f854e",
+        "ConditionType": "CompleteOptionals"
+      }
+    ]
+  }
+}

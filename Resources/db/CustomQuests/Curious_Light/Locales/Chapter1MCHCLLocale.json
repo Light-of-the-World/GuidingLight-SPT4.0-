@@ -1,0 +1,18 @@
+{
+    "Examples": "",
+    
+    "CL_NM name": "NAME (Choice, 'QUESTNAME')",
+    "CL_NM description": "Completing this quest will make the following choice: (CHOICE) for the following quest: (QUEST)",
+    "CL_NMtaskN": "Click 'Turn In' to make your choice...",
+    "CL_NM successMT": "You have turned in a choice for the following quest: (QUEST). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "691dc5a74041979231902c36 name": "Return to the first voice (Choice, 'Never truly alone')",
+    "691dc5a74041979231902c36 description": "Completing this quest will make the following choice: (Return to the first voice) for the following quest: (Never truly alone)",
+    "691dc5ad733fa036f6fa9ffd": "Click 'Turn In' to make your choice...",
+    "691dc5a74041979231902c36 successMT": "You have turned in a choice for the following quest: (Never truly alone). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+    "691dc5aa86500cc697f616b0 name": "Stay with this voice (Choice, 'Never truly alone')",
+    "691dc5aa86500cc697f616b0 description": "Completing this quest will make the following choice: (Stay with this voice) for the following quest: (Never truly alone)",
+    "691dc5ac0fc0467291b0720b": "Click 'Turn In' to make your choice...",
+    "691dc5aa86500cc697f616b0 successMT": "You have turned in a choice for the following quest: (Never truly alone). That quest should now be ready for completion. Please return to that quest and turn it it."
+}

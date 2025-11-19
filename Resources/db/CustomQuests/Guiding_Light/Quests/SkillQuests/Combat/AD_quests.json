@@ -1,0 +1,1526 @@
+{
+    "675e49aef18bc5241c696d05": {
+    "QuestName": "Iron vision",
+    "_id": "675e49aef18bc5241c696d05",
+    "acceptPlayerMessage": "675e49aef18bc5241c696d05 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e49aef18bc5241c696d05 changeQuestMT",
+    "completePlayerMessage": "675e49aef18bc5241c696d05 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675e49b6fe684f5ef2f7b822",
+                "target": "Any",
+                "value": "1",
+                "weaponModsExclusive": [
+                  [
+                    "Assault scopes and 3x hybrid at end"
+                  ],
+                  [
+                    "62ea7c793043d74a0306e19f"
+                  ],
+                  [
+                    "62ebd290c427473eff0baafb"
+                  ],
+                  [
+                    "626bb8532c923541184624b4"
+                  ],
+                  [
+                    "622b4f54dc8dcc0ba8742f85"
+                  ],
+                  [
+                    "622b4d7df9cfc87d675d2ded"
+                  ],
+                  [
+                    "55818add4bdc2d5b648b456f"
+                  ],
+                  [
+                    "544a3a774bdc2d3a388b4567"
+                  ],
+                  [
+                    "5c1cdd512e22161b267d91ae"
+                  ],
+                  [
+                    "57adff4f24597737f373b6e6"
+                  ],
+                  [
+                    "59db7e1086f77448be30ddf3"
+                  ],
+                  [
+                    "55818add4bdc2d5b648b456f"
+                  ],
+                  [
+                    "5c0517910db83400232ffee5"
+                  ],
+                  [
+                    "5d2dc3e548f035404a1a4798"
+                  ],
+                  [
+                    "55818ad54bdc2ddc698b4569"
+                  ],
+                  [
+                    "Reflex sights no 3x hybrid"
+                  ],
+                  [
+                    "64785e7c19d732620e045e15"
+                  ],
+                  [
+                    "6477772ea8a38bb2050ed4db"
+                  ],
+                  [
+                    "62ff9920fe938a24c90c10d2"
+                  ],
+                  [
+                    "6284bd5f95250a29bc628a30"
+                  ],
+                  [
+                    "622efbcb99f4ea1a4d6c9a15"
+                  ],
+                  [
+                    "6165ac8c290d254f5e6b2f6c"
+                  ],
+                  [
+                    "6113d6c3290d254f5e6b27db"
+                  ],
+                  [
+                    "618a5d5852ecee1505530b2a"
+                  ],
+                  [
+                    "61659f79d92c473c770213ee"
+                  ],
+                  [
+                    "609b9e31506cf869cf3eaf41"
+                  ],
+                  [
+                    "5c7d55de2e221644f31bff68"
+                  ],
+                  [
+                    "5947db3f86f77447880cf76f"
+                  ],
+                  [
+                    "591c4efa86f7741030027726"
+                  ],
+                  [
+                    "570fd6c2d2720bc6458b457f"
+                  ],
+                  [
+                    "558022b54bdc2dac148b458d"
+                  ],
+                  [
+                    "58491f3324597764bc48fa02"
+                  ],
+                  [
+                    "584924ec24597768f12ae244"
+                  ],
+                  [
+                    "5b30b0dc5acfc400153b7124"
+                  ],
+                  [
+                    "570fd79bd2720bc7458b4583"
+                  ],
+                  [
+                    "57486e672459770abd687134"
+                  ],
+                  [
+                    "584984812459776a704a82a6"
+                  ],
+                  [
+                    "5c0505e00db834001b735073"
+                  ],
+                  [
+                    "609a63b6e2ff132951242d09"
+                  ],
+                  [
+                    "59f9d81586f7744c7506ee62"
+                  ],
+                  [
+                    "570fd721d2720bc5458b4596"
+                  ],
+                  [
+                    "5cebec38d7f00c00110a652a"
+                  ],
+                  [
+                    "60a23797a37c940de7062d02"
+                  ],
+                  [
+                    "5d2da1e948f035477b1ce2ba"
+                  ],
+                  [
+                    "Compact reflex sights"
+                  ],
+                  [
+                    "61657230d92c473c770213d7"
+                  ],
+                  [
+                    "616442e4faa1272e43152193"
+                  ],
+                  [
+                    "57ae0171245977343c27bfcf"
+                  ],
+                  [
+                    "58d399e486f77442e0016fe7"
+                  ],
+                  [
+                    "58d399e486f77442e0016fe7"
+                  ],
+                  [
+                    "58d268fc86f774111273f8c2"
+                  ],
+                  [
+                    "5a32aa8bc4a2826c6e06d737"
+                  ],
+                  [
+                    "5b3116595acfc40019476364"
+                  ],
+                  [
+                    "Scopes"
+                  ],
+                  [
+                    "62850c28da09541f43158cca"
+                  ],
+                  [
+                    "618a75f0bd321d49084cd399"
+                  ],
+                  [
+                    "618ba27d9008e4636a67f61d"
+                  ],
+                  [
+                    "61714eec290d254f5e6b2ffc"
+                  ],
+                  [
+                    "617151c1d92c473c770214ab"
+                  ],
+                  [
+                    "5b3f7c1c5acfc40dc5296b1d"
+                  ],
+                  [
+                    "5aa66be6e5b5b0214e506e97"
+                  ],
+                  [
+                    "5a37cb10c4a282329a73b4e7"
+                  ],
+                  [
+                    "57c5ac0824597754771e88a9"
+                  ],
+                  [
+                    "56ea70acd2720b844b8b4594"
+                  ],
+                  [
+                    "5c82342f2e221644f31c060e"
+                  ],
+                  [
+                    "5c82343a2e221644f31c0611"
+                  ],
+                  [
+                    "576fd4ec2459777f0b518431"
+                  ],
+                  [
+                    "5b3b99475acfc432ff4dcbee"
+                  ],
+                  [
+                    "5b2388675acfc4771e1be0be"
+                  ],
+                  [
+                    "5cf638cbd7f00c06595bc936"
+                  ],
+                  [
+                    "5d0a3a58d7ad1a669c15ca14"
+                  ],
+                  [
+                    "5d0a3e8cd7ad1a6f6a3d35bd"
+                  ],
+                  [
+                    "5dff772da3651922b360bf91"
+                  ],
+                  [
+                    "5dfe6104585a0c3e995c7b82"
+                  ],
+                  [
+                    "5c82342f2e221644f31c060e"
+                  ],
+                  [
+                    "Thermal Vision Sights"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "Night Vision Scopes"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ]
+                ],
+                "weaponModsInclusive": [
+                  [
+                    "Ironsightlist"
+                  ],
+                  [
+                    "6492fb8253acae0af00a29b6"
+                  ],
+                  [
+                    "64119d672c6d6f921a0929fb"
+                  ],
+                  [
+                    "64119d90dcf48d656f0aa275"
+                  ],
+                  [
+                    "649ec2cec93611967b03495e"
+                  ],
+                  [
+                    "649ec2da59cbb3c813042dca"
+                  ],
+                  [
+                    "63c6adcfb4ba094317063742"
+                  ],
+                  [
+                    "630765777d50ff5e8a1ea718"
+                  ],
+                  [
+                    "630765cb962d0247b029dc45"
+                  ],
+                  [
+                    "5e87114fe2db31558c75a120"
+                  ],
+                  [
+                    "628a7b23b0f75035732dd565"
+                  ],
+                  [
+                    "628b9471078f94059a4b9bfb"
+                  ],
+                  [
+                    "623166e08c43374ca1567195"
+                  ],
+                  [
+                    "6231670f0b8aa5472d060095"
+                  ],
+                  [
+                    "61816fcad92c473c770215cc"
+                  ],
+                  [
+                    "61817865d3a39d50044c13a4"
+                  ],
+                  [
+                    "6194f35c18a3974e5e7421e6"
+                  ],
+                  [
+                    "6194f2912d2c397d6600348d"
+                  ],
+                  [
+                    "61963a852d2c397d660036ad"
+                  ],
+                  [
+                    "6194f3286db0f2477964e67d"
+                  ],
+                  [
+                    "6194f2df645b5d229654ad77"
+                  ],
+                  [
+                    "5c503b1c2e221602b21d6e9d"
+                  ],
+                  [
+                    "5c471ba12e221602b3137d76"
+                  ],
+                  [
+                    "5c471b7e2e2216152006e46c"
+                  ],
+                  [
+                    "5beec9450db83400970084fd"
+                  ],
+                  [
+                    "5bf3f59f0db834001a6fa060"
+                  ],
+                  [
+                    "5bfd4c980db834001b73449d"
+                  ],
+                  [
+                    "5c05295e0db834001a66acbb"
+                  ],
+                  [
+                    "5c07b36c0db834002a1259e9"
+                  ],
+                  [
+                    "5c07b3850db834002330045b"
+                  ],
+                  [
+                    "5c1780312e221602b66cc189"
+                  ],
+                  [
+                    "5c17804b2e2216152006c02f"
+                  ],
+                  [
+                    "5bb20e49d4351e3bac1212de"
+                  ],
+                  [
+                    "5ba26b01d4351e0085325a51"
+                  ],
+                  [
+                    "5ba26b17d4351e00367f9bdd"
+                  ],
+                  [
+                    "55818ac54bdc2d5b648b456e"
+                  ],
+                  [
+                    "55818ac54bdc2d5b648b456e"
+                  ],
+                  [
+                    "5b0bc22d5acfc47a8607f085"
+                  ],
+                  [
+                    "5addba3e5acfc4001669f0ab"
+                  ],
+                  [
+                    "5ae30bad5acfc400185c2dc4"
+                  ],
+                  [
+                    "5ae099875acfc4001714e593"
+                  ],
+                  [
+                    "5ae099925acfc4001a5fc7b3"
+                  ],
+                  [
+                    "5ac733a45acfc400192630e2"
+                  ],
+                  [
+                    "5ac72e475acfc400180ae6fe"
+                  ],
+                  [
+                    "5abcbb20d8ce87001773e258"
+                  ],
+                  [
+                    "5aba639ed8ce8700182ece67"
+                  ],
+                  [
+                    "5aba637ad8ce87001773e17f"
+                  ],
+                  [
+                    "5aba62f8d8ce87001943946b"
+                  ],
+                  [
+                    "5aafa49ae5b5b00015042a58"
+                  ],
+                  [
+                    "5894a73486f77426d259076c"
+                  ],
+                  [
+                    "55d5f46a4bdc2d1b198b4567"
+                  ],
+                  [
+                    "5926d2be86f774134d668e4e"
+                  ],
+                  [
+                    "56d5a77ed2720b90418b4568"
+                  ],
+                  [
+                    "57a9b9ce2459770ee926038d"
+                  ],
+                  [
+                    "574db213245977459a2f3f5d"
+                  ],
+                  [
+                    "56083e1b4bdc2dc8488b4572"
+                  ],
+                  [
+                    "57c44e7b2459772d28133248"
+                  ],
+                  [
+                    "57838e1b2459774a256959b1"
+                  ],
+                  [
+                    "5a7d90eb159bd400165484f1"
+                  ],
+                  [
+                    "5a6f58f68dc32e000a311390"
+                  ],
+                  [
+                    "5a7d9104159bd400134c8c21"
+                  ],
+                  [
+                    "5a71e0048dc32e000c52ecc8"
+                  ],
+                  [
+                    "5a7d9122159bd4001438dbf4"
+                  ],
+                  [
+                    "5a6f5d528dc32e00094b97d9"
+                  ],
+                  [
+                    "5a7d912f159bd400165484f3"
+                  ],
+                  [
+                    "5a71e0fb8dc32e00094b97f2"
+                  ],
+                  [
+                    "5649b0544bdc2d1b2b8b458a"
+                  ],
+                  [
+                    "59d650cf86f7741b846413a4"
+                  ],
+                  [
+                    "5a0eb980fcdbcb001a3b00a6"
+                  ],
+                  [
+                    "5a0f096dfcdbcb0176308b15"
+                  ],
+                  [
+                    "5a0ed824fcdbcb0176308b0d"
+                  ],
+                  [
+                    "59e8977386f77415a553c453"
+                  ],
+                  [
+                    "5649d9a14bdc2d79388b4580"
+                  ],
+                  [
+                    "56ea7293d2720b8d4b8b45ba"
+                  ],
+                  [
+                    "599860e986f7743bb57573a6"
+                  ],
+                  [
+                    "58272b842459774abc128d50"
+                  ],
+                  [
+                    "5cadd919ae921500126a77f3"
+                  ],
+                  [
+                    "5cadd940ae9215051e1c2316"
+                  ],
+                  [
+                    "5cadd954ae921500103bb3c2"
+                  ],
+                  [
+                    "5caf1691ae92152ac412efb9"
+                  ],
+                  [
+                    "5caf16a2ae92152ac412efbc"
+                  ],
+                  [
+                    "5d3eb4aba4b93650d64e497d"
+                  ],
+                  [
+                    "5d3eb536a4b9363b1f22f8e2"
+                  ],
+                  [
+                    "5dfa3d7ac41b2312ea33362a"
+                  ],
+                  [
+                    "5dfa3d950dee1b22f862eae0"
+                  ],
+                  [
+                    "5de8fb539f98ac2bc659513a"
+                  ],
+                  [
+                    "5e81ee213397a21db957f6a6"
+                  ],
+                  [
+                    "5e81ee4dcb2b95385c177582"
+                  ],
+                  [
+                    "5e8708d4ae379e67d22e0102"
+                  ],
+                  [
+                    "5e87114fe2db31558c75a120"
+                  ],
+                  [
+                    "5f3e7897ddc4f03b010e204a"
+                  ],
+                  [
+                    "5f3e78a7fbf956000b716b8e"
+                  ],
+                  [
+                    "5fb6567747ce63734e3fa1dc"
+                  ],
+                  [
+                    "5fb6564947ce63734e3fa1da"
+                  ],
+                  [
+                    "5fc0fa362770a0045c59c677"
+                  ],
+                  [
+                    "5fc0fa957283c4046c58147e"
+                  ],
+                  [
+                    "60229948cacb6b0506369e27"
+                  ],
+                  [
+                    "602293f023506e50807090cb"
+                  ],
+                  [
+                    "60228a76d62c9b14ed777a66"
+                  ],
+                  [
+                    "60228a850ddce744014caf69"
+                  ],
+                  [
+                    "619f4d304c58466fe1228437"
+                  ],
+                  [
+                    "619f4cee4c58466fe1228435"
+                  ],
+                  [
+                    "619f52454c58466fe122843b"
+                  ],
+                  [
+                    "619f4f8c4c58466fe1228439"
+                  ]
+                ]
+              }
+            ],
+            "id": "675e4aeaa044b42ac5f5d04a"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e4aeda564b925f7e3a40b",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "10",
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68314cbe17cba1e7b659acf0",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "68314cbfa06eacbe216867fa"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "683115c76897732c888b410a",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 10,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e4c95dbd883ac134e6580",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6755fdc0ce4c4af07e97bbf6",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e49aef18bc5241c696d05 declinePlayerMessage",
+    "description": "675e49aef18bc5241c696d05 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/AD1.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e49aef18bc5241c696d05 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e4e2b4a62d39c897ba1c5",
+          "index": 0,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "675e4e2d8325626aff067fd4",
+          "index": 1,
+          "target": "AimDrills",
+          "type": "Skill",
+          "value": "200"
+        },
+        {
+          "id": "675e4e33b0d4e83eecf1f519",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e49aef18bc5241c696d05 startedMT",
+    "successMessageText": "675e49aef18bc5241c696d05 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675e4e80c11f6c442b45622a": {
+    "QuestName": "Reflexive aim",
+    "_id": "675e4e80c11f6c442b45622a",
+    "acceptPlayerMessage": "675e4e80c11f6c442b45622a acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e4e80c11f6c442b45622a changeQuestMT",
+    "completePlayerMessage": "675e4e80c11f6c442b45622a completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "id": "675e4fd631eb1397253f3b7a",
+                "target": "Any",
+                "value": "1",
+                "weaponModsExclusive": [
+                  [
+                    "Assault scopes and 3x hybrid at end"
+                  ],
+                  [
+                    "62ea7c793043d74a0306e19f"
+                  ],
+                  [
+                    "62ebd290c427473eff0baafb"
+                  ],
+                  [
+                    "626bb8532c923541184624b4"
+                  ],
+                  [
+                    "622b4f54dc8dcc0ba8742f85"
+                  ],
+                  [
+                    "622b4d7df9cfc87d675d2ded"
+                  ],
+                  [
+                    "55818add4bdc2d5b648b456f"
+                  ],
+                  [
+                    "544a3a774bdc2d3a388b4567"
+                  ],
+                  [
+                    "5c1cdd512e22161b267d91ae"
+                  ],
+                  [
+                    "57adff4f24597737f373b6e6"
+                  ],
+                  [
+                    "59db7e1086f77448be30ddf3"
+                  ],
+                  [
+                    "55818add4bdc2d5b648b456f"
+                  ],
+                  [
+                    "5c0517910db83400232ffee5"
+                  ],
+                  [
+                    "5d2dc3e548f035404a1a4798"
+                  ],
+                  [
+                    "55818ad54bdc2ddc698b4569"
+                  ],
+                  [
+                    "Scopes"
+                  ],
+                  [
+                    "62850c28da09541f43158cca"
+                  ],
+                  [
+                    "618a75f0bd321d49084cd399"
+                  ],
+                  [
+                    "618ba27d9008e4636a67f61d"
+                  ],
+                  [
+                    "61714eec290d254f5e6b2ffc"
+                  ],
+                  [
+                    "617151c1d92c473c770214ab"
+                  ],
+                  [
+                    "5b3f7c1c5acfc40dc5296b1d"
+                  ],
+                  [
+                    "5aa66be6e5b5b0214e506e97"
+                  ],
+                  [
+                    "5a37cb10c4a282329a73b4e7"
+                  ],
+                  [
+                    "57c5ac0824597754771e88a9"
+                  ],
+                  [
+                    "56ea70acd2720b844b8b4594"
+                  ],
+                  [
+                    "5c82342f2e221644f31c060e"
+                  ],
+                  [
+                    "5c82343a2e221644f31c0611"
+                  ],
+                  [
+                    "576fd4ec2459777f0b518431"
+                  ],
+                  [
+                    "5b3b99475acfc432ff4dcbee"
+                  ],
+                  [
+                    "5b2388675acfc4771e1be0be"
+                  ],
+                  [
+                    "5cf638cbd7f00c06595bc936"
+                  ],
+                  [
+                    "5d0a3a58d7ad1a669c15ca14"
+                  ],
+                  [
+                    "5d0a3e8cd7ad1a6f6a3d35bd"
+                  ],
+                  [
+                    "5dff772da3651922b360bf91"
+                  ],
+                  [
+                    "5dfe6104585a0c3e995c7b82"
+                  ],
+                  [
+                    "5c82342f2e221644f31c060e"
+                  ],
+                  [
+                    "Thermal Vision Sights"
+                  ],
+                  [
+                    "6478641c19d732620e045e17"
+                  ],
+                  [
+                    "63fc44e2429a8a166c7f61e6"
+                  ],
+                  [
+                    "5a1eaa87fcdbcb001865f75e"
+                  ],
+                  [
+                    "5d1b5e94d7ad1a2b865a96b0"
+                  ],
+                  [
+                    "606f2696f2cb2e02a42aceb1"
+                  ],
+                  [
+                    "609bab8b455afd752b2e6138"
+                  ],
+                  [
+                    "Night Vision Scopes"
+                  ],
+                  [
+                    "5b3b6e495acfc4330140bd88"
+                  ],
+                  [
+                    "5a7c74b3e899ef0014332c29"
+                  ]
+                ],
+                "weaponModsInclusive": [
+                  [
+                    "Reflex sights no 3x hybrid"
+                  ],
+                  [
+                    "64785e7c19d732620e045e15"
+                  ],
+                  [
+                    "6477772ea8a38bb2050ed4db"
+                  ],
+                  [
+                    "62ff9920fe938a24c90c10d2"
+                  ],
+                  [
+                    "6284bd5f95250a29bc628a30"
+                  ],
+                  [
+                    "622efbcb99f4ea1a4d6c9a15"
+                  ],
+                  [
+                    "6165ac8c290d254f5e6b2f6c"
+                  ],
+                  [
+                    "6113d6c3290d254f5e6b27db"
+                  ],
+                  [
+                    "618a5d5852ecee1505530b2a"
+                  ],
+                  [
+                    "61659f79d92c473c770213ee"
+                  ],
+                  [
+                    "609b9e31506cf869cf3eaf41"
+                  ],
+                  [
+                    "5c7d55de2e221644f31bff68"
+                  ],
+                  [
+                    "5947db3f86f77447880cf76f"
+                  ],
+                  [
+                    "591c4efa86f7741030027726"
+                  ],
+                  [
+                    "570fd6c2d2720bc6458b457f"
+                  ],
+                  [
+                    "558022b54bdc2dac148b458d"
+                  ],
+                  [
+                    "58491f3324597764bc48fa02"
+                  ],
+                  [
+                    "584924ec24597768f12ae244"
+                  ],
+                  [
+                    "5b30b0dc5acfc400153b7124"
+                  ],
+                  [
+                    "570fd79bd2720bc7458b4583"
+                  ],
+                  [
+                    "57486e672459770abd687134"
+                  ],
+                  [
+                    "584984812459776a704a82a6"
+                  ],
+                  [
+                    "5c0505e00db834001b735073"
+                  ],
+                  [
+                    "609a63b6e2ff132951242d09"
+                  ],
+                  [
+                    "59f9d81586f7744c7506ee62"
+                  ],
+                  [
+                    "570fd721d2720bc5458b4596"
+                  ],
+                  [
+                    "5cebec38d7f00c00110a652a"
+                  ],
+                  [
+                    "60a23797a37c940de7062d02"
+                  ],
+                  [
+                    "5d2da1e948f035477b1ce2ba"
+                  ],
+                  [
+                    "Compact reflex sights"
+                  ],
+                  [
+                    "61657230d92c473c770213d7"
+                  ],
+                  [
+                    "616442e4faa1272e43152193"
+                  ],
+                  [
+                    "57ae0171245977343c27bfcf"
+                  ],
+                  [
+                    "58d399e486f77442e0016fe7"
+                  ],
+                  [
+                    "58d399e486f77442e0016fe7"
+                  ],
+                  [
+                    "58d268fc86f774111273f8c2"
+                  ],
+                  [
+                    "5a32aa8bc4a2826c6e06d737"
+                  ],
+                  [
+                    "5b3116595acfc40019476364"
+                  ]
+                ]
+              }
+            ],
+            "id": "675e50701c81ccf76a1d2e24"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e5006ddef2e9fd8ade843",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "30",
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "68314cd491dc5ea216774343",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "68314cd3d3154cb1c6f88420"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "683115f53e269d99e653674c",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 30,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e5001fb75d56481fd68a7",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e49aef18bc5241c696d05",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e4e80c11f6c442b45622a declinePlayerMessage",
+    "description": "675e4e80c11f6c442b45622a description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/AD2.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e4e80c11f6c442b45622a name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e4ff7e96fa1b208c8fc2a",
+          "index": 0,
+          "type": "Experience",
+          "value": "2000"
+        },
+        {
+          "id": "675e4ff41c2d16f6605cd21c",
+          "index": 1,
+          "target": "AimDrills",
+          "type": "Skill",
+          "value": "400"
+        },
+        {
+          "id": "675e4ff0948e92210d881ad4",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e4e80c11f6c442b45622a startedMT",
+    "successMessageText": "675e4e80c11f6c442b45622a successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675e5078844896fca88d21f8": {
+    "QuestName": "Double trouble",
+    "_id": "675e5078844896fca88d21f8",
+    "acceptPlayerMessage": "675e5078844896fca88d21f8 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e5078844896fca88d21f8 changeQuestMT",
+    "completePlayerMessage": "675e5078844896fca88d21f8 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 20
+                },
+                "id": "675e514f362c48de964d7f29",
+                "target": "Any",
+                "value": "1",
+                "weaponModsInclusive": [
+                  [
+                    "5c1cdd512e22161b267d91ae"
+                  ],
+                  [
+                    "5d2dc3e548f035404a1a4798"
+                  ]
+                ]
+              }
+            ],
+            "id": "675e51532541c5875bfa7295"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e514227a7c600005fc261",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "30",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e512ebb3a00730ceaf15b",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e4e80c11f6c442b45622a",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e5078844896fca88d21f8 declinePlayerMessage",
+    "description": "675e5078844896fca88d21f8 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/AD3.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e5078844896fca88d21f8 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e513a71d7d180563ea5a2",
+          "index": 0,
+          "type": "Experience",
+          "value": "3000"
+        },
+        {
+          "id": "675e51367ca1592849436568",
+          "index": 1,
+          "target": "AimDrills",
+          "type": "Skill",
+          "value": "600"
+        },
+        {
+          "id": "675e5134c42e7129b69e6b5d",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e5078844896fca88d21f8 startedMT",
+    "successMessageText": "675e5078844896fca88d21f8 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675e51df3230ec7bd5c88a52": {
+    "QuestName": "Doing the opposite",
+    "_id": "675e51df3230ec7bd5c88a52",
+    "acceptPlayerMessage": "675e51df3230ec7bd5c88a52 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e51df3230ec7bd5c88a52 changeQuestMT",
+    "completePlayerMessage": "675e51df3230ec7bd5c88a52 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6832b290d9785e82971308da",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6832b28e4726529496efc659"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e52451d1fc9a22c1872c3",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 40,
+          "visibilityConditions": []
+        },
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "683fe6f427839f1a22cd98cb",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "683fe6f331bb490f2a8c70d4"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "683fe6bee6fd366a89d47d05",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e5240a17cb57e172e2c14",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e5078844896fca88d21f8",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e51df3230ec7bd5c88a52 declinePlayerMessage",
+    "description": "675e51df3230ec7bd5c88a52 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/AD4.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e51df3230ec7bd5c88a52 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e52040c83a6536a716fd9",
+          "index": 0,
+          "type": "Experience",
+          "value": "4000"
+        },
+        {
+          "id": "675e5202a7b975459b20f731",
+          "index": 1,
+          "target": "AimDrills",
+          "type": "Skill",
+          "value": "800"
+        },
+        {
+          "id": "675e51f8f1a51289e29d0bdf",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e51df3230ec7bd5c88a52 startedMT",
+    "successMessageText": "675e51df3230ec7bd5c88a52 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  },
+  "675e52a13b41d2db126a9faa": {
+    "QuestName": "All-seeing",
+    "_id": "675e52a13b41d2db126a9faa",
+    "acceptPlayerMessage": "675e52a13b41d2db126a9faa acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "675e52a13b41d2db126a9faa changeQuestMT",
+    "completePlayerMessage": "675e52a13b41d2db126a9faa completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 70
+                },
+                "id": "675e52e1a01ec37c14f0b3df",
+                "target": "Any",
+                "value": "1",
+                "weaponModsInclusive": [
+                  [
+                    "618ba27d9008e4636a67f61d"
+                  ],
+                  [
+                    "5b3b99475acfc432ff4dcbee"
+                  ],
+                  [
+                    "617151c1d92c473c770214ab"
+                  ],
+                  [
+                    "5dfe6104585a0c3e995c7b82"
+                  ],
+                  [
+                    "5d0a3a58d7ad1a669c15ca14"
+                  ],
+                  [
+                    "5d0a3e8cd7ad1a6f6a3d35bd"
+                  ],
+                  [
+                    "61714eec290d254f5e6b2ffc"
+                  ],
+                  [
+                    "57c5ac0824597754771e88a9"
+                  ],
+                  [
+                    "5aa66be6e5b5b0214e506e97"
+                  ],
+                  [
+                    "56ea70acd2720b844b8b4594"
+                  ],
+                  [
+                    "5a37cb10c4a282329a73b4e7"
+                  ],
+                  [
+                    "62850c28da09541f43158cca"
+                  ]
+                ]
+              }
+            ],
+            "id": "GL_C_AD5C"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e52dae6f6ce55e072ebdb",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Elimination",
+          "value": "50",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675e52d4ac2de3b50478d48b",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675e51df3230ec7bd5c88a52",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "675e52a13b41d2db126a9faa declinePlayerMessage",
+    "description": "675e52a13b41d2db126a9faa description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/AD5.png",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "675e52a13b41d2db126a9faa name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "675e52ce951ba8f4a8e8c91e",
+          "index": 0,
+          "type": "Experience",
+          "value": "5000"
+        },
+        {
+          "id": "675e52cb8679e71043123bd8",
+          "index": 1,
+          "target": "AimDrills",
+          "type": "Skill",
+          "value": "1000"
+        },
+        {
+          "id": "675e52c8d4a0d4264df97d31",
+          "index": 2,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.03"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "675e52a13b41d2db126a9faa startedMT",
+    "successMessageText": "675e52a13b41d2db126a9faa successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Elimination"
+  }
+}
