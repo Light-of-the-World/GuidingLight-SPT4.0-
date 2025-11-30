@@ -28,7 +28,6 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Resources\db\CustomQuests\Curious_Light\" />
     <Folder Include="Resources\db\CustomQuests\Guiding_Light\Images\" />
   </ItemGroup>
   <Target Name="PostBuild" AfterTargets="PostBuildEvent">
