@@ -1,0 +1,344 @@
+{
+    "675e49aef18bc5241c696d05":{
+    "QuestId": "675e49aef18bc5241c696d05",
+    "QuestName": "Iron vision",
+    "Conditions": [
+      {
+        "ConditionId": "683115c76897732c888b410a",
+        "ConditionType": "KillsWhileADS"
+      }
+    ]
+  },
+  "675e4e80c11f6c442b45622a":{
+    "QuestId": "675e4e80c11f6c442b45622a",
+    "QuestName": "Reflexive aim",
+    "Conditions": [
+      {
+        "ConditionId": "683115c76897732c888b410a",
+        "ConditionType": "KillsWhileADS"
+      }
+    ]
+  },
+  "675e51df3230ec7bd5c88a52":{
+    "QuestId": "675e51df3230ec7bd5c88a52",
+    "QuestName": "Doing the opposite",
+    "Conditions": [
+      {
+        "ConditionId": "675e52451d1fc9a22c1872c3",
+        "ConditionType": "KillsWithoutADS"
+      }
+    ]
+  },
+  "6832b19e78045ca545407ba2":{
+    "QuestId": "6832b19e78045ca545407ba2",
+    "QuestName": "BONUS QUEST: Mounting a defense",
+    "Conditions": [
+      {
+        "ConditionId": "6832b1a3aa4e874971cf43d1",
+        "ConditionType": "KillsWhileMounted"
+      }
+    ]
+  },
+  "675e56b03a1ae2aed78bf8cc":{
+    "QuestId": "675e56b03a1ae2aed78bf8cc",
+    "QuestName": "Commence the Assault",
+    "Conditions": [
+      {
+        "ConditionId": "6832230d2f0640a5ca1d91e2",
+        "ConditionType": "DamageWithAR"
+      }
+    ]
+  },
+  "675e6645c17fb770df3444e1":{
+    "QuestId": "675e6645c17fb770df3444e1",
+    "QuestName": "Designating targets",
+    "Conditions": [
+      {
+        "ConditionId": "68351a6575ca9ad440c20d41",
+        "ConditionType": "DamageWithDMR"
+      }
+    ]
+  },
+  "675e67804ec1c53a5dff7630":{
+    "QuestId": "675e67804ec1c53a5dff7630",
+    "QuestName": "Quality over Quantity",
+    "Conditions": [
+      {
+        "ConditionId": "68325ba939df5d1b9a175b3c",
+        "ConditionType": "DamageWithDMR"
+      }
+    ]
+  },
+  "6832593a4351b59eb1db5bdd":{
+    "QuestId": "6832593a4351b59eb1db5bdd",
+    "QuestName": "Master of firearms: Designated Marksman Rifles (part 2)",
+    "Conditions": [
+      {
+        "ConditionId": "68325c984130de3cd38101a3",
+        "ConditionType": "DamageWithDMR"
+      }
+    ]
+  },
+  "675e6bc9e4c92c46a57ef4ea":{
+    "QuestId": "675e6bc9e4c92c46a57ef4ea",
+    "QuestName": "Suppressive fire",
+    "Conditions": [
+      {
+        "ConditionId": "6832be204c06ad3faba6e101",
+        "ConditionType": "DamageWithLMG"
+      }
+    ]
+  },
+  "675e6c8b2f7bd46d0b83b941":{
+    "QuestId": "675e6c8b2f7bd46d0b83b941",
+    "QuestName": "Tachanka style",
+    "Conditions": [
+      {
+        "ConditionId": "675e6c945c3f87aef8315448",
+        "ConditionType": "MountedKillsWithLMG"
+      }
+    ]
+  },
+  "675e6f08f49ff2d6fb3f2761":{
+    "QuestId": "675e6f08f49ff2d6fb3f2761",
+    "QuestName": "Master of firearms: Light Machine Guns",
+    "Conditions": [
+      {
+        "ConditionId": "6832b16cddea73db1ae3e70d",
+        "ConditionType": "MountedKillsWithLMG"
+      }
+    ]
+  },
+  "675e778f31dbe88e73a2e388":{
+    "QuestId": "675e778f31dbe88e73a2e388",
+    "QuestName": "Small guns are still lethal",
+    "Conditions": [
+      {
+        "ConditionId": "6832c1b07f2385e6dde705f5",
+        "ConditionType": "DamageWithPistols"
+      }
+    ]
+  },
+  "675e7bb9a29a9242665cb6de":{
+    "QuestId": "675e7bb9a29a9242665cb6de",
+    "QuestName": "Big iron",
+    "Conditions": [
+      {
+        "ConditionId": "6833712380620b7e8eb1ac66",
+        "ConditionType": "DamageWithRevolvers"
+      }
+    ]
+  },
+  "675e7c632c112b09b8ca85b8":{
+    "QuestId": "675e7c632c112b09b8ca85b8",
+    "QuestName": "Aiming? What for?",
+    "Conditions": [
+      {
+        "ConditionId": "683371d9994b5c3ec5a270e6",
+        "ConditionType": "RevolverKillsWithoutADS"
+      }
+    ]
+  },
+  "675e7db469cbd38e5f4c0c16":{
+    "QuestId": "675e7db469cbd38e5f4c0c16",
+    "QuestName": "Master of firearms: Revolvers",
+    "Conditions": [
+      {
+        "ConditionId": "68337397e77e7ff33b47b8c4",
+        "ConditionType": "RevolverKillsWithoutADS"
+      }
+    ]
+  },
+  "675f10ec444183edfe380e00":{
+    "QuestId": "675f10ec444183edfe380e00",
+    "QuestName": "Pump it up",
+    "Conditions": [
+      {
+        "ConditionId": "6833c4da76050692568b2120",
+        "ConditionType": "DamageWithShotguns"
+      }
+    ]
+  },
+  "675f116b93022a000de71964":{
+    "QuestId": "675f116b93022a000de71964",
+    "QuestName": "The grinder",
+    "Conditions": [
+      {
+        "ConditionId": "683376b8e4c55f5894130553",
+        "ConditionType": "DamageToArmourWithShotguns"
+      }
+    ]
+  },
+  "675f1210b9608eaeb3b06cf2":{
+    "QuestId": "675f1210b9608eaeb3b06cf2",
+    "QuestName": "Master of firearms: Shotguns",
+    "Conditions": [
+      {
+        "ConditionId": "683376d5192aaab39065c7b2",
+        "ConditionType": "DamageToArmourWithShotguns"
+      }
+    ]
+  },
+  "675f1d11d6272e7d3db6ecdb":{
+    "QuestId": "675f1d11d6272e7d3db6ecdb",
+    "QuestName": "Sub machine guns aren't sub-par",
+    "Conditions": [
+      {
+        "ConditionId": "68340f6d27a8db0b09539c08",
+        "ConditionType": "DamageWithSMG"
+      }
+    ]
+  },
+  "675f1e3e7df12a561797e9d0":{
+    "QuestId": "675f1e3e7df12a561797e9d0",
+    "QuestName": "I said sweep those legs!",
+    "Conditions": [
+      {
+        "ConditionId": "68341164bb749f3bd48a3957",
+        "ConditionType": "DestroyLegsWithSMG"
+      }
+    ]
+  },
+  "675f20613c445e740cccc65a":{
+    "QuestId": "675f20613c445e740cccc65a",
+    "QuestName": "Master of firearms: SMGs",
+    "Conditions": [
+      {
+        "ConditionId": "68340e438b47c4a536003328",
+        "ConditionType": "DestroyLegsWithSMG"
+      }
+    ]
+  },
+  "675f25338f6c770ec54ddf62":{
+    "QuestId": "675f25338f6c770ec54ddf62",
+    "QuestName": "The distance between us",
+    "Conditions": [
+      {
+        "ConditionId": "68341a14799815f5d9179694",
+        "ConditionType": "TotalShotDistanceWithSnipers"
+      }
+    ]
+  },
+  "675f26cdece5e7b5f0ed152c":{
+    "QuestId": "675f26cdece5e7b5f0ed152c",
+    "QuestName": "The distance between us",
+    "Conditions": [
+      {
+        "ConditionId": "68341aa44d195ad2b7abba9c",
+        "ConditionType": "TotalShotDistanceWithSnipers"
+      }
+    ]
+  },
+  "675f65eb9f7bc9f7edd08f44":{
+    "QuestId": "675f65eb9f7bc9f7edd08f44",
+    "QuestName": "Your gun has an issue",
+    "Conditions": [
+      {
+        "ConditionId": "675f660242d63294c7db2323",
+        "ConditionType": "FixAnyMalfunction"
+      }
+    ]
+  },
+  "675f66c0fd6af76747f35f9e":{
+    "QuestId": "675f66c0fd6af76747f35f9e",
+    "QuestName": "Should've gotten the extended warrenty",
+    "Conditions": [
+      {
+        "ConditionId": "68316efb0056ef4520de3f0d",
+        "ConditionType": "FixARMalfunction"
+      },
+      {
+        "ConditionId": "68316e78af8fd73ab6c8a6e0",
+        "ConditionType": "FixDMRMalfunction"
+      },
+      {
+        "ConditionId": "68316e794293800dcf0af408",
+        "ConditionType": "FixLMGMalfunction"
+      },
+      {
+        "ConditionId": "68316e7a63833d3becd0ae23",
+        "ConditionType": "FixPistolMalfunction"
+      },
+      {
+        "ConditionId": "68316e7ae4d32f58c051debc",
+        "ConditionType": "FixShotgunMalfunction"
+      },
+      {
+        "ConditionId": "68316e7b2433d2cd6b1e0a7c",
+        "ConditionType": "FixSMGMalfunction"
+      },
+      {
+        "ConditionId": "6835226fcd1b6b086d06b6f6",
+        "ConditionType": "FixSniperMalfunction"
+      }
+    ]
+  },
+  "683523269fc8b5139db451f3":{
+    "QuestId": "683523269fc8b5139db451f3",
+    "QuestName": "BONUS QUEST: Too much damage (Combat tier 1)",
+    "Conditions": [
+      {
+        "ConditionId": "6835232ab51c9b64034184ad",
+        "ConditionType": "DamageWithAny"
+      }
+    ]
+  },
+  "6835250e562778985a76f019":{
+    "QuestId": "6835250e562778985a76f019",
+    "QuestName": "BONUS QUEST: Too much challenge (Combat tier 3)",
+    "Conditions": [
+      {
+        "ConditionId": "683528a6747c2110267b20be",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "683528a3f36110f3c15298f7",
+        "ConditionType": "MountedKillsWithLMG"
+      },
+      {
+        "ConditionId": "683528a2283a1c5fa0319fe8",
+        "ConditionType": "RevolverKillsWithoutADS"
+      },
+      {
+        "ConditionId": "683528a16764fbd0580bb748",
+        "ConditionType": "DamageToArmourWithShotguns"
+      },
+      {
+        "ConditionId": "6835289d221dafab89e919fe",
+        "ConditionType": "DestroyLegsWithSMG"
+      },
+      {
+        "ConditionId": "6835289da1c004d9882e3eda",
+        "ConditionType": "TotalShotDistanceWithSnipers"
+      },
+      {
+        "ConditionId": "6835289c28b3fc24352834f9",
+        "ConditionType": "FixARMalfunction"
+      },
+      {
+        "ConditionId": "6835289b8d00b70dc484bc28",
+        "ConditionType": "FixDMRMalfunction"
+      },
+      {
+        "ConditionId": "6835289b56e2b4ac78c0970c",
+        "ConditionType": "FixLMGMalfunction"
+      },
+      {
+        "ConditionId": "6835289abcec959767b7eb79",
+        "ConditionType": "FixPistolMalfunction"
+      },
+      {
+        "ConditionId": "6835289aa8a7a0231bd161ca",
+        "ConditionType": "FixShotgunMalfunction"
+      },
+      {
+        "ConditionId": "6835289979c51e34781a38f9",
+        "ConditionType": "FixSMGMalfunction"
+      },
+      {
+        "ConditionId": "68352899ce9d3dc88415afd8",
+        "ConditionType": "FixSniperMalfunction"
+      }
+    ]
+  }
+}

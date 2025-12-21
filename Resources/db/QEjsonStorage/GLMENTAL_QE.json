@@ -1,0 +1,77 @@
+{
+    "675f7dec7b1039cf247e80f1":{
+    "QuestId": "675f7dec7b1039cf247e80f1",
+    "QuestName": "Purchasing equipment",
+    "Conditions": [
+      {
+        "ConditionId": "675f7e4a1446dd6d6732e9d9",
+        "ConditionType": "SpendMoneyOnTransaction"
+      },
+      {
+        "ConditionId": "675f7e5a31f37617883a8a1c",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "CurrencyTypes": ["RUB"]
+      },
+      {
+        "ConditionId": "675f7e6226594452c48ff739",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "CurrencyTypes": ["EUR"]
+      },
+      {
+        "ConditionId": "675f7e678c504ce7f893397e",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "CurrencyTypes": ["USD"]
+      }
+    ]
+  },
+  "675f7ea44dbf005c30fcee17":{
+    "QuestId": "675f7ea44dbf005c30fcee17",
+    "QuestName": "Breaking the Bank",
+    "Conditions": [
+      {
+        "ConditionId": "675f7eb65218b341c3c137b3",
+        "ConditionType": "SpendMoneyOnTransaction"
+      },
+      {
+        "ConditionId": "675f7f0f91076208aa4662bd",
+        "ConditionType": "EarnMoneyOnTransaction"
+      }
+    ]
+  },
+    "686b74c829c66ea678c9a5a2":{
+    "QuestId": "686b74c829c66ea678c9a5a2",
+    "QuestName": "BONUS QUEST: A Real Loyalty Buyout",
+    "Conditions": [
+      {
+        "ConditionId": "686b7552e52f30705b3c6a45",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "TraderIds": ["54cb50c76803fa8b248b4571"]
+      },
+      {
+        "ConditionId": "686b769381faf5e1e759483d",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "TraderIds": ["54cb57776803fa99248b456e"]
+      },
+      {
+        "ConditionId": "686b7694cf516c5171fe923b",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "TraderIds": ["5935c25fb3acc3127c3d8cd9"]
+      },
+      {
+        "ConditionId": "686b76949f1938f4a506c991",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "TraderIds": ["5a7c2eca46aef81a7ca2145d"]
+      },
+      {
+        "ConditionId": "686b76953a342f455905c4ed",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "TraderIds": ["5ac3b934156ae10c4430e83c"]
+      },
+      {
+        "ConditionId": "686b7695b0356774f27295a1",
+        "ConditionType": "SpendMoneyOnTransaction",
+        "TraderIds": ["5c0647fdd443bc2504c2d371"]
+      }
+    ]
+  }
+}

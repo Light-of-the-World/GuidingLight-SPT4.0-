@@ -30,7 +30,7 @@ namespace GuidingLight
 
             // Use WTT-CommonLib services
             //await wttCommon.CustomItemServiceExtended.CreateCustomItems(assembly);
-            //await wttCommon.CustomLocaleService.CreateCustomLocales(assembly);
+            //await wttCommon.CustomLocaleService.CreateCustomLocales(assembly); 6940b9168137bd1697df5082
             await wttCommon.CustomQuestService.CreateCustomQuests(assembly);
 
             await Task.CompletedTask;

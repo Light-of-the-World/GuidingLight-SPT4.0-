@@ -1,0 +1,136 @@
+{
+  "675e44ef86f0af6fce9195a4":{
+    "QuestId": "675e44ef86f0af6fce9195a4",
+    "QuestName": "Workout",
+    "Conditions": [
+      {
+        "ConditionId": "675d357edf20bfc948e17d30",
+        "ConditionType": "CompleteWorkout"
+      }
+    ]
+  },
+  "675f868cb5bc94b6c1d67760":{
+    "QuestId": "675f868cb5bc94b6c1d67760",
+    "QuestName": "Marathon",
+    "Conditions": [
+      {
+        "ConditionId": "6806a7fe7e972c54679d86b0",
+        "ConditionType": "MoveDistance"
+      },
+      {
+        "ConditionId": "6806b780b28dbaddba66d736",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "factory4_day",
+          "factory4_night"
+        ]
+      },
+      {
+        "ConditionId": "6806b7b5709a49af590d167a",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "Interchange"
+        ]
+      },
+      {
+        "ConditionId": "6806b7e884da7a603b478079",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "bigmap"
+        ]
+      },
+      {
+        "ConditionId": "6806b7f769c6e31fc5e78c85",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "TarkovStreets"
+        ]
+      },
+      {
+        "ConditionId": "6806b804c09e52e76f448edc",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "RezervBase"
+        ]
+      },
+      {
+        "ConditionId": "6806b83082a28fdf28ae26dd",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "Lighthouse"
+        ]
+      },
+      {
+        "ConditionId": "6806b837be1ffe9ccfe27c7b",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "Shoreline"
+        ]
+      },
+      {
+        "ConditionId": "6806b86455e6155bb61cf0af",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "Sandbox",
+          "Sandbox_high"
+        ]
+      },
+      {
+        "ConditionId": "6806b87c56ff93e220633f2d",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "Woods"
+        ]
+      },
+      {
+        "ConditionId": "6806b88db41940e6827a3537",
+        "ConditionType": "MoveDistance",
+        "Locations": [
+          "laboratory"
+        ]
+      }
+    ]
+  },
+  "675f88dd535b7935e148a19d":{
+    "QuestId": "675f88dd535b7935e148a19d",
+    "QuestName": "Medical Master",
+    "Conditions": [
+      {
+        "ConditionId": "68069869c884e16e737d6622",
+        "ConditionType": "FixAnyBleed"
+      },
+      {
+        "ConditionId": "680699ab7e34f09f5d5108e8",
+        "ConditionType": "FixFracture"
+      }
+    ]
+  },
+  "675f8f9ac46b5dcd9037c0b6":{
+    "QuestId": "675f8f9ac46b5dcd9037c0b6",
+    "QuestName": "Deadlift",
+    "Conditions": [
+      {
+        "ConditionId": "675f8fb4479687ba7e7b187e",
+        "ConditionType": "OverEncumberedTimeInSeconds"
+      }
+    ]
+  },
+  "675f92fd0f975501f7ab1de4":{
+    "QuestId": "675f92fd0f975501f7ab1de4",
+    "QuestName": "Current objective: KILL",
+    "Conditions": [
+      {
+        "ConditionId": "675f9325c25d93710c7e7cd4",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "682d7646f9d966793e9579b6",
+        "ConditionType": "Empty"
+      },
+      {
+        "ConditionId": "682d7644f5e1d514de782e7c",
+        "ConditionType": "DamageWithAny"
+      }
+    ]
+  }
+}

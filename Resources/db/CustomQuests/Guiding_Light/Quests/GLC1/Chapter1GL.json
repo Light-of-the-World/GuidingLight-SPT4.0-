@@ -104,7 +104,7 @@
     "successMessageText": "68295640bf8478a6690f67e1 successMT",
     "traderId": "674964e1ff0cf3b00b461857",
     "type": "Skill"
-  },  
+  },
   "675d2c160d5849cd956915c0": {
     "QuestName": "Abandoned",
     "_id": "675d2c160d5849cd956915c0",
@@ -711,7 +711,7 @@
         }
       ],
       "AvailableForStart": [
-      {
+        {
           "availableAfter": 0,
           "conditionType": "Quest",
           "dispersion": 0,
@@ -725,7 +725,7 @@
           ],
           "target": "6819a3982b3b32a699fd20e2",
           "visibilityConditions": []
-      }
+        }
       ],
       "Fail": [
         {
@@ -1160,7 +1160,7 @@
         }
       ],
       "AvailableForStart": [
-      {
+        {
           "availableAfter": 0,
           "conditionType": "Quest",
           "dispersion": 0,
@@ -1174,7 +1174,7 @@
           ],
           "target": "681f81a6c349afd616454121",
           "visibilityConditions": []
-      }
+        }
       ],
       "Fail": []
     },
@@ -1214,7 +1214,7 @@
     "traderId": "674964e1ff0cf3b00b461857",
     "type": "Skill"
   },
-    "681f81ac01ea66f51995ccea": {
+  "681f81ac01ea66f51995ccea": {
     "QuestName": "Find",
     "_id": "681f81ac01ea66f51995ccea",
     "acceptPlayerMessage": "681f81ac01ea66f51995ccea acceptPlayerMessage",
@@ -1445,18 +1445,6 @@
           "target": "Perception",
           "value": "2",
           "visibilityConditions": []
-        },
-        {
-          "compareMethod": ">=",
-          "conditionType": "Skill",
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "682523ee4cc9414f479a9a84",
-          "index": 0,
-          "parentId": "6822ee9d04f3aacd2f75ea99",
-          "target": "Search",
-          "value": "2",
-          "visibilityConditions": []
         }
       ],
       "AvailableForStart": [
@@ -1611,7 +1599,7 @@
         }
       ],
       "AvailableForStart": [
-      {
+        {
           "availableAfter": 0,
           "conditionType": "Quest",
           "dispersion": 0,
@@ -1625,7 +1613,7 @@
           ],
           "target": "681f81af3141be14c4398c02",
           "visibilityConditions": []
-      }
+        }
       ],
       "Fail": []
     },
@@ -2374,7 +2362,7 @@
         }
       ],
       "AvailableForStart": [
-      {
+        {
           "availableAfter": 0,
           "conditionType": "Quest",
           "dispersion": 0,
@@ -2388,7 +2376,7 @@
           ],
           "target": "683c03613064d9810dfbe0fe",
           "visibilityConditions": []
-      }
+        }
       ],
       "Fail": []
     },
@@ -2428,115 +2416,8 @@
     "traderId": "674964e1ff0cf3b00b461857",
     "type": "Skill"
   },
-  "683d4f0e015fce68a604bc6d": {
-    "QuestName": "Conversation with an otherwordly being(2)",
-    "_id": "683d4f0e015fce68a604bc6d",
-    "acceptPlayerMessage": "6822ee34efb124db439350c3 acceptPlayerMessage",
-    "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "6822ee34efb124db439350c3 changeQuestMessageText",
-    "completePlayerMessage": "6822ee34efb124db439350c3 completePlayerMessage",
-    "conditions": {
-      "AvailableForFinish": [
-        {
-          "conditionType": "HandoverItem",
-          "dogtagLevel": 0,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "683d4f11b03dc0b2cc81a4f3",
-          "index": 0,
-          "isEncoded": false,
-          "maxDurability": 100,
-          "minDurability": 0,
-          "onlyFoundInRaid": false,
-          "parentId": "",
-          "target": [
-            "60391a8b3364dc22b04d0ce5",
-            "57347b8b24597737dd42e192",
-            "56742c284bdc2d98058b456d",
-            "590a373286f774287540368b",
-            "5d1b371186f774253763a656",
-            "5d1b36a186f7742523398433",
-            "5bc9b355d4351e6d1509862a",
-            "5b43575a86f77424f443fe62",
-            "5d6fc78386f77449d825f9dc",
-            "590c5a7286f7747884343aea",
-            "5d6fc87386f77449db3db94e",
-            "5e2af2bc86f7746d3f3c33fc",
-            "59fafb5d86f774067a6f2084",
-            "5e2af37686f774755a234b65",
-            "60391b0fb847c71012789415",
-            "590c5c9f86f77477c91c36e7",
-            "590c5bbd86f774785762df04",
-            "56742c2e4bdc2d95058b456d",
-            "577e1c9d2459773cd707c525",
-            "5c13cef886f774072e618e82",
-            "59e3647686f774176a362507",
-            "590c645c86f77412b01304d9",
-            "590c651286f7741e566b6461",
-            "5c12613b86f7743bbe2c3f76",
-            "62a0a124de7ac81993580542"
-          ],
-          "value": "1",
-          "visibilityConditions": []
-        }
-      ],
-      "AvailableForStart": [
-      {
-          "availableAfter": 0,
-          "conditionType": "Quest",
-          "dispersion": 0,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "683e9c1d757c1c2e8767f9a8",
-          "index": 0,
-          "parentId": "",
-          "status": [
-            4
-          ],
-          "target": "683c0413e41e237be028fd3c",
-          "visibilityConditions": []
-      }
-      ],
-      "Fail": []
-    },
-    "declinePlayerMessage": "683d4f0e015fce68a604bc6d declinePlayerMessage",
-    "description": "683d4f0e015fce68a604bc6d description",
-    "failMessageText": "",
-    "image": "/files/quest/icon/stars1.jpg",
-    "instantComplete": false,
-    "isKey": false,
-    "location": "any",
-    "name": "683d4f0e015fce68a604bc6d name",
-    "note": "",
-    "restartable": false,
-    "rewards": {
-      "Fail": [],
-      "Started": [],
-      "Success": [
-        {
-          "id": "683e9c0e88731fb5d95994e6",
-          "index": 0,
-          "type": "Experience",
-          "value": "200"
-        },
-        {
-          "id": "683e9c0ab04e6ca13d86d072",
-          "index": 1,
-          "target": "674964e1ff0cf3b00b461857",
-          "type": "TraderStanding",
-          "value": "0.01"
-        }
-      ]
-    },
-    "secretQuest": false,
-    "side": "Pmc",
-    "startedMessageText": "683d4f0e015fce68a604bc6d acceptMT",
-    "successMessageText": "683d4f0e015fce68a604bc6d successMT",
-    "traderId": "674964e1ff0cf3b00b461857",
-    "type": "Skill"
-  },
   "691513eeb2899f59ed53d770": {
-    "QuestName": "Conversation with an otherwordly being(3)",
+    "QuestName": "Conversation with an otherwordly being(2)",
     "_id": "691513eeb2899f59ed53d770",
     "acceptPlayerMessage": "691513eeb2899f59ed53d770 acceptPlayerMessage",
     "canShowNotificationsInGame": true,
@@ -2588,7 +2469,7 @@
         }
       ],
       "AvailableForStart": [
-      {
+        {
           "availableAfter": 0,
           "conditionType": "Quest",
           "dispersion": 0,
@@ -2602,7 +2483,7 @@
           ],
           "target": "691449e0d4e8ff0d3d4abb99",
           "visibilityConditions": []
-      }
+        }
       ],
       "Fail": []
     },
@@ -3096,7 +2977,7 @@
         }
       ],
       "AvailableForStart": [
-      {
+        {
           "availableAfter": 0,
           "conditionType": "Quest",
           "dispersion": 0,
@@ -3110,9 +2991,9 @@
           ],
           "target": "6826b97234d634e0852a4b3e",
           "visibilityConditions": []
-      }
+        }
       ],
-      "Fail":[]
+      "Fail": []
     },
     "declinePlayerMessage": "682f77051977b152c6c8896f declinePlayerMessage",
     "description": "682f77051977b152c6c8896f description",
@@ -3250,7 +3131,7 @@
           ],
           "target": "68461a060261cc062c8b589e",
           "visibilityConditions": []
-      }
+        }
       ],
       "Fail": []
     },
@@ -3319,7 +3200,7 @@
         }
       ],
       "AvailableForStart": [
-      {
+        {
           "compareMethod": ">=",
           "conditionType": "Level",
           "dynamicLocale": false,
@@ -3369,85 +3250,85 @@
     "traderId": "674964e1ff0cf3b00b461857",
     "type": "Skill"
   },
-  "682f7bdfbf69853dd3a48c5c": {
-    "QuestName": "The search continues",
-    "_id": "682f7bdfbf69853dd3a48c5c",
-    "acceptPlayerMessage": "682f7bdfbf69853dd3a48c5c acceptPlayerMessage",
+  "6946aa9da38220b61c3509a3": {
+    "QuestName": "Reluctant Cooperation",
+    "_id": "6946aa9da38220b61c3509a3",
+    "acceptPlayerMessage": "6946aa9da38220b61c3509a3 acceptPlayerMessage",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "682f7bdfbf69853dd3a48c5c changeQuestMessageText",
-    "completePlayerMessage": "682f7bdfbf69853dd3a48c5c completePlayerMessage",
+    "changeQuestMessageText": "6946aa9da38220b61c3509a3 changeQuestMessageText",
+    "completePlayerMessage": "6946aa9da38220b61c3509a3 completePlayerMessage",
     "conditions": {
       "AvailableForFinish": [
         {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "conditionType": "Location",
-                "id": "682fcf805579b09767f80cfa",
-                "target": [
-                  "Interchange",
-                  "factory4_day",
-                  "factory4_night",
-                  "bigmap",
-                  "Woods",
-                  "Lighthouse",
-                  "Shoreline",
-                  "RezervBase",
-                  "laboratory",
-                  "TarkovStreets",
-                  "Sandbox_high",
-                  "Sandbox"
-                ]
-              },
-              {
-                "conditionType": "ExitStatus",
-                "id": "682fcb4600fda4d7faf156d2",
-                "status": [
-                  "Survived",
-                  "Runner",
-                  "MissingInAction",
-                  "Killed"
-                ]
-              }
-            ],
-            "id": "682fcf7bee220cfac15cc0e0"
-          },
-          "doNotResetIfCounterCompleted": false,
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "682f7bea7a7ed8dc11b10bf0",
+          "id": "6946aa9da38220b61c3509a4",
           "index": 0,
-          "oneSessionOnly": false,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
           "parentId": "",
-          "type": "Completion",
-          "value": "7",
+          "target": [
+            "60391a8b3364dc22b04d0ce5",
+            "57347b8b24597737dd42e192",
+            "56742c284bdc2d98058b456d",
+            "590a373286f774287540368b",
+            "5d1b371186f774253763a656",
+            "5d1b36a186f7742523398433",
+            "5bc9b355d4351e6d1509862a",
+            "5b43575a86f77424f443fe62",
+            "5d6fc78386f77449d825f9dc",
+            "590c5a7286f7747884343aea",
+            "5d6fc87386f77449db3db94e",
+            "5e2af2bc86f7746d3f3c33fc",
+            "59fafb5d86f774067a6f2084",
+            "5e2af37686f774755a234b65",
+            "60391b0fb847c71012789415",
+            "590c5c9f86f77477c91c36e7",
+            "590c5bbd86f774785762df04",
+            "56742c2e4bdc2d95058b456d",
+            "577e1c9d2459773cd707c525",
+            "5c13cef886f774072e618e82",
+            "59e3647686f774176a362507",
+            "590c645c86f77412b01304d9",
+            "590c651286f7741e566b6461",
+            "5c12613b86f7743bbe2c3f76",
+            "62a0a124de7ac81993580542"
+          ],
+          "value": "1",
           "visibilityConditions": []
         }
       ],
       "AvailableForStart": [
         {
-          "compareMethod": ">=",
-          "conditionType": "Level",
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "6877360a3eece88a2846246a",
+          "id": "6946aa9da38220b61c3509a5",
           "index": 0,
           "parentId": "",
-          "value": 99,
+          "status": [
+            4
+          ],
+          "target": "6826b98311499e9f26e067ff",
           "visibilityConditions": []
         }
       ],
       "Fail": []
     },
-    "declinePlayerMessage": "682f7bdfbf69853dd3a48c5c declinePlayerMessage",
-    "description": "682f7bdfbf69853dd3a48c5c description",
+    "declinePlayerMessage": "6946aa9da38220b61c3509a3 declinePlayerMessage",
+    "description": "6946aa9da38220b61c3509a3 description",
     "failMessageText": "",
     "image": "/files/quest/icon/stars1.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "682f7bdfbf69853dd3a48c5c name",
+    "name": "6946aa9da38220b61c3509a3 name",
     "note": "",
     "restartable": false,
     "rewards": {
@@ -3455,19 +3336,26 @@
       "Started": [],
       "Success": [
         {
-          "id": "682fcb0e12b48a922eec380d",
+          "id": "6946aa9da38220b61c3509a7",
           "index": 0,
           "type": "Experience",
-          "value": "2000"
+          "value": "200"
+        },
+        {
+          "id": "6946aa9da38220b61c3509a8",
+          "index": 1,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
         }
       ]
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "682f7bdfbf69853dd3a48c5c acceptMT",
-    "successMessageText": "682f7bdfbf69853dd3a48c5c successMT",
+    "startedMessageText": "6946aa9da38220b61c3509a3 acceptMT",
+    "successMessageText": "6946aa9da38220b61c3509a3 successMT",
     "traderId": "674964e1ff0cf3b00b461857",
-    "type": "Completion"
+    "type": "Skill"
   },
   "6826d9bf558d77037b55cbf1": {
     "QuestName": "A story by the fire",

@@ -1,0 +1,33 @@
+{
+"680062485eb920296f2963d2":{
+    "QuestId": "680062485eb920296f2963d2",
+    "Conditions": [
+      {
+        "ConditionId": "68006235f165cdf28b2606dc",
+        "ConditionType": "LootItem",
+        "Locations": [
+          "Interchange"
+        ]
+      },
+      {
+        "ConditionId": "680062307931b3b311913edd",
+        "ConditionType": "SearchContainer",
+        "Locations": [
+          "Interchange"
+        ]
+      }
+    ]
+  },
+  "680065fe4f44a1050e42a239":{
+    "QuestId": "680065fe4f44a1050e42a239",
+    "Conditions": [
+      {
+        "ConditionId": "68006661ef9bcae0a63018c2",
+        "ConditionType": "ActivatePowerSwitch",
+        "Locations": [
+          "Interchange"
+        ]
+      }
+    ]
+  }
+}

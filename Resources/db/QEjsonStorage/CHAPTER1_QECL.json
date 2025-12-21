@@ -49,7 +49,7 @@
   },
   "691513f45ebf06cb9e158393": {
     "QuestId": "691513f45ebf06cb9e158393",
-    "QuestName": "Conversation with an otherwordly being(4)",
+    "QuestName": "Conversation with an otherwordly being(3)",
     "IsMultipleChoiceStarter": true,
     "Conditions": [
       {
@@ -61,7 +61,7 @@
   },
   "691db0390b09de61b3335764": {
     "QuestId": "691db0390b09de61b3335764",
-    "QuestName": "Conversation with an otherwordly being(5)",
+    "QuestName": "Conversation with an otherwordly being(4)",
     "IsMultipleChoiceStarter": true,
     "Conditions": [
       {
@@ -112,7 +112,7 @@
       {
         "ConditionId": "6904c85e75c9ec35cc48f924",
         "ConditionType": "EmptyWithQuestStarter",
-        "QuestsToStart": ["682b4fdb605d15baf32d24cb"]
+        "QuestsToStart": [ "675d2f6b653dc8ff1b42218a" ]
       }
     ]
   }

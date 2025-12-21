@@ -1,0 +1,247 @@
+{
+  "675f9d45ca2e32afe77e1d67":{
+    "QuestId": "675f9d45ca2e32afe77e1d67",
+    "QuestName": "Silent night",
+    "Conditions": [
+      {
+        "ConditionId": "6830e46d053a17b80fc14cdc",
+        "ConditionType": "KillsWhileSilent"
+      }
+    ]
+  },
+  "675f9d80ef73fbac97959390":{
+    "QuestId": "675f9d80ef73fbac97959390",
+    "QuestName": "All the ways to move (and kill)",
+    "Conditions": [
+      {
+        "ConditionId": "675f9e1348d3a6f7f70a4097",
+        "ConditionType": "MoveDistanceWhileSilent"
+      },
+      {
+        "ConditionId": "6830e6198e0576ed56c363a2",
+        "ConditionType": "KillsWhileSilent"
+      },
+      {
+        "ConditionId": "6830e61bfd3a04a684e75350",
+        "ConditionType": "MoveDistanceWhileCrouched"
+      },
+      {
+        "ConditionId": "6830e61c3b49e55256583b1a",
+        "ConditionType": "KillsWhileCrouched"
+      },
+      {
+        "ConditionId": "6830e61c7ea434fd66b2437b",
+        "ConditionType": "MoveDistanceWhileProne"
+      },
+      {
+        "ConditionId": "6830e61d1c49f3ceb90a5b04",
+        "ConditionType": "KillsWhileProne"
+      },
+      {
+        "ConditionId": "6830e61d012f120d2ba35e9c",
+        "ConditionType": "KillsWhileBlindFiring"
+      }
+    ]
+  },
+  "675fa57b9341fd1dca361a9a":{
+    "QuestId": "675fa57b9341fd1dca361a9a",
+    "QuestName": "Basic Medication",
+    "Conditions": [
+      {
+        "ConditionId": "675fa595691ad4b512bdbec9",
+        "ConditionType": "CraftAnyItem",
+        "Workstations": ["Medstation"]
+      }
+    ]
+  },
+  "675fa5d912e50296e7a6a7fe":{
+    "QuestId": "675fa5d912e50296e7a6a7fe",
+    "QuestName": "A Proper Utilization of Resources",
+    "Conditions": [
+      {
+        "ConditionId": "675fa5eb2046a3caa43abf56",
+        "ConditionType": "CraftAnyItem"
+      },
+      {
+        "ConditionId": "675fa5f1c24382df8bb7bbef",
+        "ConditionType": "CraftAnyItem",
+        "Workstations": ["Workbench"]
+      },
+      {
+        "ConditionId": "68e4b530b0d9185ff5a3dd8b",
+        "ConditionType": "CraftAnyItem",
+        "Workstations": ["WaterCloset"]
+      },
+      {
+        "ConditionId": "68e4b53245152bf16f608f3f",
+        "ConditionType": "CraftAnyItem",
+        "Workstations": ["Medstation"]
+      },
+      {
+        "ConditionId": "68e4b5339d9c7ad90beefd03",
+        "ConditionType": "CraftAnyItem",
+        "Workstations": ["Kitchen"]
+      },
+      {
+        "ConditionId": "68e4b532d625edb06e5e428c",
+        "ConditionType": "CraftAnyItem",
+        "Workstations": ["IntelligenceCenter"]
+      }
+    ]
+  },
+  "675fa60bb1e9c2a40d8049f3":{
+    "QuestId": "675fa60bb1e9c2a40d8049f3",
+    "QuestName": "This Totally Isn't a Factorio Reference",
+    "Conditions": [
+      {
+        "ConditionId": "675fa84e5034cc5e4042b8bd",
+        "ConditionType": "CraftCyclicItem",
+        "Workstations": ["BitcoinFarm"]
+      },
+      {
+        "ConditionId": "675fa8547a5e687ffadf337b",
+        "ConditionType": "CraftCyclicItem",
+        "Workstations": ["WaterCollector"]
+      },
+      {
+        "ConditionId": "68e4c748486304c76fa05e07",
+        "ConditionType": "CraftCyclicItem",
+        "Workstations": ["BoozeGenerator"]
+      }
+    ]
+  },
+  "675fa988547274883ee636e7":{
+    "QuestId": "675fa988547274883ee636e7",
+    "QuestName": "We Needed a 4th Crafting Quest",
+    "Conditions": [
+      {
+        "ConditionId": "675fa9a199cf33415fd10066",
+        "ConditionType": "CraftAnyItem"
+      },
+      {
+        "ConditionId": "68e4d1394f78b5fd27ca9e51",
+        "ConditionType": "CraftCyclicItem"
+      }
+    ]
+  },
+  "68e4c4e7948545cc51ff5bf0":{
+    "QuestId": "68e4c4e7948545cc51ff5bf0",
+    "QuestName": "BONUS QUEST: Questionable Visitors",
+    "Conditions": [
+      {
+        "ConditionId": "68e4c4ec62afd2e422d747fd",
+        "ConditionType": "CollectScavCase"
+      },
+      {
+        "ConditionId": "68e4c50626ece7c1bbf0875b",
+        "ConditionType": "CollectCultistOffering"
+      }
+    ]
+  },
+  "675fad1851a1c2dbbe69e28e":{
+    "QuestId": "675fad1851a1c2dbbe69e28e",
+    "QuestName": "Anti-material",
+    "Conditions": [
+      {
+        "ConditionId": "675fad38c0c80b59b871da6c",
+        "ConditionType": "DamageToArmour"
+      }
+    ]
+  },
+  "68015ed9ab0091eae8610a5c":{
+    "QuestId": "68015ed9ab0091eae8610a5c",
+    "QuestName": "Mystery Box",
+    "Conditions": [
+      {
+        "ConditionId": "68015f02a39f8fe1b474339f",
+        "ConditionType": "SearchContainer"
+      },
+      {
+        "ConditionId": "68015ef89165025cc710477f",
+        "ConditionType": "LootItem"
+      }
+    ]
+  },
+  "6801632874f58ba54e659d68":{
+    "QuestId": "6801632874f58ba54e659d68",
+    "QuestName": "Thorough Investigation",
+    "Conditions": [
+      {
+        "ConditionId": "680163c6cd109f2aec2aadee",
+        "ConditionType": "SearchContainer"
+      }
+    ]
+  },
+  "680175d47d02823b26130bb4":{
+    "QuestId": "680175d47d02823b26130bb4",
+    "QuestName": "Casting a wide net",
+    "Conditions": [
+      {
+        "ConditionId": "6801760d12c9b46e895ff05d",
+        "ConditionType": "SearchContainer"
+      },
+      {
+        "ConditionId": "680178d4d889b0191ef9892a",
+        "ConditionType": "LootItem"
+      },
+      {
+        "ConditionId": "680178c761c3be112eadcd99",
+        "ConditionType": "SearchContainer",
+        "Locations": [
+            "bigmap",
+            "TarkovStreets"
+        ]
+      },
+      {
+        "ConditionId": "680178b8011e6765f3666d43",
+        "ConditionType": "SearchContainer",
+        "Locations": [
+            "Interchange",
+            "Lighthouse"
+        ]
+      },
+      {
+        "ConditionId": "680178ae0eeb23174f940bf6",
+        "ConditionType": "SearchContainer",
+        "Locations": [
+            "RezervBase"
+        ]
+      },
+      {
+        "ConditionId": "6801789e3a92bec468c2e424",
+        "ConditionType": "LootItem",
+        "Locations": [
+            "Woods",
+            "Shoreline"
+        ]
+      },
+      {
+        "ConditionId": "6801785c65dcf5ce598b031b",
+        "ConditionType": "LootItem",
+        "Locations": [
+            "Sandbox",
+            "Sandbox_high",
+            "factory4_day",
+            "factory4_night"
+        ]
+      },
+      {
+        "ConditionId": "680177df14ddfedb5fe2b68c",
+        "ConditionType": "LootItem",
+        "Locations": [
+            "laboratory"
+        ]
+      }
+    ]
+  },
+  "6760620f57313ab593494020":{
+    "QuestId": "6760620f57313ab593494020",
+    "QuestName": "Preemptive measures",
+    "Conditions": [
+      {
+        "ConditionId": "67606224f12ae4625dd45576",
+        "ConditionType": "HealthGain"
+      }
+    ]
+  }
+}

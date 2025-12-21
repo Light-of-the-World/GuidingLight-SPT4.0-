@@ -376,7 +376,7 @@
     "type": "Skill"
   },
   "691513f45ebf06cb9e158393": {
-    "QuestName": "Conversation with an otherwordly being(4)",
+    "QuestName": "Conversation with an otherwordly being(3)",
     "_id": "691513f45ebf06cb9e158393",
     "acceptPlayerMessage": "691513f45ebf06cb9e158393 acceptPlayerMessage",
     "canShowNotificationsInGame": true,
@@ -479,7 +479,7 @@
     "type": "Skill"
   },
   "691db0390b09de61b3335764": {
-    "QuestName": "Conversation with an otherwordly being(5)",
+    "QuestName": "Conversation with an otherwordly being(4)",
     "_id": "691db0390b09de61b3335764",
     "acceptPlayerMessage": "691db0390b09de61b3335764 acceptPlayerMessage",
     "canShowNotificationsInGame": true,
