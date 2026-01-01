@@ -50,7 +50,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": 250000,
+          "value": 200000,
           "visibilityConditions": []
         }
       ],
@@ -852,7 +852,7 @@
           "id": "675e514227a7c600005fc261",
           "index": 0,
           "oneSessionOnly": false,
-          "parentId": "683528a6747c2110267b20be",
+          "parentId": "683528a58a3411d3429d1787",
           "type": "Elimination",
           "value": "15",
           "visibilityConditions": []

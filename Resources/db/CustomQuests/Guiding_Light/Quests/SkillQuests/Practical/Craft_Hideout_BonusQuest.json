@@ -1,11 +1,11 @@
 {
-    "6835250e562778985a76f019": {
+  "6954ad7fc3ef9ad06b0e88c3": {
     "QuestName": "BONUS QUEST: Questionable Visitors",
-    "_id": "6835250e562778985a76f019",
-    "acceptPlayerMessage": "6835250e562778985a76f019 acceptMT",
+    "_id": "6954ad7fc3ef9ad06b0e88c3",
+    "acceptPlayerMessage": "6954ad7fc3ef9ad06b0e88c3 acceptMT",
     "canShowNotificationsInGame": true,
-    "changeQuestMessageText": "6835250e562778985a76f019 changeQuestMT",
-    "completePlayerMessage": "6835250e562778985a76f019 completeMT",
+    "changeQuestMessageText": "6954ad7fc3ef9ad06b0e88c3 changeQuestMT",
+    "completePlayerMessage": "6954ad7fc3ef9ad06b0e88c3 completeMT",
     "conditions": {
       "AvailableForFinish": [
         {
@@ -29,7 +29,7 @@
                 "enemyEquipmentExclusive": [],
                 "enemyEquipmentInclusive": [],
                 "enemyHealthEffects": [],
-                "id": "68e4d366660a7280408e440b",
+                "id": "6954ada0c3ef9ad06b0e88c9",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
                 "target": "Any",
@@ -40,12 +40,12 @@
                 "weaponModsInclusive": []
               }
             ],
-            "id": "68e4d365875c62a7b797cc92"
+            "id": "6954ada0c3ef9ad06b0e88c8"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "68e4c4ec62afd2e422d747fd",
+          "id": "6954adc1c3ef9ad06b0e88c5",
           "index": 0,
           "oneSessionOnly": false,
           "parentId": "",
@@ -74,7 +74,7 @@
                 "enemyEquipmentExclusive": [],
                 "enemyEquipmentInclusive": [],
                 "enemyHealthEffects": [],
-                "id": "68e4d356c2ebe0ae68619d98",
+                "id": "6954ada0c3ef9ad06b0e88c7",
                 "resetOnSessionEnd": false,
                 "savageRole": [],
                 "target": "Any",
@@ -85,12 +85,12 @@
                 "weaponModsInclusive": []
               }
             ],
-            "id": "68e4d3542e0cd3a9f67d1aa2"
+            "id": "6954ada0c3ef9ad06b0e88c6"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "68e4c50626ece7c1bbf0875b",
+          "id": "6954adc1c3ef9ad06b0e88c6",
           "index": 0,
           "oneSessionOnly": false,
           "parentId": "",
@@ -106,7 +106,7 @@
           "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "68e4d2b734dd67b0c3f16eff",
+          "id": "6954ada0c3ef9ad06b0e88c5",
           "index": 0,
           "parentId": "",
           "status": [
@@ -121,7 +121,7 @@
           "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "68e4d2b87fa926bd4c0e0a2c",
+          "id": "6954ada0c3ef9ad06b0e88c4",
           "index": 0,
           "parentId": "",
           "status": [
@@ -133,14 +133,14 @@
       ],
       "Fail": []
     },
-    "declinePlayerMessage": "6835250e562778985a76f019 declinePlayerMessage",
-    "description": "6835250e562778985a76f019 description",
+    "declinePlayerMessage": "6954ad7fc3ef9ad06b0e88c3 declinePlayerMessage",
+    "description": "6954ad7fc3ef9ad06b0e88c3 description",
     "failMessageText": "",
     "image": "/files/quest/icon/stars1.jpg",
     "instantComplete": false,
     "isKey": false,
     "location": "any",
-    "name": "6835250e562778985a76f019 name",
+    "name": "6954ad7fc3ef9ad06b0e88c3 name",
     "note": "",
     "restartable": false,
     "rewards": {
@@ -148,27 +148,27 @@
       "Started": [],
       "Success": [
         {
-          "id": "68e4d2a83284426e49a26e50",
+          "id": "6954ad7fc3ef9ad06b0e88c7",
           "index": 0,
           "type": "Experience",
           "value": "2000"
         },
         {
-          "id": "68e4d2a69e47d6709c55e474",
+          "id": "6954ad7fc3ef9ad06b0e88c6",
           "index": 1,
           "target": "Crafting",
           "type": "Skill",
           "value": "250"
         },
         {
-          "id": "68e4d2a5a741b4f04bfa2663",
+          "id": "6954ad7fc3ef9ad06b0e88c5",
           "index": 1,
           "target": "HideoutManagement",
           "type": "Skill",
           "value": "250"
         },
         {
-          "id": "68e4d2886f44437d07e5f23a",
+          "id": "6954ad7fc3ef9ad06b0e88c4",
           "index": 2,
           "target": "674964e1ff0cf3b00b461857",
           "type": "TraderStanding",
@@ -178,8 +178,8 @@
     },
     "secretQuest": false,
     "side": "Pmc",
-    "startedMessageText": "6835250e562778985a76f019 startedMT",
-    "successMessageText": "6835250e562778985a76f019 successMT",
+    "startedMessageText": "6954ad7fc3ef9ad06b0e88c3 startedMT",
+    "successMessageText": "6954ad7fc3ef9ad06b0e88c3 successMT",
     "traderId": "674964e1ff0cf3b00b461857",
     "type": "Completion"
   }

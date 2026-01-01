@@ -23,6 +23,12 @@
       </None>    
   </ItemGroup>
   <ItemGroup>
+    <Compile Remove="Resources\db\CustomQuests\Guiding_Light\Locales\SkillLoc\**" />
+    <Content Remove="Resources\db\CustomQuests\Guiding_Light\Locales\SkillLoc\**" />
+    <EmbeddedResource Remove="Resources\db\CustomQuests\Guiding_Light\Locales\SkillLoc\**" />
+    <None Remove="Resources\db\CustomQuests\Guiding_Light\Locales\SkillLoc\**" />
+  </ItemGroup>
+  <ItemGroup>
     <Reference Include="WTT-ClientCommonLib">
       <HintPath>..\..\..\..\..\..\..\..\Battlestate Games\SPT 4.0\BepInEx\plugins\WTT-ClientCommonLib\WTT-ClientCommonLib.dll</HintPath>
     </Reference>
