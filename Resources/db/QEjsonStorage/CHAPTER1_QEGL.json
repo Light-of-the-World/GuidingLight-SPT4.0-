@@ -112,7 +112,7 @@
     "Conditions": [
       {
         "ConditionId": "68298430b6d93742f0f28c37",
-        "ConditionType": "EmptyWithQuestStarter",
+        "ConditionType": "CompleteOptionals",
         "QuestsToStart": [ "683c00cf353c5977538954c6" ],
         "IsFail": true
       }

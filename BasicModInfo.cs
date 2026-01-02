@@ -77,7 +77,7 @@ public class BasicModInfo(
         var GLassort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/GL/GLassort.json");
 
         // Save the data we loaded above into the trader we've made
-        addCustomTraderHelper.OverwriteTraderAssort(GLBase.Id, GLassort);
+        addCustomTraderHelper.OverwriteTraderAssort(GLBase.Id, GLassort); //6957497de9ab90680adc76e9, 695749a1e9ab90680adc76ea
 
         //Copy what we did above for the second trader, FL.
         var CLImagePath = Path.Combine(pathToMod, "data/CL/CLIcon.jpg");

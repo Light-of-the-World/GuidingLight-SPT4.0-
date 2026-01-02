@@ -158,6 +158,12 @@
   "675d2d484096959e2ad73cb8 successMT": "***Your choice is made***",
   "675d2d484096959e2ad73cb8 acceptMT": "Do I trust this voice?",
 
+  "6957497de9ab90680adc76e9 name": "Continue Your Search",
+  "6957497de9ab90680adc76e9 description": "You don't need some disembodied voice to help you. You're a PMC, dangit! You'll figure out this mess one way or another, like you always have. You're still here, you've made it this far... ...though, you did die earlier. But who cares, you're still here. You don't want to be here, but you're here, and you'll find a way out. You know you will.",
+  "695749a1e9ab90680adc76ec": "Complete 5 raids",
+  "6957497de9ab90680adc76e9 successMT": "No matter where you look, no matter what exit you take, you can't find a single thing that might help you. It doesn't seem like there's any way out of here, at least, any quick way. As you sit down to accept this fact, you hear a familiar voice.",
+  "6957497de9ab90680adc76e9 acceptMT": "I can do this, I know I can",
+
   "682f76342ed6b872ad66ee15 name": "***Partial Explanation***",
   "682f76342ed6b872ad66ee15 description": "You call out to the voice, however that even works. Can you call out to something you aren't sure of? Apparently, yes, because you get a response. 'Hello, dear traveler. You seem lost. What brings you to a place like this?' You question whether to answer it, but it continues after a few seconds. 'Well, whatever the reason, you are here now. You can't seem to leave either; even death couldn't free you. Yes, I watched you die. I've seen all that you've experienced here; but do not be afraid, for I am an angel of Heaven. Please, call me Guiding Light. I want to help you. May I?' The voice ceases after the question.",
   "682f7638594b5c9404528d89": "'May I?'",

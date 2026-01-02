@@ -2788,6 +2788,90 @@
     "traderId": "674964e1ff0cf3b00b461857",
     "type": "Completion"
   },
+  "6957497de9ab90680adc76e9": {
+    "QuestName": "Continue Your Search",
+    "_id": "6957497de9ab90680adc76e9",
+    "acceptPlayerMessage": "6957497de9ab90680adc76e9 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6957497de9ab90680adc76e9 changeQuestMessageText",
+    "completePlayerMessage": "6957497de9ab90680adc76e9 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "id": "695749a1e9ab90680adc76ea",
+                "status": [
+                  "Survived",
+                  "Runner"
+                ]
+              }
+            ],
+            "id": "695749a1e9ab90680adc76eb"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "695749a1e9ab90680adc76ec",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": "5",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "695749a1e9ab90680adc76en",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6845f9cadb004e7c0c9b9d15",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6957497de9ab90680adc76e9 declinePlayerMessage",
+    "description": "6957497de9ab90680adc76e9 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6957497de9ab90680adc76e9 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "6957497de9ab90680adc76e6",
+          "index": 0,
+          "type": "Experience",
+          "value": "200"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6957497de9ab90680adc76e9 acceptMT",
+    "successMessageText": "6957497de9ab90680adc76e9 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Completion"
+  },
   "682f76342ed6b872ad66ee15": {
     "QuestName": "***Partial explanation***",
     "_id": "682f76342ed6b872ad66ee15",
