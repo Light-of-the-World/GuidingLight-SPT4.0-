@@ -2802,15 +2802,34 @@
           "counter": {
             "conditions": [
               {
+                "conditionType": "Location",
+                "id": "6957497de9ab90680adc76e4",
+                "target": [
+                  "Interchange",
+                  "factory4_day",
+                  "factory4_night",
+                  "bigmap",
+                  "Woods",
+                  "Lighthouse",
+                  "Shoreline",
+                  "RezervBase",
+                  "laboratory",
+                  "TarkovStreets",
+                  "Sandbox_high",
+                  "Sandbox"
+                ]
+              },
+              {
                 "conditionType": "ExitStatus",
-                "id": "695749a1e9ab90680adc76ea",
+                "id": "6957497de9ab90680adc76e5",
                 "status": [
                   "Survived",
-                  "Runner"
+                  "Runner",
+                  "Killed"
                 ]
               }
             ],
-            "id": "695749a1e9ab90680adc76eb"
+            "id": "6957497de9ab90680adc76e6"
           },
           "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
@@ -2831,7 +2850,7 @@
           "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "695749a1e9ab90680adc76en",
+          "id": "6957497de9ab90680adc76e7",
           "index": 0,
           "parentId": "",
           "status": [
@@ -2858,10 +2877,10 @@
       "Started": [],
       "Success": [
         {
-          "id": "6957497de9ab90680adc76e6",
+          "id": "6957497de9ab90680adc76e8",
           "index": 0,
           "type": "Experience",
-          "value": "200"
+          "value": "1500"
         }
       ]
     },
@@ -2870,7 +2889,7 @@
     "startedMessageText": "6957497de9ab90680adc76e9 acceptMT",
     "successMessageText": "6957497de9ab90680adc76e9 successMT",
     "traderId": "674964e1ff0cf3b00b461857",
-    "type": "Completion"
+    "type": "Skill"
   },
   "682f76342ed6b872ad66ee15": {
     "QuestName": "***Partial explanation***",
