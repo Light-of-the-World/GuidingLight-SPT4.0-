@@ -159,9 +159,8 @@ public class BasicModInfo(
                         Name = "Metal Barricade",
                         ShortName = "Barricade",
                         Description = "A metal barricade acquired from Ragman, for the purpose of increasing the defense of the Mall. You're sure that, some day, this might actually look like a barricade, and not a Phased Array Element. Until this, you decide, this will do.",
-
                     }
-}
+                }
             },
             OverrideProperties = new TemplateItemProperties
             {

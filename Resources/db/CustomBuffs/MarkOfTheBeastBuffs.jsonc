@@ -29,6 +29,15 @@
     },
     {
       "AbsoluteValue": true,
+      "BuffType": "HealthRate",
+      "Chance": 0.1,
+      "Delay": 5,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": -500
+    },
+    {
+      "AbsoluteValue": true,
       "BuffType": "HydrationRate",
       "Chance": 1,
       "Delay": 1,
