@@ -610,7 +610,7 @@
         }
       ],
       "AvailableForStart": [
-      {
+        {
           "availableAfter": 0,
           "conditionType": "Quest",
           "dispersion": 0,
@@ -622,9 +622,9 @@
           "status": [
             4
           ],
-          "target": "691449e608b5ececdc4cf214",
+          "target": "6957497de9ab90680adc76e9",
           "visibilityConditions": []
-      }
+        }
       ],
       "Fail": []
     },

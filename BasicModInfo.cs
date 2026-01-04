@@ -4,10 +4,14 @@ using SPTarkov.Server.Core.Helpers;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Mod;
+using SPTarkov.Server.Core.Models.Spt.Server;
 using SPTarkov.Server.Core.Routers;
 using SPTarkov.Server.Core.Servers;
+using SPTarkov.Server.Core.Services.Mod;
 using SPTarkov.Server.Core.Utils;
+using System.IO;
 using System.Reflection;
+using System.Xml.Linq;
 using WTTServerCommonLib;
 using Path = System.IO.Path;
 
@@ -20,7 +24,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "GuidingLight";
     public override string Author { get; init; } = "LightoftheWorld";
     public override List<string>? Contributors { get; init; }
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.2");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.0.3");
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.0");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
@@ -43,12 +47,14 @@ public class BasicModInfo(
     ConfigServer configServer,
     TimeUtil timeUtil,
     GLAddCustomTraderHelper addCustomTraderHelper, // This is a custom class we add for this mod, we made it injectable so it can be accessed like other classes here
-    WTTServerCommonLib.WTTServerCommonLib wttCommon
+    WTTServerCommonLib.WTTServerCommonLib wttCommon,
+    CustomItemService customItemService
 )
     : IOnLoad
 {
     private readonly TraderConfig _traderConfig = configServer.GetConfig<TraderConfig>();
     private readonly RagfairConfig _ragfairConfig = configServer.GetConfig<RagfairConfig>();
+    private ItemConfig itemConfig = configServer.GetConfig<ItemConfig>();
 
 
     public Task OnLoad()
@@ -93,7 +99,85 @@ public class BasicModInfo(
         addCustomTraderHelper.AddTraderToLocales(CLBase, "Curious Light", "One of the celestial beings watching over the Tarkov conflict. All you really know about it is that it seems to have a lower-pitched voice compared to the other one.");
         var CLassort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/CL/CLassort.json");
         addCustomTraderHelper.OverwriteTraderAssort(CLBase.Id, CLassort);
+        //Below here is item creation!
+        wttCommon.CustomBuffService.CreateCustomBuffs(assembly);
+        List<NewItemFromCloneDetails> items = new List<NewItemFromCloneDetails>();
+        var DDS = new NewItemFromCloneDetails
+        {
+            ItemTplToClone = ItemTpl.STIM_ADRENALINE_INJECTOR,
+            // ParentId refers to the Node item the gun will be under, you can check it in https://db.sp-tarkov.com/search
+            ParentId = "5448f3a64bdc2d60728b456a",
+            // The new id of our cloned item - MUST be a valid mongo id, search online for mongo id generators
+            NewId = "66dd0c09edd01e906e7f628f",
+            // Flea price of item
+            FleaPriceRoubles = 50000,
+            // Price of item in handbook
+            HandbookPriceRoubles = 42500,
+            // Handbook Parent Id refers to the category the gun will be under
+            HandbookParentId = "5b5f6fa186f77409407a7eb7",
+            //you see those side box tab thing that only select gun under specific icon? Handbook parent can be found in Spt_Data\Server\database\templates.
+            Locales = new Dictionary<string, LocaleDetails>
+            {
+                {
+                    "en", new LocaleDetails
+                    {
+                        Name = "Mark of the Beast",
+                        ShortName = "DD",
+                        Description = "An incredibly powerful stimulant, infusing the user with demonic power. How this was even turned into an injectible is unknown. It doesn't seem to have been a perfect process either, as the survivability of the patient is not guarunteed. However, that chance is small. The real cost is ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
 
+                    }
+                }
+            },
+            OverrideProperties = new TemplateItemProperties
+            {
+                CanSellOnRagfair = false,
+                SpawnChance = 0,
+                StimulatorBuffs = "Buffs_damned_drug_buffs",
+                BackgroundColor = "red"
+            },
+        };
+        items.Add(DDS);
+        var Barricade = new NewItemFromCloneDetails
+        {
+            ItemTplToClone = ItemTpl.BARTER_PHASED_ARRAY_ELEMENT,
+            // ParentId refers to the Node item the gun will be under, you can check it in https://db.sp-tarkov.com/search
+            ParentId = "5795f317245977243854e041",
+            // The new id of our cloned item - MUST be a valid mongo id, search online for mongo id generators
+            NewId = "67ff16474665a93b4a3b4150",
+            // Flea price of item
+            FleaPriceRoubles = 50000,
+            // Price of item in handbook
+            HandbookPriceRoubles = 42500,
+            // Handbook Parent Id refers to the category the gun will be under
+            HandbookParentId = "5b5f6fa186f77409407a7eb7",
+            //you see those side box tab thing that only select gun under specific icon? Handbook parent can be found in Spt_Data\Server\database\templates.
+            Locales = new Dictionary<string, LocaleDetails>
+            {
+                {
+                    "en", new LocaleDetails
+                    {
+                        Name = "Metal Barricade",
+                        ShortName = "Barricade",
+                        Description = "A metal barricade acquired from Ragman, for the purpose of increasing the defense of the Mall. You're sure that, some day, this might actually look like a barricade, and not a Phased Array Element. Until this, you decide, this will do.",
+
+                    }
+}
+            },
+            OverrideProperties = new TemplateItemProperties
+            {
+                CanSellOnRagfair = false,
+                SpawnChance = 0,
+                BackgroundColor = "blue"
+            },
+        };
+        items.Add(Barricade);
+        foreach (var item in items)
+        {
+            customItemService.CreateItemFromClone(item);
+            itemConfig.Blacklist.Add(item.NewId);
+        }
+        //customItemService.CreateItemFromClone(DDS);
+        //customItemService.CreateItemFromClone(Barricade);
         // Send back a success to the server to say our trader is good to go
         return Task.CompletedTask;
     }

@@ -1,0 +1,103 @@
+{
+  "Buffs_damned_drug_buffs": [
+    {
+      "AbsoluteValue": true,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "Endurance",
+      "Value": 30
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "SkillRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "Strength",
+      "Value": 30
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "HealthRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": 5
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "HydrationRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": 3
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "EnergyRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": 3
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "MaxStamina",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": 30
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "StaminaRate",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": 4
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "RemoveAllBloodLosses",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": 0
+    },
+    {
+      "AbsoluteValue": false,
+      "BuffType": "WeightLimit",
+      "Chance": 1,
+      "Delay": 1,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": 1
+    },
+    {
+      "AbsoluteValue": true,
+      "BuffType": "BodyTemperature",
+      "Chance": 1,
+      "Delay": 6,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": -15
+    },
+    {
+      "AbsoluteValue": false,
+      "BuffType": "DamageModifier",
+      "Chance": 1,
+      "Delay": 0,
+      "Duration": 3600,
+      "SkillName": "",
+      "Value": -0.5
+    }
+  ]
+}
