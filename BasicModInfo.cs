@@ -69,7 +69,7 @@ public class BasicModInfo(
         var GLImagePath = Path.Combine(pathToMod, "data/GL/Staragainstblack.png");
 
         // The base json containing trader settings we will add to the server
-        var GLBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/GL/GL.json");//
+        var GLBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/GL/GL.json");
         //bruh
 
         // Create a helper class and use it to register our traders image/icon + set its stock refresh time
