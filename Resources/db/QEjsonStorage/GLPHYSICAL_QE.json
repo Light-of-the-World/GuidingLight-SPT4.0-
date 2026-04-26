@@ -4,7 +4,7 @@
     "QuestName": "Workout",
     "Conditions": [
       {
-        "ConditionId": "675d357edf20bfc948e17d30",
+        "ConditionId": "675e453c182ed2edd8c196e7",
         "ConditionType": "CompleteWorkout"
       }
     ]
