@@ -24,7 +24,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "GuidingLight";
     public override string Author { get; init; } = "LightoftheWorld";
     public override List<string>? Contributors { get; init; }
-    public override SemanticVersioning.Version Version { get; init; } = new("1.0.5");
+    public override SemanticVersioning.Version Version { get; init; } = new("1.1.0");
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.0");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
@@ -35,6 +35,8 @@ public record ModMetadata : AbstractModMetadata
     public override string? Url { get; init; } = "https://github.com/Light-of-the-World/GuidingLight-SPT4.0-";
     public override bool? IsBundleMod { get; init; } = false;
     public override string? License { get; init; } = "MIT";
+
+    //I generate ids here. 69f54034b287147c5fb46bb3
 }
 
 /// <summary>

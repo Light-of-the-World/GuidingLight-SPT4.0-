@@ -1,6 +1,6 @@
 {
-    "675f85992e1f423a9e81192a": {
-    "QuestName": "Patrolling the woods",
+  "675f85992e1f423a9e81192a": {
+    "QuestName": "The human will to live",
     "_id": "675f85992e1f423a9e81192a",
     "acceptPlayerMessage": "675f85992e1f423a9e81192a acceptMT",
     "canShowNotificationsInGame": true,
@@ -8,7 +8,7 @@
     "completePlayerMessage": "675f85992e1f423a9e81192a completeMT",
     "conditions": {
       "AvailableForFinish": [
-          {
+        {
           "completeInSeconds": 0,
           "conditionType": "CounterCreator",
           "counter": {
@@ -51,7 +51,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Exploration",
-          "value": 1,
+          "value": 3,
           "visibilityConditions": []
         }
       ],
@@ -73,7 +73,7 @@
         }
       ],
       "Fail": [
-          {
+        {
           "completeInSeconds": 0,
           "conditionType": "CounterCreator",
           "counter": {

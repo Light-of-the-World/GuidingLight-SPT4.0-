@@ -416,21 +416,48 @@
     "conditions": {
       "AvailableForFinish": [
         {
-          "conditionType": "HandoverItem",
-          "dogtagLevel": 0,
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "69f18c966ad524f001c3c36e",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "AnyPmc",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "69f18c8a6ad524f001c3c36d"
+          },
+          "doNotResetIfCounterCompleted": false,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
           "id": "675fb20275e4da479deaea95",
-          "index": 3,
-          "isEncoded": false,
-          "maxDurability": 100,
-          "minDurability": 0,
-          "onlyFoundInRaid": true,
+          "index": 0,
+          "oneSessionOnly": false,
           "parentId": "",
-          "target": [
-            "59faff1d86f7746c51718c9c"
-          ],
-          "value": "10",
+          "type": "Elimination",
+          "value": 1,
           "visibilityConditions": []
         }
       ],
@@ -467,23 +494,6 @@
       "Fail": [],
       "Started": [],
       "Success": [
-        {
-          "findInRaid": true,
-          "id": "675fb21c4ba0cd3f0488de0c",
-          "index": 0,
-          "items": [
-            {
-              "_id": "675fb2171de4df6c7b842ad5",
-              "_tpl": "59faff1d86f7746c51718c9c",
-              "upd": {
-                "StackObjectsCount": 10
-              }
-            }
-          ],
-          "target": "675fb2171de4df6c7b842ad5",
-          "type": "Item",
-          "value": "10"
-        },
         {
           "id": "675fb2156d79a965fa8a4587",
           "index": 1,

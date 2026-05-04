@@ -1423,7 +1423,7 @@
             "657024b8bfc87b3a34093232",
             "657024bdc5d7d4cb4d078564"
           ],
-          "value": "5",
+          "value": "25",
           "visibilityConditions": []
         }
       ],
@@ -1460,40 +1460,6 @@
       "Fail": [],
       "Started": [],
       "Success": [
-        {
-          "findInRaid": true,
-          "id": "675f710b660eaf1c3dadc312",
-          "index": 0,
-          "items": [
-            {
-              "_id": "675f710e2b4f16b8c71b3f8c",
-              "_tpl": "57372ebf2459776862260582",
-              "upd": {
-                "StackObjectsCount": 5
-              }
-            }
-          ],
-          "target": "675f710e2b4f16b8c71b3f8c",
-          "type": "Item",
-          "value": "5"
-        },
-        {
-          "findInRaid": true,
-          "id": "675f71430741e3643ae2cdc9",
-          "index": 0,
-          "items": [
-            {
-              "_id": "675f7145632493b35108d451",
-              "_tpl": "57372e73245977685d4159b4",
-              "upd": {
-                "StackObjectsCount": 5
-              }
-            }
-          ],
-          "target": "675f7145632493b35108d451",
-          "type": "Item",
-          "value": "5"
-        },
         {
           "id": "675f714c8ee163135e595062",
           "index": 2,

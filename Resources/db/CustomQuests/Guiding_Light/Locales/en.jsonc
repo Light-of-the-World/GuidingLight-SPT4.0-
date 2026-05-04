@@ -316,6 +316,37 @@
   "691dc3f9a046f699c2c2c36b": "Click 'Turn In' to make your choice...",
   "691dc3f6730ec79118017b4a successMT": "You have turned in a choice for the following quest: (Decline). That quest should now be ready for completion. Please return to that quest and turn it it.",
 
+  //End Chapter 1 Locale
+  //Intentional dead space to catch attention
+
+
+
+
+  //Begin Chapter 2 Locale
+
+  "69f189c46ad524f001c3c36c name": "QuestName",
+  "69f189c46ad524f001c3c36c description": "QuestDescription",
+  "69f14c796ad524f001c3c36d": "Task1",
+  "69f189c46ad524f001c3c36c successMT": "QuestSuccess",
+  "69f189c46ad524f001c3c36c acceptMT": "QuestAccept",
+
+  "69f14c686ad524f001c3c36a name": "Investigation",
+  "69f14c686ad524f001c3c36a description": "That cultist knife you sent me a while ago... well, the poison injector is interesting enough, but beyond that, this isn't just some fancy blade... it's a ritual instrument. I've been thinking about what to do with this information. I've decided that I want more information. We need to know more about this. Rituals need a spot, right? If you can find one, let me know what you see.'",
+  "69f14c796ad524f001c3c36b": "Visit any of the Cultist gathering spots",
+  "69f14c686ad524f001c3c36a successMT": "A target reticle with a particular symbol scrawled everywhere... This isn't good. I'll need to think for a minute about the implications of this.",
+  "69f14c686ad524f001c3c36a acceptMT": "I mean, you're probably seen one of these already, but pretend you haven't, for the immersion! Or something.",
+
+
+  //End Chapter 2 Locale
+  //Intentional dead space to catch attention
+
+
+
+
+
+
+
+
   // SKILL QUEST LOCALES BELOW THIS POINT
 
   //Start quest locales
@@ -1094,7 +1125,7 @@
 
   "675f70cbabb1b13ec6bb1d9f name": "Stockpile",
   "675f70cbabb1b13ec6bb1d9f description": "All these tools and eletronical pieces are nice, but they won't really help you in a gunfight, will they? You need something more practical. Parts won't always solve a debate... bullets will. Hmmm... perhaps some packaged rounds will do you good? Better chance they aren't tampered with.",
-  "675f70ed48a3a8d2a54fd992": "Collect 50 boxes of ammo (don't open them!)",
+  "675f70ed48a3a8d2a54fd992": "Collect 25 boxes of ammo (don't open them!)",
   "675f70cbabb1b13ec6bb1d9f successMT": "How many different calibers can you service with all that? The nice thing about this, as well, is that it's free. No need to spend thousands of roubles on these.",
   "675f70cbabb1b13ec6bb1d9f acceptMT": "I won't complain about more ammo. That's a lot, though.",
 
@@ -1589,7 +1620,7 @@
   "675fb1692d56a22cb5050420 acceptMT": "Where exactly does this stuff 'go' when I hand it it?",
 
   "675fb1f7b13493767439b1e9 name": "Raking it in",
-  "675fb1f7b13493767439b1e9 description": "You must have quite a nice place by now! Are ya winnin, son? Anyways, I heard there's a way to, erm, 'mine bitcoin'. I don't have any record of 'bitcoin' being a resource harvestable from the earth's crust, but apparently computers can do it? I don't understand what you humans come up with some times... don't get me wrong, I'm actually curious about it. Can you show me some of this 'bitcoin'?",
+  "675fb1f7b13493767439b1e9 description": "You must have quite a nice place by now! Are ya winnin, son? Anyways, I heard there's a way to, erm, 'mine bitcoin'. I don't have any record of 'bitcoin' being a resource harvestable from the earth's crust, but apparently computers can do it? I don't understand what you humans come up with some times... Well, regardless, being able to mine it means your hideout is very far along. Let me know when you reach this stage.",
   "675fb20275e4da479deaea95": "'Hand over' 10 FIR bitcoin",
   "675fb1f7b13493767439b1e9 successMT": "It's a 'digital currency', you say? I don't even know, I shouldn't have asked... you can get away with anything nowadays. Hah, maybe you'll start selling pictures next. ...What's that look for?",
   "675fb1f7b13493767439b1e9 acceptMT": "This might take a while",
@@ -1719,7 +1750,7 @@
   "676061d0276d9949c9db2409 acceptMT": "I suppose it's useful, but I wish we could do this in a way that didn't involve me getting shot a lot?",
 
   "6760620f57313ab593494020 name": "Preemptive measures",
-  "6760620f57313ab593494020 description": "Sometimes, you just get shot a lot, yet your suffering doesn't end. I've seen people healing for minutes around here. Granted, you should be thankful that healing from multiple gunshot wounds is just a couple minutes, there's something not right about that, but whatever. Anyways, try doing surgery multiple times in one raid.",
+  "6760620f57313ab593494020 description": "Being proficient at surgery is awesome, but do you know what's even more awesome? Not needing to do surgery at all. Yeah, crazy thought. A great way to avoid doing surgery is to take care of your wounds before your whole arm falls off. How about that, just healing normally?",
   "67606224f12ae4625dd45576": "Regain 3000 health",
   "6760620f57313ab593494020 successMT": "Good! Knowing how to do surgery is good, but not needing to do surgery is even better. Try to keep it that way, eh?",
   "6760620f57313ab593494020 acceptMT": "Why are we writing quests where I have to take damage? What sadist is causing this?",

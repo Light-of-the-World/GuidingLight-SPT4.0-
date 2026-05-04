@@ -60,10 +60,20 @@
   "691db0390b09de61b3335764 acceptMT": "Casually chatting with an otherwordly being",
 
   "6904c85911fc5239a64470bb name": "A story by the fire",
-  "6904c85911fc5239a64470bb description": "'Where do I begin... well, you know the tale of Tarkov better than most, since your company sent you here. You know about TerraGroup, you know the conflict, you probably know the result to some extent... but, you might not know much about the aftermath of these events. You see, ever since a, uh... 'special event' happened a few weeks ago, everything's been all messed up. Those who die come back to life. Those who could leave, don't. Tarkov still takes in new people, but doesn't seem to export any. I don't know what the outside world thinks is happening here, but there doesn't seem to be much intervention. Perhaps a space-time distortion of sorts? Who knows anymore... one the dead are raised, nothing's off the table. Anyways, I've been here watching ever since that 'event' transpired. I've been trying to understand what's going on, much like yourself. I haven't made much progress, unfortunatenly; there's only so much I can do by watching, and no one seems to hear me. Well, nobody but you. That works out great for me, I can conduct much better investigations with your help. Of course, that's if you're willing to help me. You can think about it, I'm in no rush. I'll be sure to make it worth your while. On that note, I have been talking for a while, haven't I. My apologies. Take the rest of the day off, you've had a wild introduction to this place. I'll be here if you need something.'",
+  "6904c85911fc5239a64470bb description": "'Where do I begin... well, you know the tale of Tarkov better than most, since your company sent you here. You know about TerraGroup, you know the conflict, you probably know the result to some extent... but, you might not know much about the aftermath of these events. You see, ever since a, uh... 'special event' happened a few weeks ago, everything's been all messed up. Those who die come back to life. Those who could leave, don't. Tarkov still takes in new people, but doesn't seem to export any. I don't know what the outside world thinks is happening here, but there doesn't seem to be much intervention. Perhaps a space-time distortion of sorts? Who knows anymore... once the dead are raised, nothing's off the table. Anyways, I've been here watching ever since that 'event' transpired. I've been trying to understand what's going on, much like yourself. I haven't made much progress, unfortunatenly; there's only so much I can do by watching, and no one seems to hear me. Well, nobody but you. That works out great for me, I can conduct much better investigations with your help. Of course, that's if you're willing to help me. You can think about it, I'm in no rush. I'll be sure to make it worth your while. On that note, I have been talking for a while, haven't I. My apologies. Take the rest of the day off, you've had a wild introduction to this place. I'll be here if you need something.'",
   "6904c85e75c9ec35cc48f924": "Thank you for listening'",
   "6904c85911fc5239a64470bb successMT": "You feel the presence fade. Something tells you it should return eventually.",
   "6904c85911fc5239a64470bb acceptMT": "That 'event' a few weeks ago, I heard about something like that... some blue light?",
+
+  //End chapter 1 locale
+
+  //Begin chapter 2 locale
+
+  "69f54025b287147c5fb46bb2 name": "Investigation",
+  "69f54025b287147c5fb46bb2 description": "",
+  "69f54034b287147c5fb46bb3": "Visit any of the Cultist gathering spots",
+  "69f54025b287147c5fb46bb2 successMT": "",
+  "69f54025b287147c5fb46bb2 acceptMT": "",
 
   //multi choice
   "CLMC_NM name": "NAME (Choice, 'QUESTNAME')",

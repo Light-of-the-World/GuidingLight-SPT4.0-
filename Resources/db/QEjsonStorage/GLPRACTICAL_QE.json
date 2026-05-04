@@ -138,6 +138,17 @@
       }
     ]
   },
+  "675fb1f7b13493767439b1e9": {
+    "QuestId": "675fb1f7b13493767439b1e9",
+    "QuestName": "Raking it in",
+    "Conditions": [
+      {
+        "ConditionId": "675fb20275e4da479deaea95",
+        "ConditionType": "CraftCyclicItem",
+        "Workstations": [ "BitcoinFarm" ]
+      }
+    ]
+  },
   "675fad1851a1c2dbbe69e28e": {
     "QuestId": "675fad1851a1c2dbbe69e28e",
     "QuestName": "Anti-material",
