@@ -788,15 +788,21 @@
                 "conditionType": "Kills",
                 "id": "675f87a16d4344098abe9055",
                 "savageRole": [
-                  "followerBigPipe",
-                  "bossKnight",
-                  "bossKojaniy",
-                  "bossKilla",
-                  "bossTagilla",
+                  "bossBoar",
                   "bossBully",
                   "bossGluhar",
+                  "bossKilla",
+                  "bossKnight",
+                  "bossKojaniy",
+                  "bossKolontay",
                   "bossSanitar",
-                  "followerBirdEye"
+                  "bossTagilla",
+                  "bossZryachiy",
+                  "followerBigPipe",
+                  "followerBirdEye",
+                  "bossPartisan",
+                  "bossTagillaAgro",
+                  "bossKillaAgro"
                 ],
                 "target": "Savage",
                 "value": "1"

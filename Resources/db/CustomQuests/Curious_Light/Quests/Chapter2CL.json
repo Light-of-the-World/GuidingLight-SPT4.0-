@@ -1,0 +1,136 @@
+{
+  "69f54025b287147c5fb46bb2": {
+    "QuestName": "What quest is this lol",
+    "_id": "69f54025b287147c5fb46bb2",
+    "acceptPlayerMessage": "69f54025b287147c5fb46bb2 acceptMT",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "69f54025b287147c5fb46bb2 changeQuestMT",
+    "completePlayerMessage": "69f54025b287147c5fb46bb2 completeMT",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "bodyPart": [],
+                "compareMethod": ">=",
+                "conditionType": "Kills",
+                "daytime": {
+                  "from": 0,
+                  "to": 0
+                },
+                "distance": {
+                  "compareMethod": ">=",
+                  "value": 5555
+                },
+                "dynamicLocale": false,
+                "enemyEquipmentExclusive": [],
+                "enemyEquipmentInclusive": [],
+                "enemyHealthEffects": [],
+                "id": "6a5289d299ec51dc30287fa6",
+                "resetOnSessionEnd": false,
+                "savageRole": [],
+                "target": "Any",
+                "value": 1,
+                "weapon": [],
+                "weaponCaliber": [],
+                "weaponModsExclusive": [],
+                "weaponModsInclusive": []
+              }
+            ],
+            "id": "6a5289d999ec51dc30287fa7"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "69f54034b287147c5fb46bb3",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Completion",
+          "value": "1",
+          "visibilityConditions": []
+        },
+        {
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "VisitPlace",
+                "id": "675f80c8dd60bc65efc0dfaa",
+                "target": "ter_017_area_1",
+                "value": 1
+              }
+            ],
+            "id": "675f80c9f5ea69f302151f6c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f80cd33dd203e0f69b360",
+          "index": 4,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "675f80da2e66c0cb09bcdae2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "675f8008b7831ecb4e5db0e7",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "69f54025b287147c5fb46bb2 declinePlayerMessage",
+    "description": "69f54025b287147c5fb46bb2 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "69f54025b287147c5fb46bb2 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "6a52a0fa611b218c671def61",
+          "index": 0,
+          "type": "Experience",
+          "value": "1000"
+        },
+        {
+          "id": "6a52a105611b218c671def62",
+          "index": 2,
+          "target": "674964e72eae32de73a09d41",
+          "type": "TraderStanding",
+          "value": "0.02"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "69f54025b287147c5fb46bb2 startedMT",
+    "successMessageText": "69f54025b287147c5fb46bb2 successMT",
+    "traderId": "674964e72eae32de73a09d41",
+    "type": "Completion"
+  }
+}

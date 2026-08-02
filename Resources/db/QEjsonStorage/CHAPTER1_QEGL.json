@@ -204,6 +204,18 @@
       }
     ]
   },
+  "6a526ea905c248bad76ec007": {
+    "QuestId": "6a526ea905c248bad76ec007",
+    "QuestName": "Conversation with an otherwordly being(66)",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a526eba05c248bad76ec008",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": [ "683d5085e52f55667aedfc8e" ]
+      }
+    ]
+  },
   "675d2d484096959e2ad73cb8": {
     "QuestId": "675d2d484096959e2ad73cb8",
     "QuestName": "***Confusion***",

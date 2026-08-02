@@ -1,7 +1,9 @@
 using SPTarkov.DI.Annotations;
 using SPTarkov.Server.Core.DI;
 using SPTarkov.Server.Core.Helpers;
+using SPTarkov.Server.Core.Models.Common;
 using SPTarkov.Server.Core.Models.Eft.Common.Tables;
+using SPTarkov.Server.Core.Models.Enums;
 using SPTarkov.Server.Core.Models.Spt.Config;
 using SPTarkov.Server.Core.Models.Spt.Mod;
 using SPTarkov.Server.Core.Models.Spt.Server;
@@ -24,7 +26,7 @@ public record ModMetadata : AbstractModMetadata
     public override string Name { get; init; } = "GuidingLight";
     public override string Author { get; init; } = "LightoftheWorld";
     public override List<string>? Contributors { get; init; }
-    public override SemanticVersioning.Version Version { get; init; } = new("1.1.0");
+    public override SemanticVersioning.Version Version { get; init; } = new("2.0.0");
     public override SemanticVersioning.Range SptVersion { get; init; } = new("~4.0.0");
     public override List<string>? Incompatibilities { get; init; }
     public override Dictionary<string, SemanticVersioning.Range>? ModDependencies { get; init; } = new()
@@ -36,7 +38,7 @@ public record ModMetadata : AbstractModMetadata
     public override bool? IsBundleMod { get; init; } = false;
     public override string? License { get; init; } = "MIT";
 
-    //I generate ids here. 69f54034b287147c5fb46bb3
+    //I generate ids here. 6a6ae1a7015427276b4de501
 }
 
 /// <summary>
@@ -47,6 +49,7 @@ public class BasicModInfo(
     ModHelper modHelper,
     ImageRouter imageRouter,
     ConfigServer configServer,
+    InventoryConfig inventoryConfig,
     TimeUtil timeUtil,
     GLAddCustomTraderHelper addCustomTraderHelper, // This is a custom class we add for this mod, we made it injectable so it can be accessed like other classes here
     WTTServerCommonLib.WTTServerCommonLib wttCommon,
@@ -101,6 +104,19 @@ public class BasicModInfo(
         addCustomTraderHelper.AddTraderToLocales(CLBase, "Curious Light", "One of the celestial beings watching over the Tarkov conflict. All you really know about it is that it seems to have a lower-pitched voice compared to the other one.");
         var CLassort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/CL/CLassort.json");
         addCustomTraderHelper.OverwriteTraderAssort(CLBase.Id, CLassort);
+
+        //And once more for the Cultist
+
+        var CultImagePath = Path.Combine(pathToMod, "data/Cultist/CultistIcon.jpg");
+        var CultBase = modHelper.GetJsonDataFromFile<TraderBase>(pathToMod, "data/Cultist/Cultist.json");
+        imageRouter.AddRoute(CultBase.Avatar.Replace(".jpg", ""), CultImagePath);
+        addCustomTraderHelper.SetTraderUpdateTime(_traderConfig, CultBase, timeUtil.GetHoursAsSeconds(1), timeUtil.GetHoursAsSeconds(2));
+        _ragfairConfig.Traders.TryAdd(CultBase.Id, true);
+        addCustomTraderHelper.AddTraderWithEmptyAssortToDb(CultBase);
+        addCustomTraderHelper.AddTraderToLocales(CultBase, "Sektant", "One of the cultist followers who acts as their mouthpiece to (and for) you. You've killed him before, yet here he is.");
+        var Cultassort = modHelper.GetJsonDataFromFile<TraderAssort>(pathToMod, "data/Cultist/Cultistassort.json");
+        addCustomTraderHelper.OverwriteTraderAssort(CultBase.Id, Cultassort);
+
         //Below here is item creation!
         wttCommon.CustomBuffService.CreateCustomBuffs(assembly);
         List<NewItemFromCloneDetails> items = new List<NewItemFromCloneDetails>();
@@ -126,7 +142,6 @@ public class BasicModInfo(
                         Name = "Mark of the Beast",
                         ShortName = "DD",
                         Description = "An incredibly powerful stimulant, infusing the user with demonic power. How this was even turned into an injectible is unknown. It doesn't seem to have been a perfect process either, as the survivability of the patient is not guarunteed. However, that chance is small. The real cost is ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~",
-
                     }
                 }
             },

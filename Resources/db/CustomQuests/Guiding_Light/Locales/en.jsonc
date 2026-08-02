@@ -161,8 +161,14 @@
   "6957497de9ab90680adc76e9 name": "Continue Your Search",
   "6957497de9ab90680adc76e9 description": "You don't need some disembodied voice to help you. You're a PMC, dangit! You'll figure out this mess one way or another, like you always have. You're still here, you've made it this far... ...though, you did die earlier. But who cares, you're still here. You don't want to be here, but you're here, and you'll find a way out. You know you will.",
   "695749a1e9ab90680adc76ec": "Complete 5 raids",
-  "6957497de9ab90680adc76e9 successMT": "No matter where you look, no matter what exit you take, you can't find a single thing that might help you. It doesn't seem like there's any way out of here, at least, any quick way. As you sit down to accept this fact, you hear a familiar voice.",
+  "6957497de9ab90680adc76e9 successMT": "No matter where you look, no matter what exit you take, you can't find a single thing that might help you. It doesn't seem like there's any way out of here, at least, any quick way. As you sit down to accept this fact, you hear a voice.",
   "6957497de9ab90680adc76e9 acceptMT": "I can do this, I know I can",
+
+  "6a526ea905c248bad76ec007 name": "Conversation with an Otherwordly Being (6)",
+  "6a526ea905c248bad76ec007 description": "You call out to the higher-pitched voice. You aren't sure how to make it clear which one you're calling out to, you just sort of... hope they figure it out. It takes a while to get a response back. 'You came back to me.' The voice speaks not with judgement, but with joyous sorrow. 'I didn't think...' Is it sad? Does this voice have feeling? It seems unable to speak properly. 'I honestly thought you would stay with him. I hoped you would come back, and I'm so glad you did. I understand your confusion. So much just happened right in front of you, so much has already happened, and I'm speaking so vaguely. Forgive me.' The voice pauses for a bit. 'Ok, here goes. I am an angel, an angel of Heaven. What you just saw, or, what you didn't just see, was a clash between me and a demon. That... thing, that other voice you were talking to. I don't know what he told you, but you can't let him manipulate you. Nothing good can come from it.' Another pause. 'I know I've already talked plenty, but, I have more to tell you. Are you ok with that?'",
+  "6a526eba05c248bad76ec008": "Hand over any flammable material",
+  "6a526ea905c248bad76ec007 successMT": "(Continue)",
+  "6a526ea905c248bad76ec007 acceptMT": "Casually chatting with an otherwordly being",
 
   "682f76342ed6b872ad66ee15 name": "***Partial Explanation***",
   "682f76342ed6b872ad66ee15 description": "You call out to the voice, however that even works. Can you call out to something you aren't sure of? Apparently, yes, because you get a response. 'Hello, dear traveler. You seem lost. What brings you to a place like this?' You question whether to answer it, but it continues after a few seconds. 'Well, whatever the reason, you are here now. You can't seem to leave either; even death couldn't free you. Yes, I watched you die. I've seen all that you've experienced here; but do not be afraid, for I am an angel of Heaven. Please, call me Guiding Light. I want to help you. May I?' The voice ceases after the question.",
@@ -336,11 +342,38 @@
   "69f14c686ad524f001c3c36a successMT": "A target reticle with a particular symbol scrawled everywhere... This isn't good. I'll need to think for a minute about the implications of this.",
   "69f14c686ad524f001c3c36a acceptMT": "I mean, you're probably seen one of these already, but pretend you haven't, for the immersion! Or something.",
 
+  "6a0fb144191c5dac5cafbb19 name": "Searching for an alternative",
+  "6a0fb144191c5dac5cafbb19 description": "These can't be the only two ends. Help a cult or suffer by them... this is one of their tricks to twist you into working for them. There must be a third, right? You feel something shift, the air around you becoming lighter. You hear a voice. \"Yes. Yes, there is.\" You wait for elaboration, but don't seem to get anything. In fact, nothing comes at all. That other voice hasn't spoken in a while, nothing on your security feeds indicates disturbance. You hear that voice again. \"Find me above the tortured pig.\".",
+  "6a0fb151191c5dac5cafbb1a": "Find the item at the specified spot",
+  "6a0fb5f0191c5dac5cafbb1b": "'Hand over' the item",
+  "6a0fb144191c5dac5cafbb19 successMT": "As you return to your hideout, you notice the cross has evaporated from your backpack. You're sure you picked it up, but it's gone... yet that voice speaks to you before you can second guess yourself too much. \"Hello.\" It is comforting, yet concerned. \"I wish I had time for a more pleasent introduction. First I need to help you get out of this mess. When you aren't in imminent danger, we can do some reintroductions. I'm going to assume you trust me if you sought me out, so, listen carefully to me.\"",
+  "6a0fb144191c5dac5cafbb19 acceptMT": "Oh boy I love vague answers",
+
+  "6a0fc429191c5dac5cafbb1c name": "Shake em off",
+  "6a0fc429191c5dac5cafbb1c description": "\"We can find a more permanent solution later. First, we need to buy some time. Kill them, make them think twice about hunting you down now. When they back off, we'll figure something out. Whatever you do, do not get stabbed by them. I'll explain later, I promise.\"",
+  "6a0fc433191c5dac5cafbb1d": "Complete either objective",
+  "6a0fc581191c5dac5cafbb1e": "Kill a cultist",
+  "6a0fc58a191c5dac5cafbb1f": "Kill 25 scavs between 9pm-4am",
+  "6a0fc592191c5dac5cafbb20": "Do not get inflicted with Unknown Toxic",
+  "6a0fc429191c5dac5cafbb1c successMT": "\"Good, they're realizing you won't be easy to get rid of.\"",
+  "6a0fc429191c5dac5cafbb1c acceptMT": "Toxin? What?",
+
+  "6a4efaadcfd7be63ea5f80d7 name": "Cause a panic",
+  "6a4efaadcfd7be63ea5f80d7 description": "\"We need to act, and we need to act fast. They want to threaten you in your safe space, two can play at that game.\" ",
+  "6a4efab9cfd7be63ea5f80d8": "Place any of the following items in the W316 marked room",
+  "6a4efac0cfd7be63ea5f80d9": "TNT brick",
+  "6a4efac9cfd7be63ea5f80da": "Thermite",
+  "6a4efad1cfd7be63ea5f80db": "Signal Jammer",
+  "6a4efaadcfd7be63ea5f80d7 successMT": "QuestSuccess",
+  "6a4efaadcfd7be63ea5f80d7 acceptMT": "QuestAccept",
+
+  //Multi Choice Chapter 2
+
+
+
 
   //End Chapter 2 Locale
   //Intentional dead space to catch attention
-
-
 
 
 
@@ -417,7 +450,7 @@
 
   "675e52a13b41d2db126a9faa name": "All-seeing",
   "675e52a13b41d2db126a9faa description": "Tarkov is quite a big place, don't you think? Plenty of areas have vast landscapes as far as the eye can see. There's plenty of land for a large scope to look over. ",
-  "675e52dae6f6ce55e072ebdb": "Kill 50 enemies over 70 away with 6x+ sights",
+  "675e52dae6f6ce55e072ebdb": "Kill 50 enemies over 70 meters away with 6x+ sights",
   "675e52a13b41d2db126a9faa successMT": "Did you find some good spots for LDS?",
   "675e52a13b41d2db126a9faa acceptMT": "looooooooooooooooooooooooooooong range",
 
@@ -1175,8 +1208,8 @@
 
   "675f7ea44dbf005c30fcee17 name": "Breaking the bank",
   "675f7ea44dbf005c30fcee17 description": "So much money... where's all this stuff coming from anyways? I guess things keep respawning, so there's infinite wealth as long as you hang around. Well, lets push it to the limit.",
-  "675f7eb65218b341c3c137b3": "Spend a total of 30 million currency on trades (USD and EUR convert to roubles)",
-  "675f7f0f91076208aa4662bd": "Earn a total of 15 million currency from trades (USD and EUR convert to roubles)",
+  "6a0c018c2f158ea67c6f1a2f": "Spend a total of 30 million currency on trades (USD and EUR convert to roubles)",
+  "6a0c01b52f158ea67c6f1a30": "Earn a total of 15 million currency from trades (USD and EUR convert to roubles)",
   "675f7ea44dbf005c30fcee17 successMT": "My, my! Seems like all the traders can't stop talking about you. And to see how much you've done with me is quite impressive.",
   "675f7ea44dbf005c30fcee17 acceptMT": "How exactly am I meant to 'understand' a celestial being?",
 
@@ -1194,7 +1227,7 @@
 
   "675f8008b7831ecb4e5db0e7 name": "Raising the stakes",
   "675f8008b7831ecb4e5db0e7 description": "Alright, lets make things more difficult: In war, rarely is there a 'good' side. Sometimes, fighting for either side is wrong. Sometimes, fighting for either side is right. Sometimes, you get a choice which side you'll fight for. Sometimes, mass life or death hangs in the balance of one small thing: Who you tell. Do you do what is right? Is there a 'right?' Or do you tell the one who gives you the rewards you seek?",
-  "675f8024e38f2dd530cea750": "Find the spot of the riddle",
+  "675f8024e38f2dd530cea750": "Locate the spot of the riddle",
   "675f8008b7831ecb4e5db0e7 successMT": "I am curious, who did you end up telling?",
   "675f8008b7831ecb4e5db0e7 acceptMT": "I choose what I'll use most, probably.",
 
@@ -1206,13 +1239,13 @@
 
   "675f80b4625238051edb9d0e name": "Nearing the end",
   "675f80b4625238051edb9d0e description": "In a place created for creation, where the hammer falls on the unforged and unfortunate, a crash is heard in the dead of night. Black grains in blue packages are hidden, and the one who mends the biological has paid the one who mends the material. Tell me, where were the black grains laid?",
-  "675f80cd33dd203e0f69b360": "Mark the spot of the riddle with a 7mm shell",
+  "675f80cd33dd203e0f69b360": "Locate the spot of the riddle",
   "675f80b4625238051edb9d0e successMT": "That was a tough one, eh? Will the last one be tougher, or easier? I suppose it depends on how well you know your stuff.",
   "675f80b4625238051edb9d0e acceptMT": "No hints for the hard ones!",
 
   "675f811444410a14d5c5f85f name": "The final riddle",
   "675f811444410a14d5c5f85f description": "Last one... let's make it difficult: Near the open sea, where the fish swam and the birds flew freely, Contract wars were waged. The sea, once cared for, now laps silently on the beach, and the wings no longer fly undisturbed. One bird, however, was determined to fly, but the eagles consumed the bird's attempt. Where does this bird lie?",
-  "675f81330700ccbf45fa101e": "Find the spot of the riddle",
+  "675f81330700ccbf45fa101e": "Locate the spot of the riddle",
   "675f811444410a14d5c5f85f successMT": "Well done! You really know how to think. Or you happened upon it by accident, in which case, booooo. Oh well. You made it this far, good job.",
   "675f811444410a14d5c5f85f acceptMT": "No hints for the hard ones!",
 
@@ -1561,10 +1594,10 @@
   "675fabf283c1878c0fc117cd successMT": "Glad to see you're comfortable in these things. Onto the next one.",
   "675fabf283c1878c0fc117cd acceptMT": "Heavy to wear, but heavy to knock down.",
 
-  "675face55d964e1a7ac431ee name": "Fully covered",
-  "675face55d964e1a7ac431ee description": "They ain't kiddin when they say 'heavy', let me tell you. Most of them are pretty darn heavy. You already see where I'm going with this, I assume?",
+  "675face55d964e1a7ac431ee name": "3D defense",
+  "675face55d964e1a7ac431ee description": "If you're going through the trouble of wearing a heavy vest, you should probably wear one that actually protects every side of you. It seems pretty silly to have all that hard work bypassed by some scav who caught you from a bad angle. Some of the armour here can support side plates, see how you like them.",
   "675fad063bf89efffc855ce5": "Kill 20 enemies while wearing a vest that can hold all 4 plates in (front, back, l side, r side)",
-  "675face55d964e1a7ac431ee successMT": "See how important plates can be? Even a class 3 can provide a lot of protection compared to just soft armour.",
+  "675face55d964e1a7ac431ee successMT": "Well, what were the results? Did you find yourself dying less often?",
   "675face55d964e1a7ac431ee acceptMT": "Sure hope my spine holds up",
 
   "675fad1851a1c2dbbe69e28e name": "Anti-material",
@@ -1586,20 +1619,11 @@
   "675fadf1778e4ca1f16b9938 successMT": "Notice how there's some differences between the top tiers? Different weights, durabilities... pick what you like.",
   "675fadf1778e4ca1f16b9938 acceptMT": "hv4 accept, I can't think of one rn",
 
-  "675faf25d43c38f8ec713af8 name": "The Armoured Titan",
-  "675faf25d43c38f8ec713af8 description": "Alright, last run with the heavy vests for training. You probably knew where this was going. The only thing I can train you on at this point is to simply get experience in every heavy armour vest. On the bright side, you don't have to do the rigs!",
-  "675fafdbc326769212410094": "5 PMC kills while wearing the 6b23-1",
-  "675fafc090265579fec57340": "5 PMC kills while wearing the Korund-VM",
-  "675fafbc8936b91af066a571": "5 PMC kills while wearing the Redut-M",
-  "675fafafcbc13c8840ba9554": "5 PMC kills while wearing the Gen4 HMK",
-  "675faf9007751b36857eb24d": "5 PMC kills while wearing the Defender-2",
-  "675faf8ba24a435a5e2a03ea": "5 PMC kills while wearing the Gen4 Assault",
-  "675faf75b1a3265f6e9f73a3": "5 PMC kills while wearing the Gen4 full",
-  "675faf70c240821921d60116": "5 PMC kills while wearing the Redut-T5",
-  "675faf591ed9768b1c4f0b9d": "5 PMC kills while wearing a Slick",
-  "675faf5378d787442aec9b1e": "5 PMC kills while wearing the THOR",
-  "675faf41b1ee16edd2ca03e5": "5 PMC kills while wearing the Zabralo",
-  "675faf25d43c38f8ec713af8 successMT": "Now you know how every heavy vest feels! You should be able to wear any of them now without any issue, pick your favorite and keep it up! Don't forget to try light vests, if you haven't already.",
+  "675faf25d43c38f8ec713af8 name": "A True Juggernaut",
+  "675faf25d43c38f8ec713af8 description": "Alright. We've got the plates, we've got the practice, now we execute it. I have a special challenge for you, so listen closely. First, you need a vest that has every armour zone possible. Shoulders, Neck, Groin, the whole 9 yards. Then, all four sides need tier 6 plates. Doesn't matter which ones, just gotta be class 6. *Then*, you need either the Altyn or Rys-T helmet WITH the face shield installed. Once you've got all that, head to any map you like, and knock out 15 people. You gotta get at least 1 pmc in the mix, otherwise it's just boring.",
+  "675fafdbc326769212410094": "Kill 15 enemies in ONE raid using the described gear (READ THE DESCRIPTION!)",
+  "6a69e71b243e4d1a999be424": "Ensure one of them is a PMC.",
+  "675faf25d43c38f8ec713af8 successMT": "Hah! They couldn't do anything against you, you might as well have been invincible.'",
   "675faf25d43c38f8ec713af8 acceptMT": "They should've had their own fancy armour",
 
   "675fb07fcdea44ae4beb0310 name": "Finding materials",
@@ -1803,7 +1827,7 @@
   "675fc2aeb04b26df091a66fe": "Kill 5 enemies with 5.45x39mm",
   "675fc2baf64aa80c68b6e00b": "Kill 5 enemies with 5.56x45mm NATO",
   "675fc2c061ffe868f0e8682d": "Kill 5 enemies with 6.8x51mm (MCX SPEAR is the only one)",
-  "675fc2d15f364c8396a30128": "Kill 5 enemies with .300 Blackout (MCX is the only one)",
+  "675fc2d15f364c8396a30128": "Kill 5 enemies with .300 Blackout",
   "675fc2d7033a1c6c40764741": "Kill 5 enemies with 7.62x39mm",
   "675fc2e6f63ca8b1d58cc91e": "Kill 5 enemies with 7.62x51mm NATO",
   "675fc2ea1a51e8bf07563b13": "Kill 5 enemies with 7.62x54mmR",
@@ -1893,7 +1917,7 @@
   "683528a4f400fc842f9af438": "Kill 7 enemies with DMRs in one raid (No damage limit for this one...)",
   "683528a3f36110f3c15298f7": "Kill 15 enemies while mounted with an LMG",
   "683528a32ea45127bde5d1f5": "Hit an enemy in the head with a melee weapon 5 times",
-  "683528a27ad51ac8d995a01c": "Kill 5 enemies within 15 meters with pistols",
+  "683528a27ad51ac8d995a01c": "Kill 5 enemies within 20 meters with pistols",
   "683528a2283a1c5fa0319fe8": "Kill 15 enemies with revolvers while point / hip firing",
   "683528a1e59754c49624b7c4": "Kill 5 enemies with revolvers while wearing the Kinda Cowboy hat",
   "683528a16764fbd0580bb748": "Deal 500 damage to enemy armour with shotguns",

@@ -2523,6 +2523,109 @@
     "traderId": "674964e1ff0cf3b00b461857",
     "type": "Skill"
   },
+  "6a526ea905c248bad76ec007": {
+    "QuestName": "Conversation with an otherwordly being(2)",
+    "_id": "6a526ea905c248bad76ec007",
+    "acceptPlayerMessage": "6a526ea905c248bad76ec007 acceptPlayerMessage",
+    "canShowNotificationsInGame": true,
+    "changeQuestMessageText": "6a526ea905c248bad76ec007 changeQuestMessageText",
+    "completePlayerMessage": "6a526ea905c248bad76ec007 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a526eba05c248bad76ec008",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "60391a8b3364dc22b04d0ce5",
+            "57347b8b24597737dd42e192",
+            "56742c284bdc2d98058b456d",
+            "590a373286f774287540368b",
+            "5d1b371186f774253763a656",
+            "5d1b36a186f7742523398433",
+            "5bc9b355d4351e6d1509862a",
+            "5b43575a86f77424f443fe62",
+            "5d6fc78386f77449d825f9dc",
+            "590c5a7286f7747884343aea",
+            "5d6fc87386f77449db3db94e",
+            "5e2af2bc86f7746d3f3c33fc",
+            "59fafb5d86f774067a6f2084",
+            "5e2af37686f774755a234b65",
+            "60391b0fb847c71012789415",
+            "590c5c9f86f77477c91c36e7",
+            "590c5bbd86f774785762df04",
+            "56742c2e4bdc2d95058b456d",
+            "577e1c9d2459773cd707c525",
+            "5c13cef886f774072e618e82",
+            "59e3647686f774176a362507",
+            "590c645c86f77412b01304d9",
+            "590c651286f7741e566b6461",
+            "5c12613b86f7743bbe2c3f76",
+            "62a0a124de7ac81993580542"
+          ],
+          "value": "1",
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "compareMethod": ">=",
+          "conditionType": "Level",
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a528b7599ec51dc30287fac",
+          "index": 0,
+          "parentId": "",
+          "value": 99,
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": []
+    },
+    "declinePlayerMessage": "6a526ea905c248bad76ec007 declinePlayerMessage",
+    "description": "6a526ea905c248bad76ec007 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6a526ea905c248bad76ec007 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": [
+        {
+          "id": "69151532285e97cb5fdc02cb",
+          "index": 0,
+          "type": "Experience",
+          "value": "200"
+        },
+        {
+          "id": "69151534d43a128f06101669",
+          "index": 1,
+          "target": "674964e1ff0cf3b00b461857",
+          "type": "TraderStanding",
+          "value": "0.01"
+        }
+      ]
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "6a526ea905c248bad76ec007 acceptMT",
+    "successMessageText": "6a526ea905c248bad76ec007 successMT",
+    "traderId": "674964e1ff0cf3b00b461857",
+    "type": "Skill"
+  },
   "675d2c9f50fa185e31ee2f3a": {
     "QuestName": "What...?",
     "_id": "675d2c9f50fa185e31ee2f3a",
@@ -2765,21 +2868,7 @@
     "rewards": {
       "Fail": [],
       "Started": [],
-      "Success": [
-        {
-          "id": "675d2d6fe80c1395049f38d8",
-          "index": 0,
-          "type": "Experience",
-          "value": "3000"
-        },
-        {
-          "id": "675d2d6d363906abb3be5428",
-          "index": 1,
-          "target": "674964e1ff0cf3b00b461857",
-          "type": "TraderStanding",
-          "value": "0.02"
-        }
-      ]
+      "Success": []
     },
     "secretQuest": false,
     "side": "Pmc",
@@ -3004,21 +3093,7 @@
     "rewards": {
       "Fail": [],
       "Started": [],
-      "Success": [
-        {
-          "id": "682fcfa52af2f2dd8bb96bd8",
-          "index": 0,
-          "type": "Experience",
-          "value": "3000"
-        },
-        {
-          "id": "682fcfa60753ca7becc3c073",
-          "index": 1,
-          "target": "674964e1ff0cf3b00b461857",
-          "type": "TraderStanding",
-          "value": "0.02"
-        }
-      ]
+      "Success": []
     },
     "secretQuest": false,
     "side": "Pmc",

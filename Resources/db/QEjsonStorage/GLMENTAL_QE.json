@@ -29,11 +29,11 @@
     "QuestName": "Breaking the Bank",
     "Conditions": [
       {
-        "ConditionId": "675f7eb65218b341c3c137b3",
+        "ConditionId": "6a0c018c2f158ea67c6f1a2f",
         "ConditionType": "SpendMoneyOnTransaction"
       },
       {
-        "ConditionId": "675f7f0f91076208aa4662bd",
+        "ConditionId": "6a0c01b52f158ea67c6f1a30",
         "ConditionType": "EarnMoneyOnTransaction"
       }
     ]

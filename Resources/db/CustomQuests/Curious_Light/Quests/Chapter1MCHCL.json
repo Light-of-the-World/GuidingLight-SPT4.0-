@@ -119,7 +119,7 @@
           "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "691dc636f1dfb118eb09e607",
+          "id": "6a5288a399ec51dc30287fa1",
           "index": 0,
           "parentId": "",
           "status": [
@@ -136,7 +136,7 @@
           "dispersion": 0,
           "dynamicLocale": false,
           "globalQuestCounterId": "",
-          "id": "691dc638b583b3a0599cefe1",
+          "id": "6a5288fb99ec51dc30287fa5",
           "index": 0,
           "parentId": "",
           "status": [
@@ -166,6 +166,346 @@
     "side": "Pmc",
     "startedMessageText": "",
     "successMessageText": "691dc5aa86500cc697f616b0 successMT",
+    "traderId": "674964e72eae32de73a09d41",
+    "type": "Skill"
+  },
+  "6a4edde0cfd7be63ea5f80cf": {
+    "QuestName": "Yes, work for this voice (Choice, 'Recruitment')",
+    "_id": "6a4edde0cfd7be63ea5f80cf",
+    "acceptPlayerMessage": "6a4edde0cfd7be63ea5f80cf acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "6a4edde0cfd7be63ea5f80cf changeQuestMessageText",
+    "completePlayerMessage": "6a4edde0cfd7be63ea5f80cf completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc5ac0fc0467291b0720b",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a52887e99ec51dc30287f9e",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "6a4ede1fcfd7be63ea5f80d3",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a5288e899ec51dc30287fa3",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6a4eddf7cfd7be63ea5f80d1",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "6a4edde0cfd7be63ea5f80cf declinePlayerMessage",
+    "description": "6a4edde0cfd7be63ea5f80cf description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6a4edde0cfd7be63ea5f80cf name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "6a4edde0cfd7be63ea5f80cf successMT",
+    "traderId": "674964e72eae32de73a09d41",
+    "type": "Skill"
+  },
+  "6a4eddf7cfd7be63ea5f80d1": {
+    "QuestName": "No, work for no voices (Choice, 'Recruitment')",
+    "_id": "6a4eddf7cfd7be63ea5f80d1",
+    "acceptPlayerMessage": "6a4eddf7cfd7be63ea5f80d1 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "6a4eddf7cfd7be63ea5f80d1 changeQuestMessageText",
+    "completePlayerMessage": "6a4eddf7cfd7be63ea5f80d1 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc5ac0fc0467291b0720b",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a52887199ec51dc30287f9d",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "6a4ede1fcfd7be63ea5f80d3",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a5288f099ec51dc30287fa4",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6a4edde0cfd7be63ea5f80cf",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "6a4eddf7cfd7be63ea5f80d1 declinePlayerMessage",
+    "description": "6a4eddf7cfd7be63ea5f80d1 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6a4eddf7cfd7be63ea5f80d1 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "6a4eddf7cfd7be63ea5f80d1 successMT",
+    "traderId": "674964e72eae32de73a09d41",
+    "type": "Skill"
+  },
+  "6a52867799ec51dc30287f99": {
+    "QuestName": "Call out to the higher-pitched voice (Choice, 'Unexpected Clash')",
+    "_id": "6a52867799ec51dc30287f99",
+    "acceptPlayerMessage": "6a52867799ec51dc30287f99 acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "6a52867799ec51dc30287f99 changeQuestMessageText",
+    "completePlayerMessage": "6a52867799ec51dc30287f99 completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a52868299ec51dc30287f9a",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a52889699ec51dc30287fa0",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "6a51b3f08fcaa5fc28625491",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc638b583b3a0599cefe1",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6a5286e299ec51dc30287f9b",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "6a52867799ec51dc30287f99 declinePlayerMessage",
+    "description": "6a52867799ec51dc30287f99 description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6a52867799ec51dc30287f99 name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "6a52867799ec51dc30287f99 successMT",
+    "traderId": "674964e72eae32de73a09d41",
+    "type": "Skill"
+  },
+  "6a5286e299ec51dc30287f9b": {
+    "QuestName": "Call out to the lower-pitched voice (Choice, 'Unexpected Clash')",
+    "_id": "6a5286e299ec51dc30287f9b",
+    "acceptPlayerMessage": "6a5286e299ec51dc30287f9b acceptPlayerMessage",
+    "canShowNotificationsInGame": false,
+    "changeQuestMessageText": "6a5286e299ec51dc30287f9b changeQuestMessageText",
+    "completePlayerMessage": "6a5286e299ec51dc30287f9b completePlayerMessage",
+    "conditions": {
+      "AvailableForFinish": [
+        {
+          "conditionType": "HandoverItem",
+          "dogtagLevel": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "691dc5ac0fc0467291b0720b",
+          "index": 0,
+          "isEncoded": false,
+          "maxDurability": 100,
+          "minDurability": 0,
+          "onlyFoundInRaid": false,
+          "parentId": "",
+          "target": [
+            "5449016a4bdc2d6f028b456f"
+          ],
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ],
+      "AvailableForStart": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a52888b99ec51dc30287f9f",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            2
+          ],
+          "target": "6a51b3f08fcaa5fc28625491",
+          "visibilityConditions": []
+        }
+      ],
+      "Fail": [
+        {
+          "availableAfter": 0,
+          "conditionType": "Quest",
+          "dispersion": 0,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a5288e199ec51dc30287fa2",
+          "index": 0,
+          "parentId": "",
+          "status": [
+            4
+          ],
+          "target": "6a52867799ec51dc30287f99",
+          "visibilityConditions": []
+        }
+      ]
+    },
+    "declinePlayerMessage": "6a5286e299ec51dc30287f9b declinePlayerMessage",
+    "description": "6a5286e299ec51dc30287f9b description",
+    "failMessageText": "",
+    "image": "/files/quest/icon/stars1.jpg",
+    "instantComplete": false,
+    "isKey": false,
+    "location": "any",
+    "name": "6a5286e299ec51dc30287f9b name",
+    "note": "",
+    "restartable": false,
+    "rewards": {
+      "Fail": [],
+      "Started": [],
+      "Success": []
+    },
+    "secretQuest": false,
+    "side": "Pmc",
+    "startedMessageText": "",
+    "successMessageText": "6a5286e299ec51dc30287f9b successMT",
     "traderId": "674964e72eae32de73a09d41",
     "type": "Skill"
   }

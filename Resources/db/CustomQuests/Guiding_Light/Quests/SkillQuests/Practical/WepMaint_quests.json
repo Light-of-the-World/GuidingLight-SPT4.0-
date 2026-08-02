@@ -853,7 +853,8 @@
                 "target": "Any",
                 "value": "1",
                 "weapon": [
-                  "5fbcc1d9016cce60e8341ab3"
+                  "5fbcc1d9016cce60e8341ab3",
+                  "674d6121c09f69dfb201a888"
                 ]
               }
             ],
@@ -1000,7 +1001,8 @@
                 "value": "1",
                 "weapon": [
                   "5fc22d7c187fea44d52eda44",
-                  "627e14b21713922ded6f2c15"
+                  "627e14b21713922ded6f2c15",
+                  "673cab3e03c6a20581028bc1"
                 ]
               }
             ],

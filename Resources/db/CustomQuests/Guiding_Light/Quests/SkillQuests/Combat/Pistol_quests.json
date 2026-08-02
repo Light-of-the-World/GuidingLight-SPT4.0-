@@ -429,7 +429,7 @@
                 "id": "6832c531c61436a8dac0fbbc",
                 "distance": {
                   "compareMethod": "<=",
-                  "value": 15
+                  "value": 20
                 },
                 "target": "Any",
                 "value": "1",
@@ -473,7 +473,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": "10",
+          "value": "20",
           "visibilityConditions": []
         }
       ],

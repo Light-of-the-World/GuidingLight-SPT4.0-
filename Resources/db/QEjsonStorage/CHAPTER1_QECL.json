@@ -1,5 +1,5 @@
 {
-  "6822ee4e7aa83d1c4f1fa658":{
+  "6822ee4e7aa83d1c4f1fa658": {
     "QuestId": "6822ee4e7aa83d1c4f1fa658",
     "QuestName": "Found",
     "IsMultipleChoiceStarter": true,
@@ -7,7 +7,7 @@
       {
         "ConditionId": "6826db07ba1d8306c83e1ebd",
         "ConditionType": "EmptyWithQuestStarter",
-        "QuestsToStart": ["6904c85911fc5239a64470bb"]
+        "QuestsToStart": [ "6904c85911fc5239a64470bb" ]
       }
     ]
   },
@@ -83,6 +83,48 @@
       }
     ]
   },
+  "6a4ede1fcfd7be63ea5f80d3": {
+    "QuestId": "6a4ede1fcfd7be63ea5f80d3",
+    "QuestName": "***Recruitment***",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a4ede29cfd7be63ea5f80d4",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "6a4ede30cfd7be63ea5f80d5",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": [ "6a51ad148fcaa5fc2862548f" ]
+      },
+      {
+        "ConditionId": "6a4ede36cfd7be63ea5f80d6",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": [ "6a51b3f08fcaa5fc28625491" ]
+      }
+    ]
+  },
+  "6a51b3f08fcaa5fc28625491": {
+    "QuestId": "6a51b3f08fcaa5fc28625491",
+    "QuestName": "***Unexpected Clash***",
+    "IsMultipleChoiceStarter": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a527ab605c248bad76ec00c",
+        "ConditionType": "CompleteOptionals"
+      },
+      {
+        "ConditionId": "6a51b3fd8fcaa5fc28625492",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": [ "6a526ea905c248bad76ec007" ]
+      },
+      {
+        "ConditionId": "6a526aef05c248bad76ec005",
+        "ConditionType": "EmptyWithQuestStarter",
+        "QuestsToStart": [ "691db0390b09de61b3335764" ]
+      }
+    ]
+  },
   "691dae90e22f7a5b8c337064": {
     "QuestId": "691dae90e22f7a5b8c337064",
     "QuestName": "***Never truly alone***",
@@ -104,7 +146,7 @@
       }
     ]
   },
-  "6904c85911fc5239a64470bb":{
+  "6904c85911fc5239a64470bb": {
     "QuestId": "6904c85911fc5239a64470bb",
     "QuestName": "A story by the fire",
     "IsMultipleChoiceStarter": true,

@@ -14,7 +14,7 @@
     "QuestName": "Reflexive aim",
     "Conditions": [
       {
-        "ConditionId": "683115c76897732c888b410a",
+        "ConditionId": "683115f53e269d99e653674c",
         "ConditionType": "KillsWhileADS"
       }
     ]
@@ -26,6 +26,10 @@
       {
         "ConditionId": "675e52451d1fc9a22c1872c3",
         "ConditionType": "KillsWithoutADS"
+      },
+      {
+        "ConditionId": "6a6598f7c3b6b8a8ccf9efc3",
+        "ConditionType": "KillsWhileBlindFiring"
       }
     ]
   },

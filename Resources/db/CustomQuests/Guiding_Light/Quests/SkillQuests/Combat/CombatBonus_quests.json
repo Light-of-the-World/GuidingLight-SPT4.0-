@@ -1195,7 +1195,7 @@
                 "id": "68355c581586cd554f72d31d",
                 "distance": {
                   "compareMethod": "<=",
-                  "value": 15
+                  "value": 20
                 },
                 "target": "Any",
                 "value": "1",

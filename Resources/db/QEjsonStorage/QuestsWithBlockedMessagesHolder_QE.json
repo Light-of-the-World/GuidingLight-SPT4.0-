@@ -1,132 +1,264 @@
 {
-    "68452e786e6819eac4509eb9":{
+  "68452e786e6819eac4509eb9": {
     "QuestId": "68452e786e6819eac4509eb9",
     "QuestName": "Seek (choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "68452e880a05860bf892c199",
         "ConditionType": "Empty"
       }
     ]
   },
-  "68452e7c1de1e249e2b87d70":{
+  "68452e7c1de1e249e2b87d70": {
     "QuestId": "68452e7c1de1e249e2b87d70",
     "QuestName": "Find (choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "68452e8707299e1fdece82f3",
         "ConditionType": "Empty"
       }
     ]
   },
-  "68452e7ea20d11c7628ff254":{
+  "68452e7ea20d11c7628ff254": {
     "QuestId": "68452e7ea20d11c7628ff254",
     "QuestName": "Know (choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "68452e86354e5bfda6ed9bb4",
         "ConditionType": "Empty"
       }
     ]
   },
-  "68452e81ed96a8107bd8763a":{
+  "68452e81ed96a8107bd8763a": {
     "QuestId": "68452e81ed96a8107bd8763a",
     "QuestName": "Die (choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "68452e85fbd85c6644940101",
         "ConditionType": "Empty"
       }
     ]
   },
-  "6845f9beee8616b17ab8d879":{
+  "6845f9beee8616b17ab8d879": {
     "QuestId": "6845f9beee8616b17ab8d879",
     "QuestName": "Contine your search alone (Choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "6845f9c1ac42e89819e8e2cc",
         "ConditionType": "Empty"
       }
     ]
   },
-  "6845f9c7d5c19088fa2dbd47":{
+  "6845f9c7d5c19088fa2dbd47": {
     "QuestId": "6845f9c7d5c19088fa2dbd47",
     "QuestName": "Return to the voice (Choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "6845f9c2f3866dc1842e7fb1",
         "ConditionType": "Empty"
       }
     ]
   },
-  "6845f9cadb004e7c0c9b9d15":{
+  "6845f9cadb004e7c0c9b9d15": {
     "QuestId": "6845f9cadb004e7c0c9b9d15",
     "QuestName": "Continue your search (Choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "6845f9c4d4270123d406817f",
         "ConditionType": "Empty"
       }
     ]
   },
-  "6845f9cde9577fede724653b":{
+  "6845f9cde9577fede724653b": {
     "QuestId": "6845f9cde9577fede724653b",
     "QuestName": "Call out to the voice (Choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "6845f9c5f76810f1dd55ce9a",
         "ConditionType": "Empty"
       }
     ]
   },
-  "68461a011a7a498ea9729207":{
+  "68461a011a7a498ea9729207": {
     "QuestId": "68461a011a7a498ea9729207",
     "QuestName": "Yes (Choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "68461a03066639b5a1c8d8b6",
         "ConditionType": "Empty"
       }
     ]
   },
-  "68461a060261cc062c8b589e":{
+  "68461a060261cc062c8b589e": {
     "QuestId": "68461a060261cc062c8b589e",
     "QuestName": "No (Choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "68461a057c93ec87a340d258",
         "ConditionType": "Empty"
       }
     ]
   },
-  "68699399ec2d3d470e8c1c73":{
+  "68699399ec2d3d470e8c1c73": {
     "QuestId": "68699399ec2d3d470e8c1c73",
     "QuestName": "Yes (Choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "6869939e42661bbb36735dda",
         "ConditionType": "Empty"
       }
     ]
   },
-  "686993dc88ccb977296e64ab":{
+  "686993dc88ccb977296e64ab": {
     "QuestId": "686993dc88ccb977296e64ab",
     "QuestName": "No (Choice)",
     "BlockQuestMessages": true,
-    "Conditions":[
+    "Conditions": [
       {
         "ConditionId": "6869939feb540779908354e4",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a4edde0cfd7be63ea5f80cf": {
+    "QuestId": "6a4edde0cfd7be63ea5f80cf",
+    "QuestName": "Yes, work for this voice (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a4eddeecfd7be63ea5f80d0",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a4eddf7cfd7be63ea5f80d1": {
+    "QuestId": "6a4eddf7cfd7be63ea5f80d1",
+    "QuestName": "No, work for no voices (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6869939e42661bbb36735dda",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a52867799ec51dc30287f99": {
+    "QuestId": "6a52867799ec51dc30287f99",
+    "QuestName": "Call out to the higher-pitched voice (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6869939e42661bbb36735dda",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a5286e299ec51dc30287f9b": {
+    "QuestId": "6a5286e299ec51dc30287f9b",
+    "QuestName": "Call out to rhe lower-pitched voice (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a5286ec99ec51dc30287f9c",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "691dc5a74041979231902c36": {
+    "QuestId": "691dc5a74041979231902c36",
+    "QuestName": "Return to the first voice (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "691dc5ad733fa036f6fa9ffd",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "691dc5aa86500cc697f616b0": {
+    "QuestId": "691dc5aa86500cc697f616b0",
+    "QuestName": "Stay with this voice (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "691dc5ac0fc0467291b0720b",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a0c0ef52f158ea67c6f1a39": {
+    "QuestId": "6a0c0ef52f158ea67c6f1a39",
+    "QuestName": "Talk to them (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a0c0f002f158ea67c6f1a3a",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a0c0f052f158ea67c6f1a3b": {
+    "QuestId": "6a0c0f052f158ea67c6f1a3b",
+    "QuestName": "Wait (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a0c0f0d2f158ea67c6f1a3c",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a0c0f142f158ea67c6f1a3d": {
+    "QuestId": "6a0c0f142f158ea67c6f1a3d",
+    "QuestName": "You decide (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a0c0f3e2f158ea67c6f1a3f",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a0c0f452f158ea67c6f1a40": {
+    "QuestId": "6a0c0f452f158ea67c6f1a40",
+    "QuestName": "Work for them (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a0c0f652f158ea67c6f1a41",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a0c0f6c2f158ea67c6f1a42": {
+    "QuestId": "6a0c0f6c2f158ea67c6f1a42",
+    "QuestName": "Endless torment sounds great (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a0c0f732f158ea67c6f1a43",
+        "ConditionType": "Empty"
+      }
+    ]
+  },
+  "6a0c0f7a2f158ea67c6f1a44": {
+    "QuestId": "6a0c0f7a2f158ea67c6f1a44",
+    "QuestName": "Bet on a third (Choice)",
+    "BlockQuestMessages": true,
+    "Conditions": [
+      {
+        "ConditionId": "6a0c0f812f158ea67c6f1a45",
         "ConditionType": "Empty"
       }
     ]

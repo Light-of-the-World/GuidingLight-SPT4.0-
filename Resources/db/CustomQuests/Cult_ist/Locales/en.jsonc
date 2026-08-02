@@ -1,0 +1,102 @@
+{
+  "Cult_NM name": "",
+  "Cult_NM description": "",
+  "Cult_NMtaskN": "",
+  "Cult_NM successMT": "",
+  "Cult_NM acceptMT": "",
+
+  //Normal quests
+
+  "6a0b97b3e760e1f5a2d430e9 name": "***Visitation***",
+  "6a0b97b3e760e1f5a2d430e9 description": "You awaken to a knock on your hideout door. You check the time: 1:30AM. You know who this must be; you've been planning for this. You get up and walk to the door, and a voice speaks before you reach the latch. \"You've been wanting to speak to us. Here we are. You have questions for us, but you may only ask one.\"",
+  "6a0b97c0e760e1f5a2d430ea": "***Think carefully. What do you most want to know?***",
+  "6a0b9b0be760e1f5a2d430eb": "Who are you?",
+  "6a0b9b53e760e1f5a2d430ed": "How can I help?",
+  "6a0b9b5de760e1f5a2d430ee": "Why are you interested in me?",
+  "6a0b9b67e760e1f5a2d430ef": "What do you know about the blue flame?",
+  "6a0b9b48e760e1f5a2d430ec": "Are you aware that death is missing here?",
+  "6a0b97b3e760e1f5a2d430e9 successMT": "**Your choice is made**",
+  "6a0b97b3e760e1f5a2d430e9 acceptMT": "who up at 3am talking to cultists",
+
+  "6a0b9d1be760e1f5a2d430f0 name": "Who we are",
+  "6a0b9d1be760e1f5a2d430f0 description": "\"A boring, common question that does nothing for either of us. However, I said I would answer it, so I will. We are watchers. We are disciples. We are turners of the age. We want to bring Tarkov to a better place. This current place is broken beyond your understanding. We know how to fix it, and our working towards that.\"",
+  "6a0b9d2be760e1f5a2d430f1": "You question has been answered.",
+  "6a0b9d1be760e1f5a2d430f0 successMT": "We will meet again.",
+  "6a0b9d1be760e1f5a2d430f0 acceptMT": "You asked the cultist a question",
+
+  "6a0b9d35e760e1f5a2d430f2 name": "In many ways",
+  "6a0b9d35e760e1f5a2d430f2 description": "\"So quick to offer your assistance. Very well. There are many ways you can help us achieve our goal, and those ways will be revealed in due time. For now, I can say this: We know you are in communication with someone else, or, something else. Continue with them. They will not lead you astray.\"",
+  "6a0b9d48e760e1f5a2d430f3": "You question has been answered.",
+  "6a0b9d35e760e1f5a2d430f2 successMT": "We will meet again.",
+  "6a0b9d35e760e1f5a2d430f2 acceptMT": "You asked the cultist a question",
+
+  "6a0b9d52e760e1f5a2d430f4 name": "You are special",
+  "6a0b9d52e760e1f5a2d430f4 description": "You hear the cultist chuckle a bit. \"You are special beyond anyone's understanding. We watch everyone here, and you are no exception. You aren't insane, you aren't stupid. You are talking to someone we cannot see. We believe it is the one we worship. This makes you a prophet. You hold great power; you know what they say about power. We are interested in you not only because of your potential, but because of our uncertainty about you. We typically know everything about someone. Not you.\" ",
+  "6a0b9d62e760e1f5a2d430f5": "You question has been answered.",
+  "6a0b9d52e760e1f5a2d430f4 successMT": "We will meet again.",
+  "6a0b9d52e760e1f5a2d430f4 acceptMT": "You asked the cultist a question",
+
+  "6a0b9d9ae760e1f5a2d430f6 name": "Plenty",
+  "6a0b9d9ae760e1f5a2d430f6 description": "Despite having no visual of the cultist, you can feel it smiling. \"The blue flame was the start of something wonderful. Change is painful. We wish that the end could be reached quicker, with less... this. Unfortunately, when a system is so deeply corrupted, the roots so deep, cleansing it will take time and leave scars. The blue flame was the best start we could have asked for. The pain is now isolated to Tarkov. A fraction of a percent of the world damned to bring about paradise for the rest. Again, we wish it could have cost nothing, but men have chosen their way.\"",
+  "6a0b9da4e760e1f5a2d430f7": "You question has been answered.",
+  "6a0b9d9ae760e1f5a2d430f6 successMT": "We will meet again.",
+  "6a0b9d9ae760e1f5a2d430f6 acceptMT": "You asked the cultist a question",
+
+  "6a0b9daee760e1f5a2d430f8 name": "Death, a lack of",
+  "6a0b9daee760e1f5a2d430f8 description": "\"How could we not be? You've killed us before, yet here we are, talking to you. Don't get it twisted, we aren't here for vengence. The pain was short lived, and we've inflicted pain too. It's possible we've killed you before too. It is simply the nature of Tarkov. Admittedly, we can't be certain *why* this has happened. That part, we are still working out. The fact that it is, at least... is no question to us.\"",
+  "6a0b9dbae760e1f5a2d430f9": "You question has been answered.",
+  "6a0b9daee760e1f5a2d430f8 successMT": "We will meet again.",
+  "6a0b9daee760e1f5a2d430f8 acceptMT": "You asked the cultist a question",
+
+  "6a0bd709660f2e4f6eca1b84 name": "Noted - Part 2",
+  "6a0bd709660f2e4f6eca1b84 description": "As you return to your hideout after placing the note, you are jumpscared by a hooded figure standing by your door. You can only see his mouth. \"Your choice is made. You will work with us, and we will return the favor.\" He smiles, then begins walking to... no, past you. As he leaves, he says without turning back to you, \"Welcome to something wonderful.\"",
+  "6a0bd717660f2e4f6eca1b85": "That wasn't weird at all...",
+  "6a0bd709660f2e4f6eca1b84 successMT": "(TIMEGATE: 2 hours)",
+  "6a0bd709660f2e4f6eca1b84 acceptMT": "insert madagascar penguins meme",
+
+  "6a0c04a52f158ea67c6f1a31 name": "Smart decision",
+  "6a0c04a52f158ea67c6f1a31 description": "As soon as you say it, a knock rings on your door. You check the security feed again. A hooded man is there. You can only see his mouth: it is frowning. He looks into the camera and speaks. \"You should not have angered us. You take your time doing nothing while everyone else suffers. People like you make us sick.\" He sighs. \"But, in the moment we needed you most, you have answered us. So while we may hold disdain for your slowness, we must also thank you for now taking your role. These two things cancel out: You hold neutral standing with us. Win us over and save this place.\"The security feed cuts out for a moment. The man is gone by the time it restores.",
+  "6a0c04ae2f158ea67c6f1a32": "That could have gone worse, I suppose.",
+  "6a0c04a52f158ea67c6f1a31 successMT": "(TIMEGATE: 2 hours)",
+  "6a0c04a52f158ea67c6f1a31 acceptMT": "Outstanding move, even.",
+
+  "6a0c10f32f158ea67c6f1a46 name": "ENDING: ETERNAL TORMENT",
+  "6a0c10f32f158ea67c6f1a46 description": "As soon as you say your answer, you hear the latch on your door opening. Nothing on your security feed indicates anyone has approached your entrance. As you turn to face it, you see a hooded man. You can only see his mouth. The expression he has is unlike one you've ever seen; a combination of anger, sorrow, and demonic glee. \"You could have saved the world.\" He begins walking towards you. \"You could've brought about a new age.\" He unsheathes a cultist dagger, already dripping that sickening green poison. \"Yet you choose to do nothing. Even worse, you choose to let everyone else suffer when you were more than capable of helping. Infinite lives, infinite chances.\" You reach for a weapon, but realize none are near you. It's too late, anyways. He's standing right in front of you now. \"And now, infinite suffering.\" You feel a pain you have never experienced before, even in all your previous deaths in Tarkov, as he stabs the blade directly into your heart. You fall over instantly. \"Find me when you wake up and tell me if it was worth it.\"",
+  "6a0c10fc2f158ea67c6f1a47": "rest in pepperonies you died bro",
+  "6a0c10f32f158ea67c6f1a46 successMT": "Was it worth it?",
+  "6a0c10f32f158ea67c6f1a46 acceptMT": "You have reached an ending. Play again on prestige or a new profile!",
+
+  //Multi choice parts
+
+  "CultMC_NM name": "NAME (Choice, 'QUESTNAME')",
+  "CultMC_NM description": "Completing this quest will make the following choice: (CHOICE) for the following quest: (QUEST)",
+  "CultMC_NMtaskN": "Click 'Turn In' to make your choice...",
+  "CultMC_NM successMT": "You have turned in a choice for the following quest: (QUEST). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+  "6a0bbea1660f2e4f6eca1b66 name": "Who are you (Choice, 'Visitation')",
+  "6a0bbea1660f2e4f6eca1b66 description": "Completing this quest will make the following choice: (Who are you?) for the following quest: (Visitation)",
+  "6a0bbeb5660f2e4f6eca1b67": "Click 'Turn In' to make your choice...",
+  "6a0bbea1660f2e4f6eca1b66 successMT": "You have turned in a choice for the following quest: (Visitation). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+  "6a0bbebf660f2e4f6eca1b68 name": "How can I help (Choice, 'Visitation')",
+  "6a0bbebf660f2e4f6eca1b68 description": "Completing this quest will make the following choice: (How can I help?) for the following quest: (Visitation)",
+  "6a0bbecb660f2e4f6eca1b69": "Click 'Turn In' to make your choice...",
+  "6a0bbebf660f2e4f6eca1b68 successMT": "You have turned in a choice for the following quest: (Visitation). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+  "6a0bbee4660f2e4f6eca1b6a name": "Why are you interested in me (Choice, 'Visitation')",
+  "6a0bbee4660f2e4f6eca1b6a description": "Completing this quest will make the following choice: (Why are you interested in me?) for the following quest: (Visitation)",
+  "6a0bbeff660f2e4f6eca1b6b": "Click 'Turn In' to make your choice...",
+  "6a0bbee4660f2e4f6eca1b6a successMT": "You have turned in a choice for the following quest: (Visitation). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+  "6a0bbf0d660f2e4f6eca1b6c name": "What do you know about the blue flame (Choice, 'Visitation')",
+  "6a0bbf0d660f2e4f6eca1b6c description": "Completing this quest will make the following choice: (What do you know about the blue flame?) for the following quest: (Visitation)",
+  "6a0bbf54660f2e4f6eca1b6d": "Click 'Turn In' to make your choice...",
+  "6a0bbf0d660f2e4f6eca1b6c successMT": "You have turned in a choice for the following quest: (Visitation). That quest should now be ready for completion. Please return to that quest and turn it it.",
+
+  "6a0bbf5d660f2e4f6eca1b6e name": "Are you aware that death is missing here (Choice, 'Visitation')",
+  "6a0bbf5d660f2e4f6eca1b6e description": "Completing this quest will make the following choice: (Are you aware that death is missing here?) for the following quest: (Visitation)",
+  "6a0bbf69660f2e4f6eca1b6f": "Click 'Turn In' to make your choice...",
+  "6a0bbf5d660f2e4f6eca1b6e successMT": "You have turned in a choice for the following quest: (Visitation). That quest should now be ready for completion. Please return to that quest and turn it it."
+
+
+}
