@@ -49,7 +49,6 @@ public class BasicModInfo(
     ModHelper modHelper,
     ImageRouter imageRouter,
     ConfigServer configServer,
-    InventoryConfig inventoryConfig,
     TimeUtil timeUtil,
     GLAddCustomTraderHelper addCustomTraderHelper, // This is a custom class we add for this mod, we made it injectable so it can be accessed like other classes here
     WTTServerCommonLib.WTTServerCommonLib wttCommon,
