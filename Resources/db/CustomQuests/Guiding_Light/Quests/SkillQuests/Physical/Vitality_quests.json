@@ -187,7 +187,54 @@
           "visibilityConditions": []
         }
       ],
-      "Fail": []
+      "Fail": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "6a792ef98512a746a98e1785",
+                "status": [
+                  "Killed"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6a792f098512a746a98e1786",
+                "target": [
+                  "factory4_day",
+                  "laboratory",
+                  "factory4_night",
+                  "Interchange",
+                  "Shoreline",
+                  "Lighthouse",
+                  "bigmap",
+                  "Woods",
+                  "RezervBase",
+                  "TarkovStreets",
+                  "Sandbox",
+                  "Sandbox_high"
+                ]
+              }
+            ],
+            "id": "6a792f3a8512a746a98e1787"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a792f448512a746a98e1788",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
     },
     "declinePlayerMessage": "675f95176d42d89508a92b49 declinePlayerMessage",
     "description": "675f95176d42d89508a92b49 description",
@@ -198,7 +245,7 @@
     "location": "any",
     "name": "675f95176d42d89508a92b49 name",
     "note": "",
-    "restartable": false,
+    "restartable": true,
     "rewards": {
       "Fail": [],
       "Started": [],

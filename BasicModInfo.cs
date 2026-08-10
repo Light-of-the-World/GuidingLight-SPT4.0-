@@ -38,7 +38,7 @@ public record ModMetadata : AbstractModMetadata
     public override bool? IsBundleMod { get; init; } = false;
     public override string? License { get; init; } = "MIT";
 
-    //I generate ids here. 6a6ae1a7015427276b4de501
+    //I generate ids here. 6a7940b18512a746a98e178d
 }
 
 /// <summary>

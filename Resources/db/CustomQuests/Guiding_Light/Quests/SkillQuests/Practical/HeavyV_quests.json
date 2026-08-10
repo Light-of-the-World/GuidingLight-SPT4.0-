@@ -781,15 +781,124 @@
                 "compareMethod": ">=",
                 "conditionType": "Kills",
                 "id": "675fafe70cb49ad57640496e",
-                "target": "AnyPmc",
+                "target": "Any",
                 "value": "1"
               },
               {
                 "conditionType": "Equipment",
                 "equipmentInclusive": [
-                  [
-                    "5c0e5bab86f77461f55ed1f3"
-                  ]
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fafe3498d1b7e3e071da4", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fafe3498d1b7e3e071da4", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656faf0ca0dce000a2020f77", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656faf0ca0dce000a2020f77", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa76500d62bcd2e024080", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa76500d62bcd2e024080", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afdcb83efdfea28601d041", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afdcb83efdfea28601d041", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa61e94b480b8a500c0e8", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa61e94b480b8a500c0e8", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afc71497cf3a403c01ff38", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afc71497cf3a403c01ff38", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa99800d62bcd2e024088", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa99800d62bcd2e024088", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fafe3498d1b7e3e071da4", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fafe3498d1b7e3e071da4", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656faf0ca0dce000a2020f77", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656faf0ca0dce000a2020f77", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa76500d62bcd2e024080", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa76500d62bcd2e024080", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afdcb83efdfea28601d041", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afdcb83efdfea28601d041", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa61e94b480b8a500c0e8", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa61e94b480b8a500c0e8", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afc71497cf3a403c01ff38", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afc71497cf3a403c01ff38", "64afd81707e2cf40e903a316" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa99800d62bcd2e024088", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5b44cd8b86f774503d30cba2", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa99800d62bcd2e024088", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fafe3498d1b7e3e071da4", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fafe3498d1b7e3e071da4", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656faf0ca0dce000a2020f77", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656faf0ca0dce000a2020f77", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa76500d62bcd2e024080", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa76500d62bcd2e024080", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afdcb83efdfea28601d041", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afdcb83efdfea28601d041", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa61e94b480b8a500c0e8", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa61e94b480b8a500c0e8", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afc71497cf3a403c01ff38", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afc71497cf3a403c01ff38", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa99800d62bcd2e024088", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa99800d62bcd2e024088", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fafe3498d1b7e3e071da4", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fafe3498d1b7e3e071da4", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656faf0ca0dce000a2020f77", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656faf0ca0dce000a2020f77", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa76500d62bcd2e024080", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa76500d62bcd2e024080", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afdcb83efdfea28601d041", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afdcb83efdfea28601d041", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa61e94b480b8a500c0e8", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa61e94b480b8a500c0e8", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afc71497cf3a403c01ff38", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afc71497cf3a403c01ff38", "64afd81707e2cf40e903a316" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa99800d62bcd2e024088", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "5ca21c6986f77479963115a7", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa99800d62bcd2e024088", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fafe3498d1b7e3e071da4", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fafe3498d1b7e3e071da4", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656faf0ca0dce000a2020f77", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656faf0ca0dce000a2020f77", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa76500d62bcd2e024080", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa76500d62bcd2e024080", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afdcb83efdfea28601d041", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afdcb83efdfea28601d041", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa61e94b480b8a500c0e8", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa61e94b480b8a500c0e8", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afc71497cf3a403c01ff38", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afc71497cf3a403c01ff38", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa99800d62bcd2e024088", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa99800d62bcd2e024088", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fafe3498d1b7e3e071da4", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fafe3498d1b7e3e071da4", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656faf0ca0dce000a2020f77", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656faf0ca0dce000a2020f77", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa76500d62bcd2e024080", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa76500d62bcd2e024080", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afdcb83efdfea28601d041", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afdcb83efdfea28601d041", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa61e94b480b8a500c0e8", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa61e94b480b8a500c0e8", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afc71497cf3a403c01ff38", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afc71497cf3a403c01ff38", "64afd81707e2cf40e903a316" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa99800d62bcd2e024088", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "60a283193cb70855c43a381d", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa99800d62bcd2e024088", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fafe3498d1b7e3e071da4", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fafe3498d1b7e3e071da4", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656faf0ca0dce000a2020f77", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656faf0ca0dce000a2020f77", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa76500d62bcd2e024080", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa76500d62bcd2e024080", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afdcb83efdfea28601d041", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afdcb83efdfea28601d041", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa61e94b480b8a500c0e8", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa61e94b480b8a500c0e8", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afc71497cf3a403c01ff38", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "64afc71497cf3a403c01ff38", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa99800d62bcd2e024088", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5f60c74e3b85f6263c145586", "5f60c85b58eff926626a60f7", "656fa99800d62bcd2e024088", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fafe3498d1b7e3e071da4", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fafe3498d1b7e3e071da4", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656faf0ca0dce000a2020f77", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656faf0ca0dce000a2020f77", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa76500d62bcd2e024080", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa76500d62bcd2e024080", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afdcb83efdfea28601d041", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afdcb83efdfea28601d041", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa61e94b480b8a500c0e8", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa61e94b480b8a500c0e8", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afc71497cf3a403c01ff38", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "64afc71497cf3a403c01ff38", "64afd81707e2cf40e903a316" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa99800d62bcd2e024088", "64afdb577bb3bfe8fe03fd1d" ],
+                  [ "545cdb794bdc2d3a198b456a", "5aa7e276e5b5b000171d0647", "5aa7e373e5b5b000137b76f0", "656fa99800d62bcd2e024088", "64afd81707e2cf40e903a316" ]
                 ],
                 "id": "675fafe539475e3e68f853b4"
               }
@@ -804,7 +913,7 @@
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",
-          "value": "5",
+          "value": "15",
           "visibilityConditions": []
         },
         {
@@ -817,15 +926,6 @@
                 "id": "675fafe16954c391662ff77a",
                 "target": "AnyPmc",
                 "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5f5f41476bdad616ad46d631"
-                  ]
-                ],
-                "id": "675fafd892650d778770a126"
               }
             ],
             "id": "675fafd5bef48b40c25e1e0c"
@@ -835,319 +935,6 @@
           "globalQuestCounterId": "",
           "id": "675fafc090265579fec57340",
           "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fafc6974a6712225df1a4",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5ca2151486f774244a3b8d30"
-                  ]
-                ],
-                "id": "675fafd13492ea062d6ec104"
-              }
-            ],
-            "id": "675fafd24e979dc8f778aa5d"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fafbc8936b91af066a571",
-          "index": 2,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fafb9e869c0bf2e43c1ac",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5b44d0de86f774503d30cba8"
-                  ]
-                ],
-                "id": "675fafb7dcecc37a25252a8b"
-              }
-            ],
-            "id": "675fafb5073bebf29e970f5c"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fafafcbc13c8840ba9554",
-          "index": 3,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fafa15c8cc8af227c1d3c",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5e9dacf986f774054d6b89f4"
-                  ]
-                ],
-                "id": "675faf9e48323e579d19aa05"
-              }
-            ],
-            "id": "675faf9b7e5b82d238b8f0dc"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675faf9007751b36857eb24d",
-          "index": 4,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675faf97c7e32d034d825969",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5b44cf1486f77431723e3d05"
-                  ]
-                ],
-                "id": "675faf94659b10c98fed83ec"
-              }
-            ],
-            "id": "675faf927a76f1496e025b2a"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675faf8ba24a435a5e2a03ea",
-          "index": 5,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675faf8782a29ece19b07063",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5b44cd8b86f774503d30cba2"
-                  ]
-                ],
-                "id": "675faf845d75530912a6a5ee"
-              }
-            ],
-            "id": "675faf8241463e99206be19f"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675faf75b1a3265f6e9f73a3",
-          "index": 6,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675faf7b165ea8e44e972947",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5ca21c6986f77479963115a7"
-                  ]
-                ],
-                "id": "675faf7971d9f00b4919886f"
-              }
-            ],
-            "id": "675faf774daa009bf94d23af"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675faf70c240821921d60116",
-          "index": 7,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675faf6c432d5f995a2f74bc",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5e4abb5086f77406975c9342"
-                  ],
-                  [
-                    "6038b4b292ec1c3103795a0b"
-                  ],
-                  [
-                    "6038b4ca92ec1c3103795a0d"
-
-                  ]
-                ],
-                "id": "675faf69f908702a4365002c"
-              }
-            ],
-            "id": "675faf678cc1e46c6ea26b60"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675faf591ed9768b1c4f0b9d",
-          "index": 8,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675faf62f0ddfecb0e6ef989",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "60a283193cb70855c43a381d"
-                  ]
-                ],
-                "id": "675faf5f4558fd28ce4be886"
-              }
-            ],
-            "id": "675faf5cac18bf89b35449b8"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675faf5378d787442aec9b1e",
-          "index": 9,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675faf50cee2ca50e95c68e2",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "545cdb794bdc2d3a198b456a"
-                  ]
-                ],
-                "id": "675faf4dab536a534b544def"
-              }
-            ],
-            "id": "675faf4bebf9c25b969c3816"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675faf41b1ee16edd2ca03e5",
-          "index": 10,
           "oneSessionOnly": false,
           "parentId": "",
           "type": "Elimination",

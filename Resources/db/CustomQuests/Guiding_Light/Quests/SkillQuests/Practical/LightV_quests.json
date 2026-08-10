@@ -681,633 +681,375 @@
               {
                 "compareMethod": ">=",
                 "conditionType": "Kills",
-                "id": "675fb3d0753771150d8e8cd3",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "59e7635f86f7742cbf2c1095"
-                  ]
-                ],
-                "id": "675fb3d369dc3c74e98b3907"
-              }
-            ],
-            "id": "675fb3d4971a63b9880dd40c"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb3d766402db84b840bf7",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb3dfb714d5d09e0ff5c8",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5648a7494bdc2d9d488b4583"
-                  ],
-                  [
-                    "607f20859ee58b18e41ecd90"
-                  ]
-                ],
-                "id": "675fb3e1b36a9453c78bcca1"
-              }
-            ],
-            "id": "675fb3e32453bdb2a0bc3c17"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb3e5ae7bc0898d459cd1",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb3f1e8e6f62bd68b358b",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5df8a2ca86f7740bfe6df777"
-                  ]
-                ],
-                "id": "675fb3f3c06c61cf51484745"
-              }
-            ],
-            "id": "675fb3f5b3e8ec51c08c308e"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb3f7c3a2e171ab4b560f",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb40519ba591a22304a66",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "64be79c487d1510151095552"
-                  ],
-                  [
-                    "64be79e2bf8412471d0d9bcc"
-                  ]
-                ],
-                "id": "675fb40bfc6154e363a3b723"
-              }
-            ],
-            "id": "675fb409d7e6833f75c807b9"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb3fcf748a77ebef6c89f",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb4101753d74d4218ee75",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5ab8e4ed86f7742d8e50c7fa"
-                  ]
-                ],
-                "id": "675fb413e71d3d9d266c5108"
-              }
-            ],
-            "id": "675fb415726749dee67ede40"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb4173bc73c5c3eed4271",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb41f08a1b31c963ffa57",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5c0e5edb86f77461f55ed1f7"
-                  ]
-                ],
-                "id": "675fb423bdf8eb04d3c3894a"
-              }
-            ],
-            "id": "675fb42119d4443a61919029"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb41c3f432134d2aea6b5",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb42890953c6a87c82b73",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "62a09d79de7ac81993580530"
-                  ]
-                ],
-                "id": "675fb42b9435f402d49a3ae9"
-              }
-            ],
-            "id": "675fb42c4c9ffea1eafe6add"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb42e80a87095bd7f1a54",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb43790d652a7722e9244",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5b44d22286f774172b0c9de8"
-                  ]
-                ],
-                "id": "675fb43b26da6069a8521799"
-              }
-            ],
-            "id": "675fb439b07965d29b3317b9"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb4339410063c2b896ff0",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb45ea7fe99fff14e39eb",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5c0e655586f774045612eeb2"
-                  ]
-                ],
-                "id": "675fb46be2f0bc54692ba57a"
-              }
-            ],
-            "id": "675fb46560ca04718693b0e0"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb46f75107d6a88b6421d",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "5",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb4b0062f809b60f8ef65",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "609e8540d5c319764c2bc2e9"
-                  ]
-                ],
-                "id": "675fb4bbc78195e69219e873"
-              }
-            ],
-            "id": "675fb4bd214e05b6e7eeb967"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb4c08dfd5cf44bf9e3ef",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb4d717bc10e849d3aed2",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5c0e53c886f7747fa54205c7"
-                  ],
-                  [
-                    "5c0e51be86f774598e797894"
-                  ]
-                ],
-                "id": "675fb4d4b0fc8412ce0e4210"
-              }
-            ],
-            "id": "675fb4d118ea5e748e3c067a"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb4cba3458a4b9527c5cd",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb4dd7574c3e00b5e3301",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5c0e57ba86f7747fa141986d"
-                  ]
-                ],
-                "id": "675fb4e3be16cee42658f9e2"
-              }
-            ],
-            "id": "675fb4e46a70f9651f1eb1cb"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb4e74208e7f1e651f8c4",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb4fa8dfeeb10ec4cc284",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "64abd93857958b4249003418"
-                  ]
-                ],
-                "id": "675fb4f649d8c072aff2001c"
-              }
-            ],
-            "id": "675fb4f13ec8934a87266266"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb4ec963ddc0eab10db65",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb54f1d1cd8f154bef67d",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "63737f448b28897f2802b874"
-                  ]
-                ],
-                "id": "675fb552e312ffe92dc151a3"
-              }
-            ],
-            "id": "675fb55329a30ddbe4172610"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb557bde6d8f445cc358b",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb56a86df391bfb1cb664",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5c0e541586f7747fa54205c9"
-                  ]
-                ],
-                "id": "675fb567f9797430865be820"
-              }
-            ],
-            "id": "675fb5683cb69eae230d146e"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb561ad81afdb71353a5d",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb570dd3a89fd506d86b8",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5ab8e79e86f7742d8b372e78"
-                  ]
-                ],
-                "id": "675fb572aa72e4e36b0aa608"
-              }
-            ],
-            "id": "675fb573cfcad6bd0f91468e"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb576f53ea9d7a74fe1a0",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb585dca49bceaddb378d",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5fd4c474dd870108a754b241"
-                  ]
-                ],
-                "id": "675fb58191566532b4c6a09c"
-              }
-            ],
-            "id": "675fb57fd0b6d6c97aa9e21d"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb579bc0d409c5ec0b818",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
-                "id": "675fb5b27cae022bcf4b9b54",
-                "target": "AnyPmc",
-                "value": "1"
-              },
-              {
-                "conditionType": "Equipment",
-                "equipmentInclusive": [
-                  [
-                    "5c0e625a86f7742d77340f62"
-                  ]
-                ],
-                "id": "675fb5b0e8beccee0ef5dbac"
-              }
-            ],
-            "id": "675fb5adf9f6b621ea36a6a2"
-          },
-          "doNotResetIfCounterCompleted": false,
-          "dynamicLocale": false,
-          "globalQuestCounterId": "",
-          "id": "675fb5b7e36ee0d89ea7ada5",
-          "index": 1,
-          "oneSessionOnly": false,
-          "parentId": "",
-          "type": "Elimination",
-          "value": "3",
-          "visibilityConditions": []
-        },
-        {
-          "conditionType": "CounterCreator",
-          "counter": {
-            "conditions": [
-              {
-                "compareMethod": ">=",
-                "conditionType": "Kills",
                 "id": "675fb5c9c53433a3af8ab12d",
                 "savageRole": [
                   "bossKilla"
                 ],
                 "target": "Savage",
                 "value": "1"
+              },
+              {
+                "IncludeNotEquippedItems": false,
+                "conditionType": "Equipment",
+                "dynamicLocale": false,
+                "equipmentExclusive": [
+                  [
+                    "545cdb794bdc2d3a198b456a"
+                  ],
+                  [
+                    "5ab8e79e86f7742d8b372e78"
+                  ],
+                  [
+                    "5ab8e4ed86f7742d8e50c7fa"
+                  ],
+                  [
+                    "5c0e53c886f7747fa54205c7"
+                  ],
+                  [
+                    "5c0e51be86f774598e797894"
+                  ],
+                  [
+                    "5c0e541586f7747fa54205c9"
+                  ],
+                  [
+                    "5c0e5bab86f77461f55ed1f3"
+                  ],
+                  [
+                    "5c0e57ba86f7747fa141986d"
+                  ],
+                  [
+                    "5b44cd8b86f774503d30cba2"
+                  ],
+                  [
+                    "5b44cf1486f77431723e3d05"
+                  ],
+                  [
+                    "5b44d0de86f774503d30cba8"
+                  ],
+                  [
+                    "5b44d22286f774172b0c9de8"
+                  ],
+                  [
+                    "5ca2151486f774244a3b8d30"
+                  ],
+                  [
+                    "5ca21c6986f77479963115a7"
+                  ],
+                  [
+                    "5c0e655586f774045612eeb2"
+                  ],
+                  [
+                    "5c0e5edb86f77461f55ed1f7"
+                  ],
+                  [
+                    "5c0e625a86f7742d77340f62"
+                  ],
+                  [
+                    "59e7635f86f7742cbf2c1095"
+                  ],
+                  [
+                    "5648a7494bdc2d9d488b4583"
+                  ],
+                  [
+                    "5ab8dced86f774646209ec87"
+                  ],
+                  [
+                    "5c0e446786f7742013381639"
+                  ],
+                  [
+                    "5c0e3eb886f7742015526062"
+                  ],
+                  [
+                    "5b44cad286f77402a54ae7e5"
+                  ],
+                  [
+                    "5c0e746986f7741453628fe5"
+                  ],
+                  [
+                    "544a5caa4bdc2d1a388b4568"
+                  ],
+                  [
+                    "5d5d646386f7742797261fd9"
+                  ],
+                  [
+                    "5e9dacf986f774054d6b89f4"
+                  ],
+                  [
+                    "5e4ac41886f77406a511c9a8"
+                  ],
+                  [
+                    "5e4abb5086f77406975c9342"
+                  ],
+                  [
+                    "5fd4c474dd870108a754b241"
+                  ],
+                  [
+                    "5f5f41476bdad616ad46d631"
+                  ],
+                  [
+                    "5df8a2ca86f7740bfe6df777"
+                  ],
+                  [
+                    "5c0e722886f7740458316a57"
+                  ],
+                  [
+                    "6038b4ca92ec1c3103795a0d"
+                  ],
+                  [
+                    "6038b4b292ec1c3103795a0b"
+                  ],
+                  [
+                    "60a3c70cde5f453f634816a3"
+                  ],
+                  [
+                    "60a3c68c37ea821725773ef5"
+                  ],
+                  [
+                    "60a283193cb70855c43a381d"
+                  ],
+                  [
+                    "609e860ebd219504d8507525"
+                  ],
+                  [
+                    "609e8540d5c319764c2bc2e9"
+                  ],
+                  [
+                    "5645bc214bdc2d363b8b4571"
+                  ],
+                  [
+                    "5aa7cfc0e5b5b00015693143"
+                  ],
+                  [
+                    "5aa7e276e5b5b000171d0647"
+                  ],
+                  [
+                    "5df8a58286f77412631087ed"
+                  ],
+                  [
+                    "59e7711e86f7746cae05fbe1"
+                  ],
+                  [
+                    "5d5e7d28a4b936645d161203"
+                  ],
+                  [
+                    "5d5e9c74a4b9364855191c40"
+                  ],
+                  [
+                    "5a154d5cfcdbcb001a3b00da"
+                  ],
+                  [
+                    "5ac8d6885acfc400180ae7b0"
+                  ],
+                  [
+                    "5a7c4850e899ef00150be885"
+                  ],
+                  [
+                    "5aa7d193e5b5b000171d063f"
+                  ],
+                  [
+                    "5aa7d03ae5b5b00016327db5"
+                  ],
+                  [
+                    "5aa7e454e5b5b0214e506fa2"
+                  ],
+                  [
+                    "5aa7e4a4e5b5b000137b76f2"
+                  ],
+                  [
+                    "5b4329f05acfc47a86086aa1"
+                  ],
+                  [
+                    "5b40e3f35acfc40016388218"
+                  ],
+                  [
+                    "5b40e4035acfc47a87740943"
+                  ],
+                  [
+                    "5b432d215acfc4771e1c6624"
+                  ],
+                  [
+                    "5b40e1525acfc4771e1c6611"
+                  ],
+                  [
+                    "5b40e2bc5acfc40016388216"
+                  ],
+                  [
+                    "5c17a7ed2e2216152142459c"
+                  ],
+                  [
+                    "5ea17ca01412a1425304d1c0"
+                  ],
+                  [
+                    "5f60b34a41e30a4ab12a6947"
+                  ],
+                  [
+                    "5ea05cf85ad9772e6624305d"
+                  ],
+                  [
+                    "5d6d3716a4b9361bc8618872"
+                  ],
+                  [
+                    "5c091a4e0db834001d5addc8"
+                  ],
+                  [
+                    "5c0e874186f7745dc7616606"
+                  ],
+                  [
+                    "5c0d2727d174af02a012cf58"
+                  ],
+                  [
+                    "5f60c74e3b85f6263c145586"
+                  ],
+                  [
+                    "5c08f87c0db8340019124324"
+                  ],
+                  [
+                    "5c06c6a80db834001b735491"
+                  ],
+                  [
+                    "5e4bfc1586f774264f7582d3"
+                  ],
+                  [
+                    "5e00c1ad86f774747333222c"
+                  ],
+                  [
+                    "5e01ef6886f77445f643baa4"
+                  ],
+                  [
+                    "5ca20ee186f774799474abc2"
+                  ],
+                  [
+                    "61bc85697113f767765c7fe7"
+                  ],
+                  [
+                    "61bcc89aef0f505f0c6cd0fc"
+                  ],
+                  [
+                    "62a09d79de7ac81993580530"
+                  ],
+                  [
+                    "628b9784bcf6e2659e09b8a2"
+                  ],
+                  [
+                    "628b9c7d45122232a872358f"
+                  ],
+                  [
+                    "628cd624459354321c4b7fa2"
+                  ],
+                  [
+                    "628d0618d1ba6e4fa07ce5a4"
+                  ],
+                  [
+                    "628dc750b910320f4c27a732"
+                  ],
+                  [
+                    "62a09e08de7ac81993580532"
+                  ],
+                  [
+                    "62963c18dbc8ab5f0d382d0b"
+                  ],
+                  [
+                    "5b432b2f5acfc4771e1c6622"
+                  ],
+                  [
+                    "5d5d87f786f77427997cfaef"
+                  ],
+                  [
+                    "639343fce101f4caa40a4ef3"
+                  ],
+                  [
+                    "63737f448b28897f2802b874"
+                  ],
+                  [
+                    "64a5366719bab53bd203bf33"
+                  ],
+                  [
+                    "64a536392d2c4e6e970f4121"
+                  ],
+                  [
+                    "64abd93857958b4249003418"
+                  ],
+                  [
+                    "64be79c487d1510151095552"
+                  ],
+                  [
+                    "64be79e2bf8412471d0d9bcc"
+                  ],
+                  [
+                    "65719f0775149d62ce0a670b"
+                  ],
+                  [
+                    "65709d2d21b9f815e208ff95"
+                  ],
+                  [
+                    "657089638db3adca1009f4ca"
+                  ],
+                  [
+                    "6570aead4d84f81fd002a033"
+                  ],
+                  [
+                    "66b6296d7994640992013b17"
+                  ],
+                  [
+                    "66b6295a8ca68c6461709efa"
+                  ],
+                  [
+                    "66b6295178bbc0200425f995"
+                  ],
+                  [
+                    "66b5f666cad6f002ab7214c2"
+                  ],
+                  [
+                    "66b5f661af44ca0014063c05"
+                  ],
+                  [
+                    "66b5f65ca7f72d197e70bcd6"
+                  ],
+                  [
+                    "66bdc28a0b603c26902b2011"
+                  ],
+                  [
+                    "674d91ce6e862d5a95059ed6"
+                  ],
+                  [
+                    "6759af0f9c8a538dd70bfae6"
+                  ],
+                  [
+                    "67597d241d5a44f2f605df06"
+                  ],
+                  [
+                    "67597ceea35600b4c10cea86"
+                  ],
+                  [
+                    "6759655674aa5e0825040d62"
+                  ],
+                  [
+                    "675956062f6ddfe8ff0e2806"
+                  ],
+                  [
+                    "67ab4b2d6f7ae4aa550bbcf6"
+                  ],
+                  [
+                    "67ab3ea96d7ece17bf0096f6"
+                  ],
+                  [
+                    "67ab49aab9c7a1e18c095686"
+                  ],
+                  [
+                    "67ab2eecfe82855dcc0f2af6"
+                  ],
+                  [
+                    "67ab2f28dafe3b22670c9116"
+                  ],
+                  [
+                    "67ab2f5adafe3b22670c911f"
+                  ],
+                  [
+                    "67ab2f94dafe3b22670c912c"
+                  ]
+                ],
+                "equipmentInclusive": [],
+                "id": "6a7931538512a746a98e1789"
               }
             ],
             "id": "675fb5c6f71efe5a37112574"
@@ -1341,7 +1083,43 @@
           "visibilityConditions": []
         }
       ],
-      "Fail": []
+      "Fail": [
+        {
+          "completeInSeconds": 0,
+          "conditionType": "CounterCreator",
+          "counter": {
+            "conditions": [
+              {
+                "conditionType": "ExitStatus",
+                "dynamicLocale": false,
+                "id": "6a7940878512a746a98e178a",
+                "status": [
+                  "Killed"
+                ]
+              },
+              {
+                "conditionType": "Location",
+                "dynamicLocale": false,
+                "id": "6a7940958512a746a98e178b",
+                "target": [
+                  "Interchange"
+                ]
+              }
+            ],
+            "id": "6a7940a68512a746a98e178c"
+          },
+          "doNotResetIfCounterCompleted": false,
+          "dynamicLocale": false,
+          "globalQuestCounterId": "",
+          "id": "6a7940b18512a746a98e178d",
+          "index": 0,
+          "oneSessionOnly": false,
+          "parentId": "",
+          "type": "Exploration",
+          "value": 1,
+          "visibilityConditions": []
+        }
+      ]
     },
     "declinePlayerMessage": "675fb3c2af09ce7f0cde82f7 declinePlayerMessage",
     "description": "675fb3c2af09ce7f0cde82f7 description",
@@ -1352,7 +1130,7 @@
     "location": "any",
     "name": "675fb3c2af09ce7f0cde82f7 name",
     "note": "",
-    "restartable": false,
+    "restartable": true,
     "rewards": {
       "Fail": [],
       "Started": [],
